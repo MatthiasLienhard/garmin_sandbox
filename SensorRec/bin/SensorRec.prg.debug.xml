@@ -1,0 +1,716 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<debugInfo>
+<pcToLineNum>
+<entry filename="/home/matthias/projects/eclipse_workspace/SensorRec/./source/SensorRecView.mc" lineNum="18" pc="268435456" symbol="initialize"/>
+<entry filename="/home/matthias/projects/eclipse_workspace/SensorRec/./source/SensorRecView.mc" lineNum="19" pc="268435460" symbol="initialize"/>
+<entry filename="/home/matthias/projects/eclipse_workspace/SensorRec/./source/SensorRecView.mc" lineNum="20" pc="268435478" symbol="initialize"/>
+<entry filename="/home/matthias/projects/eclipse_workspace/SensorRec/./source/SensorRecView.mc" lineNum="26" pc="268435489" symbol="onLayout"/>
+<entry filename="/home/matthias/projects/eclipse_workspace/SensorRec/./source/SensorRecView.mc" lineNum="27" pc="268435493" symbol="onLayout"/>
+<entry filename="/home/matthias/projects/eclipse_workspace/SensorRec/./source/SensorRecView.mc" lineNum="28" pc="268435530" symbol="onLayout"/>
+<entry filename="/home/matthias/projects/eclipse_workspace/SensorRec/./source/SensorRecView.mc" lineNum="29" pc="268435549" symbol="onLayout"/>
+<entry filename="/home/matthias/projects/eclipse_workspace/SensorRec/./source/SensorRecView.mc" lineNum="30" pc="268435568" symbol="onLayout"/>
+<entry filename="/home/matthias/projects/eclipse_workspace/SensorRec/./source/SensorRecView.mc" lineNum="31" pc="268435590" symbol="onLayout"/>
+<entry filename="/home/matthias/projects/eclipse_workspace/SensorRec/./source/SensorRecView.mc" lineNum="32" pc="268435707" symbol="onLayout"/>
+<entry filename="/home/matthias/projects/eclipse_workspace/SensorRec/./source/SensorRecView.mc" lineNum="33" pc="268435824" symbol="onLayout"/>
+<entry filename="/home/matthias/projects/eclipse_workspace/SensorRec/./source/SensorRecView.mc" lineNum="34" pc="268435941" symbol="onLayout"/>
+<entry filename="/home/matthias/projects/eclipse_workspace/SensorRec/./source/SensorRecView.mc" lineNum="35" pc="268436067" symbol="onLayout"/>
+<entry filename="/home/matthias/projects/eclipse_workspace/SensorRec/./source/SensorRecView.mc" lineNum="36" pc="268436193" symbol="onLayout"/>
+<entry filename="/home/matthias/projects/eclipse_workspace/SensorRec/./source/SensorRecView.mc" lineNum="37" pc="268436319" symbol="onLayout"/>
+<entry filename="/home/matthias/projects/eclipse_workspace/SensorRec/./source/SensorRecView.mc" lineNum="43" pc="268436452" symbol="onShow"/>
+<entry filename="/home/matthias/projects/eclipse_workspace/SensorRec/./source/SensorRecView.mc" lineNum="46" pc="268436457" symbol="onUpdate"/>
+<entry filename="/home/matthias/projects/eclipse_workspace/SensorRec/./source/SensorRecView.mc" lineNum="49" pc="268436461" symbol="onUpdate"/>
+<entry filename="/home/matthias/projects/eclipse_workspace/SensorRec/./source/SensorRecView.mc" lineNum="50" pc="268436497" symbol="onUpdate"/>
+<entry filename="/home/matthias/projects/eclipse_workspace/SensorRec/./source/SensorRecView.mc" lineNum="51" pc="268436509" symbol="onUpdate"/>
+<entry filename="/home/matthias/projects/eclipse_workspace/SensorRec/./source/SensorRecView.mc" lineNum="52" pc="268436557" symbol="onUpdate"/>
+<entry filename="/home/matthias/projects/eclipse_workspace/SensorRec/./source/SensorRecView.mc" lineNum="53" pc="268436605" symbol="onUpdate"/>
+<entry filename="/home/matthias/projects/eclipse_workspace/SensorRec/./source/SensorRecView.mc" lineNum="54" pc="268436653" symbol="onUpdate"/>
+<entry filename="/home/matthias/projects/eclipse_workspace/SensorRec/./source/SensorRecView.mc" lineNum="55" pc="268436701" symbol="onUpdate"/>
+<entry filename="/home/matthias/projects/eclipse_workspace/SensorRec/./source/SensorRecView.mc" lineNum="56" pc="268436749" symbol="onUpdate"/>
+<entry filename="/home/matthias/projects/eclipse_workspace/SensorRec/./source/SensorRecView.mc" lineNum="57" pc="268436797" symbol="onUpdate"/>
+<entry filename="/home/matthias/projects/eclipse_workspace/SensorRec/./source/SensorRecView.mc" lineNum="58" pc="268436845" symbol="onUpdate"/>
+<entry filename="/home/matthias/projects/eclipse_workspace/SensorRec/./source/SensorRecView.mc" lineNum="59" pc="268436864" symbol="onUpdate"/>
+<entry filename="/home/matthias/projects/eclipse_workspace/SensorRec/./source/SensorRecView.mc" lineNum="60" pc="268436900" symbol="onUpdate"/>
+<entry filename="/home/matthias/projects/eclipse_workspace/SensorRec/./source/SensorRecView.mc" lineNum="61" pc="268437051" symbol="onUpdate"/>
+<entry filename="/home/matthias/projects/eclipse_workspace/SensorRec/./source/SensorRecView.mc" lineNum="62" pc="268437113" symbol="onUpdate"/>
+<entry filename="/home/matthias/projects/eclipse_workspace/SensorRec/./source/SensorRecView.mc" lineNum="63" pc="268437149" symbol="onUpdate"/>
+<entry filename="/home/matthias/projects/eclipse_workspace/SensorRec/./source/SensorRecView.mc" lineNum="72" pc="268437228" symbol="onHide"/>
+<entry filename="/home/matthias/projects/eclipse_workspace/SensorRec/./source/SensorRecApp.mc" lineNum="10" pc="268437233" symbol="initialize"/>
+<entry filename="/home/matthias/projects/eclipse_workspace/SensorRec/./source/SensorRecApp.mc" lineNum="11" pc="268437237" symbol="initialize"/>
+<entry filename="/home/matthias/projects/eclipse_workspace/SensorRec/./source/SensorRecApp.mc" lineNum="15" pc="268437256" symbol="onStart"/>
+<entry filename="/home/matthias/projects/eclipse_workspace/SensorRec/./source/SensorRecApp.mc" lineNum="16" pc="268437260" symbol="onStart"/>
+<entry filename="/home/matthias/projects/eclipse_workspace/SensorRec/./source/SensorRecApp.mc" lineNum="21" pc="268437291" symbol="onStop"/>
+<entry filename="/home/matthias/projects/eclipse_workspace/SensorRec/./source/SensorRecApp.mc" lineNum="22" pc="268437295" symbol="onStop"/>
+<entry filename="/home/matthias/projects/eclipse_workspace/SensorRec/./source/SensorRecApp.mc" lineNum="23" pc="268437313" symbol="onStop"/>
+<entry filename="/home/matthias/projects/eclipse_workspace/SensorRec/./source/SensorRecApp.mc" lineNum="28" pc="268437332" symbol="getInitialView"/>
+<entry filename="/home/matthias/projects/eclipse_workspace/SensorRec/./source/SensorRecApp.mc" lineNum="30" pc="268437336" symbol="getInitialView"/>
+<entry filename="/home/matthias/projects/eclipse_workspace/SensorRec/./source/SensorRecApp.mc" lineNum="31" pc="268437374" symbol="getInitialView"/>
+<entry filename="/home/matthias/projects/eclipse_workspace/SensorRec/./source/SensorRecApp.mc" lineNum="32" pc="268437412" symbol="getInitialView"/>
+<entry filename="/home/matthias/projects/eclipse_workspace/SensorRec/./source/LineGraph.mc" lineNum="14" pc="268437452" symbol="initialize"/>
+<entry filename="/home/matthias/projects/eclipse_workspace/SensorRec/./source/LineGraph.mc" lineNum="16" pc="268437456" symbol="initialize"/>
+<entry filename="/home/matthias/projects/eclipse_workspace/SensorRec/./source/LineGraph.mc" lineNum="17" pc="268437466" symbol="initialize"/>
+<entry filename="/home/matthias/projects/eclipse_workspace/SensorRec/./source/LineGraph.mc" lineNum="18" pc="268437476" symbol="initialize"/>
+<entry filename="/home/matthias/projects/eclipse_workspace/SensorRec/./source/LineGraph.mc" lineNum="19" pc="268437486" symbol="initialize"/>
+<entry filename="/home/matthias/projects/eclipse_workspace/SensorRec/./source/LineGraph.mc" lineNum="23" pc="268437497" symbol="setColor"/>
+<entry filename="/home/matthias/projects/eclipse_workspace/SensorRec/./source/LineGraph.mc" lineNum="24" pc="268437501" symbol="setColor"/>
+<entry filename="/home/matthias/projects/eclipse_workspace/SensorRec/./source/LineGraph.mc" lineNum="26" pc="268437512" symbol="getRange"/>
+<entry filename="/home/matthias/projects/eclipse_workspace/SensorRec/./source/LineGraph.mc" lineNum="28" pc="268437516" symbol="getRange"/>
+<entry filename="/home/matthias/projects/eclipse_workspace/SensorRec/./source/LineGraph.mc" lineNum="29" pc="268437524" symbol="getRange"/>
+<entry filename="/home/matthias/projects/eclipse_workspace/SensorRec/./source/LineGraph.mc" lineNum="30" pc="268437537" symbol="getRange"/>
+<entry filename="/home/matthias/projects/eclipse_workspace/SensorRec/./source/LineGraph.mc" lineNum="31" pc="268437550" symbol="getRange"/>
+<entry filename="/home/matthias/projects/eclipse_workspace/SensorRec/./source/LineGraph.mc" lineNum="32" pc="268437568" symbol="getRange"/>
+<entry filename="/home/matthias/projects/eclipse_workspace/SensorRec/./source/LineGraph.mc" lineNum="33" pc="268437578" symbol="getRange"/>
+<entry filename="/home/matthias/projects/eclipse_workspace/SensorRec/./source/LineGraph.mc" lineNum="34" pc="268437595" symbol="getRange"/>
+<entry filename="/home/matthias/projects/eclipse_workspace/SensorRec/./source/LineGraph.mc" lineNum="35" pc="268437611" symbol="getRange"/>
+<entry filename="/home/matthias/projects/eclipse_workspace/SensorRec/./source/LineGraph.mc" lineNum="36" pc="268437628" symbol="getRange"/>
+<entry filename="/home/matthias/projects/eclipse_workspace/SensorRec/./source/LineGraph.mc" lineNum="41" pc="268437660" symbol="getRange"/>
+<entry filename="/home/matthias/projects/eclipse_workspace/SensorRec/./source/LineGraph.mc" lineNum="45" pc="268437664" symbol="draw"/>
+<entry filename="/home/matthias/projects/eclipse_workspace/SensorRec/./source/LineGraph.mc" lineNum="47" pc="268437668" symbol="draw"/>
+<entry filename="/home/matthias/projects/eclipse_workspace/SensorRec/./source/LineGraph.mc" lineNum="49" pc="268437699" symbol="draw"/>
+<entry filename="/home/matthias/projects/eclipse_workspace/SensorRec/./source/LineGraph.mc" lineNum="50" pc="268437699" symbol="draw"/>
+<entry filename="/home/matthias/projects/eclipse_workspace/SensorRec/./source/LineGraph.mc" lineNum="51" pc="268437699" symbol="draw"/>
+<entry filename="/home/matthias/projects/eclipse_workspace/SensorRec/./source/LineGraph.mc" lineNum="52" pc="268437699" symbol="draw"/>
+<entry filename="/home/matthias/projects/eclipse_workspace/SensorRec/./source/LineGraph.mc" lineNum="53" pc="268437699" symbol="draw"/>
+<entry filename="/home/matthias/projects/eclipse_workspace/SensorRec/./source/LineGraph.mc" lineNum="54" pc="268437699" symbol="draw"/>
+<entry filename="/home/matthias/projects/eclipse_workspace/SensorRec/./source/LineGraph.mc" lineNum="55" pc="268437736" symbol="draw"/>
+<entry filename="/home/matthias/projects/eclipse_workspace/SensorRec/./source/LineGraph.mc" lineNum="58" pc="268437773" symbol="draw"/>
+<entry filename="/home/matthias/projects/eclipse_workspace/SensorRec/./source/LineGraph.mc" lineNum="60" pc="268437786" symbol="draw"/>
+<entry filename="/home/matthias/projects/eclipse_workspace/SensorRec/./source/LineGraph.mc" lineNum="61" pc="268437815" symbol="draw"/>
+<entry filename="/home/matthias/projects/eclipse_workspace/SensorRec/./source/LineGraph.mc" lineNum="62" pc="268437843" symbol="draw"/>
+<entry filename="/home/matthias/projects/eclipse_workspace/SensorRec/./source/LineGraph.mc" lineNum="63" pc="268437865" symbol="draw"/>
+<entry filename="/home/matthias/projects/eclipse_workspace/SensorRec/./source/LineGraph.mc" lineNum="65" pc="268437890" symbol="draw"/>
+<entry filename="/home/matthias/projects/eclipse_workspace/SensorRec/./source/LineGraph.mc" lineNum="68" pc="268437918" symbol="draw"/>
+<entry filename="/home/matthias/projects/eclipse_workspace/SensorRec/./source/LineGraph.mc" lineNum="70" pc="268437946" symbol="draw"/>
+<entry filename="/home/matthias/projects/eclipse_workspace/SensorRec/./source/LineGraph.mc" lineNum="71" pc="268437949" symbol="draw"/>
+<entry filename="/home/matthias/projects/eclipse_workspace/SensorRec/./source/LineGraph.mc" lineNum="73" pc="268437952" symbol="draw"/>
+<entry filename="/home/matthias/projects/eclipse_workspace/SensorRec/./source/LineGraph.mc" lineNum="76" pc="268437976" symbol="draw"/>
+<entry filename="/home/matthias/projects/eclipse_workspace/SensorRec/./source/LineGraph.mc" lineNum="77" pc="268438001" symbol="draw"/>
+<entry filename="/home/matthias/projects/eclipse_workspace/SensorRec/./source/LineGraph.mc" lineNum="78" pc="268438011" symbol="draw"/>
+<entry filename="/home/matthias/projects/eclipse_workspace/SensorRec/./source/LineGraph.mc" lineNum="79" pc="268438015" symbol="draw"/>
+<entry filename="/home/matthias/projects/eclipse_workspace/SensorRec/./source/LineGraph.mc" lineNum="81" pc="268438019" symbol="draw"/>
+<entry filename="/home/matthias/projects/eclipse_workspace/SensorRec/./source/LineGraph.mc" lineNum="82" pc="268438065" symbol="draw"/>
+<entry filename="/home/matthias/projects/eclipse_workspace/SensorRec/./source/LineGraph.mc" lineNum="83" pc="268438105" symbol="draw"/>
+<entry filename="/home/matthias/projects/eclipse_workspace/SensorRec/./source/LineGraph.mc" lineNum="84" pc="268438112" symbol="draw"/>
+<entry filename="/home/matthias/projects/eclipse_workspace/SensorRec/./source/SensorRecMenuDelegate.mc" lineNum="6" pc="268438155" symbol="initialize"/>
+<entry filename="/home/matthias/projects/eclipse_workspace/SensorRec/./source/SensorRecMenuDelegate.mc" lineNum="7" pc="268438159" symbol="initialize"/>
+<entry filename="/home/matthias/projects/eclipse_workspace/SensorRec/./source/SensorRecMenuDelegate.mc" lineNum="10" pc="268438178" symbol="onMenuItem"/>
+<entry filename="/home/matthias/projects/eclipse_workspace/SensorRec/./source/SensorRecMenuDelegate.mc" lineNum="11" pc="268438182" symbol="onMenuItem"/>
+<entry filename="/home/matthias/projects/eclipse_workspace/SensorRec/./source/SensorRecMenuDelegate.mc" lineNum="12" pc="268438193" symbol="onMenuItem"/>
+<entry filename="/home/matthias/projects/eclipse_workspace/SensorRec/./source/SensorRecMenuDelegate.mc" lineNum="13" pc="268438217" symbol="onMenuItem"/>
+<entry filename="/home/matthias/projects/eclipse_workspace/SensorRec/./source/SensorRecMenuDelegate.mc" lineNum="14" pc="268438228" symbol="onMenuItem"/>
+<entry filename="/home/matthias/projects/eclipse_workspace/SensorRec/./source/SensorData.mc" lineNum="28" pc="268438253" symbol="initialize"/>
+<entry filename="/home/matthias/projects/eclipse_workspace/SensorRec/./source/SensorData.mc" lineNum="29" pc="268438257" symbol="initialize"/>
+<entry filename="/home/matthias/projects/eclipse_workspace/SensorRec/./source/SensorData.mc" lineNum="30" pc="268438267" symbol="initialize"/>
+<entry filename="/home/matthias/projects/eclipse_workspace/SensorRec/./source/SensorData.mc" lineNum="31" pc="268438289" symbol="initialize"/>
+<entry filename="/home/matthias/projects/eclipse_workspace/SensorRec/./source/SensorData.mc" lineNum="32" pc="268438311" symbol="initialize"/>
+<entry filename="/home/matthias/projects/eclipse_workspace/SensorRec/./source/SensorData.mc" lineNum="33" pc="268438345" symbol="initialize"/>
+<entry filename="/home/matthias/projects/eclipse_workspace/SensorRec/./source/SensorData.mc" lineNum="34" pc="268438395" symbol="initialize"/>
+<entry filename="/home/matthias/projects/eclipse_workspace/SensorRec/./source/SensorData.mc" lineNum="35" pc="268438428" symbol="initialize"/>
+<entry filename="/home/matthias/projects/eclipse_workspace/SensorRec/./source/SensorData.mc" lineNum="36" pc="268438450" symbol="initialize"/>
+<entry filename="/home/matthias/projects/eclipse_workspace/SensorRec/./source/SensorData.mc" lineNum="37" pc="268438472" symbol="initialize"/>
+<entry filename="/home/matthias/projects/eclipse_workspace/SensorRec/./source/SensorData.mc" lineNum="38" pc="268438494" symbol="initialize"/>
+<entry filename="/home/matthias/projects/eclipse_workspace/SensorRec/./source/SensorData.mc" lineNum="39" pc="268438516" symbol="initialize"/>
+<entry filename="/home/matthias/projects/eclipse_workspace/SensorRec/./source/SensorData.mc" lineNum="40" pc="268438538" symbol="initialize"/>
+<entry filename="/home/matthias/projects/eclipse_workspace/SensorRec/./source/SensorData.mc" lineNum="41" pc="268438560" symbol="initialize"/>
+<entry filename="/home/matthias/projects/eclipse_workspace/SensorRec/./source/SensorData.mc" lineNum="43" pc="268438604" symbol="initialize"/>
+<entry filename="/home/matthias/projects/eclipse_workspace/SensorRec/./source/SensorData.mc" lineNum="44" pc="268438637" symbol="initialize"/>
+<entry filename="/home/matthias/projects/eclipse_workspace/SensorRec/./source/SensorData.mc" lineNum="45" pc="268438725" symbol="initialize"/>
+<entry filename="/home/matthias/projects/eclipse_workspace/SensorRec/./source/SensorData.mc" lineNum="46" pc="268438747" symbol="initialize"/>
+<entry filename="/home/matthias/projects/eclipse_workspace/SensorRec/./source/SensorData.mc" lineNum="48" pc="268438791" symbol="initialize"/>
+<entry filename="/home/matthias/projects/eclipse_workspace/SensorRec/./source/SensorData.mc" lineNum="53" pc="268438836" symbol="teardown"/>
+<entry filename="/home/matthias/projects/eclipse_workspace/SensorRec/./source/SensorData.mc" lineNum="54" pc="268438840" symbol="teardown"/>
+<entry filename="/home/matthias/projects/eclipse_workspace/SensorRec/./source/SensorData.mc" lineNum="55" pc="268438858" symbol="teardown"/>
+<entry filename="/home/matthias/projects/eclipse_workspace/SensorRec/./source/SensorData.mc" lineNum="58" pc="268438903" symbol="setRecording"/>
+<entry filename="/home/matthias/projects/eclipse_workspace/SensorRec/./source/SensorData.mc" lineNum="59" pc="268438907" symbol="setRecording"/>
+<entry filename="/home/matthias/projects/eclipse_workspace/SensorRec/./source/SensorData.mc" lineNum="60" pc="268438917" symbol="setRecording"/>
+<entry filename="/home/matthias/projects/eclipse_workspace/SensorRec/./source/SensorData.mc" lineNum="62" pc="268438921" symbol="isRecording"/>
+<entry filename="/home/matthias/projects/eclipse_workspace/SensorRec/./source/SensorData.mc" lineNum="63" pc="268438925" symbol="isRecording"/>
+<entry filename="/home/matthias/projects/eclipse_workspace/SensorRec/./source/SensorData.mc" lineNum="66" pc="268438935" symbol="getAccelX"/>
+<entry filename="/home/matthias/projects/eclipse_workspace/SensorRec/./source/SensorData.mc" lineNum="67" pc="268438939" symbol="getAccelX"/>
+<entry filename="/home/matthias/projects/eclipse_workspace/SensorRec/./source/SensorData.mc" lineNum="68" pc="268438960" symbol="getAccelX"/>
+<entry filename="/home/matthias/projects/eclipse_workspace/SensorRec/./source/SensorData.mc" lineNum="70" pc="268439013" symbol="getAccelX"/>
+<entry filename="/home/matthias/projects/eclipse_workspace/SensorRec/./source/SensorData.mc" lineNum="72" pc="268439023" symbol="getAccelY"/>
+<entry filename="/home/matthias/projects/eclipse_workspace/SensorRec/./source/SensorData.mc" lineNum="73" pc="268439027" symbol="getAccelY"/>
+<entry filename="/home/matthias/projects/eclipse_workspace/SensorRec/./source/SensorData.mc" lineNum="74" pc="268439048" symbol="getAccelY"/>
+<entry filename="/home/matthias/projects/eclipse_workspace/SensorRec/./source/SensorData.mc" lineNum="76" pc="268439101" symbol="getAccelY"/>
+<entry filename="/home/matthias/projects/eclipse_workspace/SensorRec/./source/SensorData.mc" lineNum="78" pc="268439111" symbol="getAccelZ"/>
+<entry filename="/home/matthias/projects/eclipse_workspace/SensorRec/./source/SensorData.mc" lineNum="79" pc="268439115" symbol="getAccelZ"/>
+<entry filename="/home/matthias/projects/eclipse_workspace/SensorRec/./source/SensorData.mc" lineNum="80" pc="268439136" symbol="getAccelZ"/>
+<entry filename="/home/matthias/projects/eclipse_workspace/SensorRec/./source/SensorData.mc" lineNum="82" pc="268439189" symbol="getAccelZ"/>
+<entry filename="/home/matthias/projects/eclipse_workspace/SensorRec/./source/SensorData.mc" lineNum="84" pc="268439199" symbol="getMagX"/>
+<entry filename="/home/matthias/projects/eclipse_workspace/SensorRec/./source/SensorData.mc" lineNum="85" pc="268439203" symbol="getMagX"/>
+<entry filename="/home/matthias/projects/eclipse_workspace/SensorRec/./source/SensorData.mc" lineNum="86" pc="268439224" symbol="getMagX"/>
+<entry filename="/home/matthias/projects/eclipse_workspace/SensorRec/./source/SensorData.mc" lineNum="88" pc="268439277" symbol="getMagX"/>
+<entry filename="/home/matthias/projects/eclipse_workspace/SensorRec/./source/SensorData.mc" lineNum="90" pc="268439287" symbol="getMagY"/>
+<entry filename="/home/matthias/projects/eclipse_workspace/SensorRec/./source/SensorData.mc" lineNum="91" pc="268439291" symbol="getMagY"/>
+<entry filename="/home/matthias/projects/eclipse_workspace/SensorRec/./source/SensorData.mc" lineNum="92" pc="268439312" symbol="getMagY"/>
+<entry filename="/home/matthias/projects/eclipse_workspace/SensorRec/./source/SensorData.mc" lineNum="94" pc="268439365" symbol="getMagY"/>
+<entry filename="/home/matthias/projects/eclipse_workspace/SensorRec/./source/SensorData.mc" lineNum="96" pc="268439375" symbol="getMagZ"/>
+<entry filename="/home/matthias/projects/eclipse_workspace/SensorRec/./source/SensorData.mc" lineNum="97" pc="268439379" symbol="getMagZ"/>
+<entry filename="/home/matthias/projects/eclipse_workspace/SensorRec/./source/SensorData.mc" lineNum="98" pc="268439400" symbol="getMagZ"/>
+<entry filename="/home/matthias/projects/eclipse_workspace/SensorRec/./source/SensorData.mc" lineNum="100" pc="268439453" symbol="getMagZ"/>
+<entry filename="/home/matthias/projects/eclipse_workspace/SensorRec/./source/SensorData.mc" lineNum="103" pc="268439463" symbol="getPressure"/>
+<entry filename="/home/matthias/projects/eclipse_workspace/SensorRec/./source/SensorData.mc" lineNum="104" pc="268439467" symbol="getPressure"/>
+<entry filename="/home/matthias/projects/eclipse_workspace/SensorRec/./source/SensorData.mc" lineNum="105" pc="268439488" symbol="getPressure"/>
+<entry filename="/home/matthias/projects/eclipse_workspace/SensorRec/./source/SensorData.mc" lineNum="107" pc="268439541" symbol="getPressure"/>
+<entry filename="/home/matthias/projects/eclipse_workspace/SensorRec/./source/SensorData.mc" lineNum="109" pc="268439551" symbol="getPosSemicircles"/>
+<entry filename="/home/matthias/projects/eclipse_workspace/SensorRec/./source/SensorData.mc" lineNum="110" pc="268439555" symbol="getPosSemicircles"/>
+<entry filename="/home/matthias/projects/eclipse_workspace/SensorRec/./source/SensorData.mc" lineNum="111" pc="268439577" symbol="getPosSemicircles"/>
+<entry filename="/home/matthias/projects/eclipse_workspace/SensorRec/./source/SensorData.mc" lineNum="112" pc="268439605" symbol="getPosSemicircles"/>
+<entry filename="/home/matthias/projects/eclipse_workspace/SensorRec/./source/SensorData.mc" lineNum="113" pc="268439653" symbol="getPosSemicircles"/>
+<entry filename="/home/matthias/projects/eclipse_workspace/SensorRec/./source/SensorData.mc" lineNum="114" pc="268439701" symbol="getPosSemicircles"/>
+<entry filename="/home/matthias/projects/eclipse_workspace/SensorRec/./source/SensorData.mc" lineNum="116" pc="268439707" symbol="getPosSemicircles"/>
+<entry filename="/home/matthias/projects/eclipse_workspace/SensorRec/./source/SensorData.mc" lineNum="119" pc="268439741" symbol="getPosRadians"/>
+<entry filename="/home/matthias/projects/eclipse_workspace/SensorRec/./source/SensorData.mc" lineNum="120" pc="268439745" symbol="getPosRadians"/>
+<entry filename="/home/matthias/projects/eclipse_workspace/SensorRec/./source/SensorData.mc" lineNum="121" pc="268439767" symbol="getPosRadians"/>
+<entry filename="/home/matthias/projects/eclipse_workspace/SensorRec/./source/SensorData.mc" lineNum="123" pc="268439797" symbol="getPosRadians"/>
+<entry filename="/home/matthias/projects/eclipse_workspace/SensorRec/./source/SensorData.mc" lineNum="126" pc="268439831" symbol="getPosMeter"/>
+<entry filename="/home/matthias/projects/eclipse_workspace/SensorRec/./source/SensorData.mc" lineNum="127" pc="268439835" symbol="getPosMeter"/>
+<entry filename="/home/matthias/projects/eclipse_workspace/SensorRec/./source/SensorData.mc" lineNum="128" pc="268439851" symbol="getPosMeter"/>
+<entry filename="/home/matthias/projects/eclipse_workspace/SensorRec/./source/SensorData.mc" lineNum="128" pc="268439862" symbol="getPosMeter"/>
+<entry filename="/home/matthias/projects/eclipse_workspace/SensorRec/./source/SensorData.mc" lineNum="129" pc="268439881" symbol="getPosMeter"/>
+<entry filename="/home/matthias/projects/eclipse_workspace/SensorRec/./source/SensorData.mc" lineNum="130" pc="268439922" symbol="getPosMeter"/>
+<entry filename="/home/matthias/projects/eclipse_workspace/SensorRec/./source/SensorData.mc" lineNum="131" pc="268439950" symbol="getPosMeter"/>
+<entry filename="/home/matthias/projects/eclipse_workspace/SensorRec/./source/SensorData.mc" lineNum="132" pc="268439972" symbol="getPosMeter"/>
+<entry filename="/home/matthias/projects/eclipse_workspace/SensorRec/./source/SensorData.mc" lineNum="133" pc="268440072" symbol="getPosMeter"/>
+<entry filename="/home/matthias/projects/eclipse_workspace/SensorRec/./source/SensorData.mc" lineNum="135" pc="268440078" symbol="getPosMeter"/>
+<entry filename="/home/matthias/projects/eclipse_workspace/SensorRec/./source/SensorData.mc" lineNum="138" pc="268440112" symbol="getPosAcc"/>
+<entry filename="/home/matthias/projects/eclipse_workspace/SensorRec/./source/SensorData.mc" lineNum="139" pc="268440116" symbol="getPosAcc"/>
+<entry filename="/home/matthias/projects/eclipse_workspace/SensorRec/./source/SensorData.mc" lineNum="140" pc="268440135" symbol="getPosAcc"/>
+<entry filename="/home/matthias/projects/eclipse_workspace/SensorRec/./source/SensorData.mc" lineNum="141" pc="268440142" symbol="getPosAcc"/>
+<entry filename="/home/matthias/projects/eclipse_workspace/SensorRec/./source/SensorData.mc" lineNum="143" pc="268440152" symbol="getPosAcc"/>
+<entry filename="/home/matthias/projects/eclipse_workspace/SensorRec/./source/SensorData.mc" lineNum="145" pc="268440156" symbol="getPosTime"/>
+<entry filename="/home/matthias/projects/eclipse_workspace/SensorRec/./source/SensorData.mc" lineNum="146" pc="268440160" symbol="getPosTime"/>
+<entry filename="/home/matthias/projects/eclipse_workspace/SensorRec/./source/SensorData.mc" lineNum="147" pc="268440179" symbol="getPosTime"/>
+<entry filename="/home/matthias/projects/eclipse_workspace/SensorRec/./source/SensorData.mc" lineNum="148" pc="268440186" symbol="getPosTime"/>
+<entry filename="/home/matthias/projects/eclipse_workspace/SensorRec/./source/SensorData.mc" lineNum="150" pc="268440196" symbol="getPosTime"/>
+<entry filename="/home/matthias/projects/eclipse_workspace/SensorRec/./source/SensorData.mc" lineNum="155" pc="268440200" symbol="positionCallback"/>
+<entry filename="/home/matthias/projects/eclipse_workspace/SensorRec/./source/SensorData.mc" lineNum="156" pc="268440204" symbol="positionCallback"/>
+<entry filename="/home/matthias/projects/eclipse_workspace/SensorRec/./source/SensorData.mc" lineNum="157" pc="268440214" symbol="positionCallback"/>
+<entry filename="/home/matthias/projects/eclipse_workspace/SensorRec/./source/SensorData.mc" lineNum="158" pc="268440233" symbol="positionCallback"/>
+<entry filename="/home/matthias/projects/eclipse_workspace/SensorRec/./source/SensorData.mc" lineNum="159" pc="268440253" symbol="positionCallback"/>
+<entry filename="/home/matthias/projects/eclipse_workspace/SensorRec/./source/SensorData.mc" lineNum="161" pc="268440269" symbol="positionCallback"/>
+<entry filename="/home/matthias/projects/eclipse_workspace/SensorRec/./source/SensorData.mc" lineNum="163" pc="268440296" symbol="positionCallback"/>
+<entry filename="/home/matthias/projects/eclipse_workspace/SensorRec/./source/SensorData.mc" lineNum="164" pc="268440321" symbol="positionCallback"/>
+<entry filename="/home/matthias/projects/eclipse_workspace/SensorRec/./source/SensorData.mc" lineNum="165" pc="268440346" symbol="positionCallback"/>
+<entry filename="/home/matthias/projects/eclipse_workspace/SensorRec/./source/SensorData.mc" lineNum="175" pc="268440374" symbol="positionCallback"/>
+<entry filename="/home/matthias/projects/eclipse_workspace/SensorRec/./source/SensorData.mc" lineNum="176" pc="268440411" symbol="positionCallback"/>
+<entry filename="/home/matthias/projects/eclipse_workspace/SensorRec/./source/SensorData.mc" lineNum="177" pc="268440439" symbol="positionCallback"/>
+<entry filename="/home/matthias/projects/eclipse_workspace/SensorRec/./source/SensorData.mc" lineNum="181" pc="268440468" symbol="sensorCallback"/>
+<entry filename="/home/matthias/projects/eclipse_workspace/SensorRec/./source/SensorData.mc" lineNum="182" pc="268440472" symbol="sensorCallback"/>
+<entry filename="/home/matthias/projects/eclipse_workspace/SensorRec/./source/SensorData.mc" lineNum="183" pc="268440491" symbol="sensorCallback"/>
+<entry filename="/home/matthias/projects/eclipse_workspace/SensorRec/./source/SensorData.mc" lineNum="184" pc="268440510" symbol="sensorCallback"/>
+<entry filename="/home/matthias/projects/eclipse_workspace/SensorRec/./source/SensorData.mc" lineNum="185" pc="268440520" symbol="sensorCallback"/>
+<entry filename="/home/matthias/projects/eclipse_workspace/SensorRec/./source/SensorData.mc" lineNum="186" pc="268440539" symbol="sensorCallback"/>
+<entry filename="/home/matthias/projects/eclipse_workspace/SensorRec/./source/SensorData.mc" lineNum="187" pc="268440559" symbol="sensorCallback"/>
+<entry filename="/home/matthias/projects/eclipse_workspace/SensorRec/./source/SensorData.mc" lineNum="189" pc="268440575" symbol="sensorCallback"/>
+<entry filename="/home/matthias/projects/eclipse_workspace/SensorRec/./source/SensorData.mc" lineNum="191" pc="268440602" symbol="sensorCallback"/>
+<entry filename="/home/matthias/projects/eclipse_workspace/SensorRec/./source/SensorData.mc" lineNum="192" pc="268440633" symbol="sensorCallback"/>
+<entry filename="/home/matthias/projects/eclipse_workspace/SensorRec/./source/SensorData.mc" lineNum="193" pc="268440664" symbol="sensorCallback"/>
+<entry filename="/home/matthias/projects/eclipse_workspace/SensorRec/./source/SensorData.mc" lineNum="195" pc="268440698" symbol="sensorCallback"/>
+<entry filename="/home/matthias/projects/eclipse_workspace/SensorRec/./source/SensorData.mc" lineNum="196" pc="268440726" symbol="sensorCallback"/>
+<entry filename="/home/matthias/projects/eclipse_workspace/SensorRec/./source/SensorData.mc" lineNum="197" pc="268440754" symbol="sensorCallback"/>
+<entry filename="/home/matthias/projects/eclipse_workspace/SensorRec/./source/SensorData.mc" lineNum="200" pc="268440782" symbol="sensorCallback"/>
+<entry filename="/home/matthias/projects/eclipse_workspace/SensorRec/./source/SensorData.mc" lineNum="202" pc="268440809" symbol="sensorCallback"/>
+<entry filename="/home/matthias/projects/eclipse_workspace/SensorRec/./source/SensorData.mc" lineNum="203" pc="268440840" symbol="sensorCallback"/>
+<entry filename="/home/matthias/projects/eclipse_workspace/SensorRec/./source/SensorData.mc" lineNum="204" pc="268440871" symbol="sensorCallback"/>
+<entry filename="/home/matthias/projects/eclipse_workspace/SensorRec/./source/SensorData.mc" lineNum="206" pc="268440905" symbol="sensorCallback"/>
+<entry filename="/home/matthias/projects/eclipse_workspace/SensorRec/./source/SensorData.mc" lineNum="207" pc="268440933" symbol="sensorCallback"/>
+<entry filename="/home/matthias/projects/eclipse_workspace/SensorRec/./source/SensorData.mc" lineNum="208" pc="268440961" symbol="sensorCallback"/>
+<entry filename="/home/matthias/projects/eclipse_workspace/SensorRec/./source/SensorData.mc" lineNum="212" pc="268440989" symbol="sensorCallback"/>
+<entry filename="/home/matthias/projects/eclipse_workspace/SensorRec/./source/SensorData.mc" lineNum="213" pc="268441016" symbol="sensorCallback"/>
+<entry filename="/home/matthias/projects/eclipse_workspace/SensorRec/./source/SensorData.mc" lineNum="215" pc="268441044" symbol="sensorCallback"/>
+<entry filename="/home/matthias/projects/eclipse_workspace/SensorRec/./source/SensorData.mc" lineNum="217" pc="268441072" symbol="sensorCallback"/>
+<entry filename="/home/matthias/projects/eclipse_workspace/SensorRec/./source/SensorSession.mc" lineNum="48" pc="268441089" symbol="initialize"/>
+<entry filename="/home/matthias/projects/eclipse_workspace/SensorRec/./source/SensorSession.mc" lineNum="50" pc="268441093" symbol="initialize"/>
+<entry filename="/home/matthias/projects/eclipse_workspace/SensorRec/./source/SensorSession.mc" lineNum="51" pc="268441093" symbol="initialize"/>
+<entry filename="/home/matthias/projects/eclipse_workspace/SensorRec/./source/SensorSession.mc" lineNum="53" pc="268441103" symbol="initialize"/>
+<entry filename="/home/matthias/projects/eclipse_workspace/SensorRec/./source/SensorSession.mc" lineNum="54" pc="268441165" symbol="initialize"/>
+<entry filename="/home/matthias/projects/eclipse_workspace/SensorRec/./source/SensorSession.mc" lineNum="55" pc="268441251" symbol="initialize"/>
+<entry filename="/home/matthias/projects/eclipse_workspace/SensorRec/./source/SensorSession.mc" lineNum="56" pc="268441337" symbol="initialize"/>
+<entry filename="/home/matthias/projects/eclipse_workspace/SensorRec/./source/SensorSession.mc" lineNum="57" pc="268441410" symbol="initialize"/>
+<entry filename="/home/matthias/projects/eclipse_workspace/SensorRec/./source/SensorSession.mc" lineNum="58" pc="268441483" symbol="initialize"/>
+<entry filename="/home/matthias/projects/eclipse_workspace/SensorRec/./source/SensorSession.mc" lineNum="59" pc="268441591" symbol="initialize"/>
+<entry filename="/home/matthias/projects/eclipse_workspace/SensorRec/./source/SensorSession.mc" lineNum="60" pc="268441699" symbol="initialize"/>
+<entry filename="/home/matthias/projects/eclipse_workspace/SensorRec/./source/SensorSession.mc" lineNum="61" pc="268441807" symbol="initialize"/>
+<entry filename="/home/matthias/projects/eclipse_workspace/SensorRec/./source/SensorSession.mc" lineNum="62" pc="268441915" symbol="initialize"/>
+<entry filename="/home/matthias/projects/eclipse_workspace/SensorRec/./source/SensorSession.mc" lineNum="63" pc="268442023" symbol="initialize"/>
+<entry filename="/home/matthias/projects/eclipse_workspace/SensorRec/./source/SensorSession.mc" lineNum="64" pc="268442131" symbol="initialize"/>
+<entry filename="/home/matthias/projects/eclipse_workspace/SensorRec/./source/SensorSession.mc" lineNum="65" pc="268442239" symbol="initialize"/>
+<entry filename="/home/matthias/projects/eclipse_workspace/SensorRec/./source/SensorSession.mc" lineNum="66" pc="268442312" symbol="initialize"/>
+<entry filename="/home/matthias/projects/eclipse_workspace/SensorRec/./source/SensorSession.mc" lineNum="70" pc="268442356" symbol="initialize"/>
+<entry filename="/home/matthias/projects/eclipse_workspace/SensorRec/./source/SensorSession.mc" lineNum="76" pc="268442396" symbol="start"/>
+<entry filename="/home/matthias/projects/eclipse_workspace/SensorRec/./source/SensorSession.mc" lineNum="79" pc="268442400" symbol="start"/>
+<entry filename="/home/matthias/projects/eclipse_workspace/SensorRec/./source/SensorSession.mc" lineNum="80" pc="268442400" symbol="start"/>
+<entry filename="/home/matthias/projects/eclipse_workspace/SensorRec/./source/SensorSession.mc" lineNum="82" pc="268442418" symbol="start"/>
+<entry filename="/home/matthias/projects/eclipse_workspace/SensorRec/./source/SensorSession.mc" lineNum="83" pc="268442459" symbol="start"/>
+<entry filename="/home/matthias/projects/eclipse_workspace/SensorRec/./source/SensorSession.mc" lineNum="84" pc="268442471" symbol="start"/>
+<entry filename="/home/matthias/projects/eclipse_workspace/SensorRec/./source/SensorSession.mc" lineNum="86" pc="268442501" symbol="start"/>
+<entry filename="/home/matthias/projects/eclipse_workspace/SensorRec/./source/SensorSession.mc" lineNum="92" pc="268442541" symbol="setData"/>
+<entry filename="/home/matthias/projects/eclipse_workspace/SensorRec/./source/SensorSession.mc" lineNum="93" pc="268442545" symbol="setData"/>
+<entry filename="/home/matthias/projects/eclipse_workspace/SensorRec/./source/SensorSession.mc" lineNum="94" pc="268442566" symbol="setData"/>
+<entry filename="/home/matthias/projects/eclipse_workspace/SensorRec/./source/SensorSession.mc" lineNum="95" pc="268442585" symbol="setData"/>
+<entry filename="/home/matthias/projects/eclipse_workspace/SensorRec/./source/SensorSession.mc" lineNum="96" pc="268442609" symbol="setData"/>
+<entry filename="/home/matthias/projects/eclipse_workspace/SensorRec/./source/SensorSession.mc" lineNum="97" pc="268442644" symbol="setData"/>
+<entry filename="/home/matthias/projects/eclipse_workspace/SensorRec/./source/SensorSession.mc" lineNum="98" pc="268442679" symbol="setData"/>
+<entry filename="/home/matthias/projects/eclipse_workspace/SensorRec/./source/SensorSession.mc" lineNum="99" pc="268442714" symbol="setData"/>
+<entry filename="/home/matthias/projects/eclipse_workspace/SensorRec/./source/SensorSession.mc" lineNum="100" pc="268442749" symbol="setData"/>
+<entry filename="/home/matthias/projects/eclipse_workspace/SensorRec/./source/SensorSession.mc" lineNum="101" pc="268442784" symbol="setData"/>
+<entry filename="/home/matthias/projects/eclipse_workspace/SensorRec/./source/SensorSession.mc" lineNum="102" pc="268442819" symbol="setData"/>
+<entry filename="/home/matthias/projects/eclipse_workspace/SensorRec/./source/SensorSession.mc" lineNum="103" pc="268442854" symbol="setData"/>
+<entry filename="/home/matthias/projects/eclipse_workspace/SensorRec/./source/SensorSession.mc" lineNum="104" pc="268442873" symbol="setData"/>
+<entry filename="/home/matthias/projects/eclipse_workspace/SensorRec/./source/SensorSession.mc" lineNum="105" pc="268442897" symbol="setData"/>
+<entry filename="/home/matthias/projects/eclipse_workspace/SensorRec/./source/SensorSession.mc" lineNum="106" pc="268442923" symbol="setData"/>
+<entry filename="/home/matthias/projects/eclipse_workspace/SensorRec/./source/SensorSession.mc" lineNum="107" pc="268442949" symbol="setData"/>
+<entry filename="/home/matthias/projects/eclipse_workspace/SensorRec/./source/SensorSession.mc" lineNum="108" pc="268442984" symbol="setData"/>
+<entry filename="/home/matthias/projects/eclipse_workspace/SensorRec/./source/SensorSession.mc" lineNum="112" pc="268443020" symbol="stop"/>
+<entry filename="/home/matthias/projects/eclipse_workspace/SensorRec/./source/SensorSession.mc" lineNum="113" pc="268443024" symbol="stop"/>
+<entry filename="/home/matthias/projects/eclipse_workspace/SensorRec/./source/SensorSession.mc" lineNum="114" pc="268443054" symbol="stop"/>
+<entry filename="/home/matthias/projects/eclipse_workspace/SensorRec/./source/SensorSession.mc" lineNum="115" pc="268443072" symbol="stop"/>
+<entry filename="/home/matthias/projects/eclipse_workspace/SensorRec/./source/SensorSession.mc" lineNum="116" pc="268443090" symbol="stop"/>
+<entry filename="/home/matthias/projects/eclipse_workspace/SensorRec/./source/SensorSession.mc" lineNum="122" pc="268443114" symbol="isRecording"/>
+<entry filename="/home/matthias/projects/eclipse_workspace/SensorRec/./source/SensorSession.mc" lineNum="130" pc="268443118" symbol="isRecording"/>
+<entry filename="/home/matthias/projects/eclipse_workspace/SensorRec/./source/SensorSession.mc" lineNum="133" pc="268443137" symbol="save"/>
+<entry filename="/home/matthias/projects/eclipse_workspace/SensorRec/./source/SensorSession.mc" lineNum="134" pc="268443141" symbol="save"/>
+<entry filename="/home/matthias/projects/eclipse_workspace/SensorRec/./source/SensorSession.mc" lineNum="135" pc="268443159" symbol="save"/>
+<entry filename="/home/matthias/projects/eclipse_workspace/SensorRec/./source/SensorRecDelegate.mc" lineNum="12" pc="268443172" symbol="initialize"/>
+<entry filename="/home/matthias/projects/eclipse_workspace/SensorRec/./source/SensorRecDelegate.mc" lineNum="13" pc="268443176" symbol="initialize"/>
+<entry filename="/home/matthias/projects/eclipse_workspace/SensorRec/./source/SensorRecDelegate.mc" lineNum="14" pc="268443186" symbol="initialize"/>
+<entry filename="/home/matthias/projects/eclipse_workspace/SensorRec/./source/SensorRecDelegate.mc" lineNum="15" pc="268443195" symbol="initialize"/>
+<entry filename="/home/matthias/projects/eclipse_workspace/SensorRec/./source/SensorRecDelegate.mc" lineNum="22" pc="268443429" symbol="initialize"/>
+<entry filename="/home/matthias/projects/eclipse_workspace/SensorRec/./source/SensorRecDelegate.mc" lineNum="23" pc="268443487" symbol="initialize"/>
+<entry filename="/home/matthias/projects/eclipse_workspace/SensorRec/./source/SensorRecDelegate.mc" lineNum="26" pc="268443506" symbol="onKey"/>
+<entry filename="/home/matthias/projects/eclipse_workspace/SensorRec/./source/SensorRecDelegate.mc" lineNum="27" pc="268443510" symbol="onKey"/>
+<entry filename="/home/matthias/projects/eclipse_workspace/SensorRec/./source/SensorRecDelegate.mc" lineNum="28" pc="268443523" symbol="onKey"/>
+<entry filename="/home/matthias/projects/eclipse_workspace/SensorRec/./source/SensorRecDelegate.mc" lineNum="29" pc="268443558" symbol="onKey"/>
+<entry filename="/home/matthias/projects/eclipse_workspace/SensorRec/./source/SensorRecDelegate.mc" lineNum="30" pc="268443569" symbol="onKey"/>
+<entry filename="/home/matthias/projects/eclipse_workspace/SensorRec/./source/SensorRecDelegate.mc" lineNum="31" pc="268443584" symbol="onKey"/>
+<entry filename="/home/matthias/projects/eclipse_workspace/SensorRec/./source/SensorRecDelegate.mc" lineNum="32" pc="268443595" symbol="onKey"/>
+<entry filename="/home/matthias/projects/eclipse_workspace/SensorRec/./source/SensorRecDelegate.mc" lineNum="37" pc="268443611" symbol="onMenu"/>
+<entry filename="/home/matthias/projects/eclipse_workspace/SensorRec/./source/SensorRecDelegate.mc" lineNum="38" pc="268443615" symbol="onMenu"/>
+<entry filename="/home/matthias/projects/eclipse_workspace/SensorRec/./source/SensorRecDelegate.mc" lineNum="49" pc="268443636" symbol="onMenu"/>
+<entry filename="/home/matthias/projects/eclipse_workspace/SensorRec/./source/SensorRecDelegate.mc" lineNum="53" pc="268443640" symbol="onEnter"/>
+<entry filename="/home/matthias/projects/eclipse_workspace/SensorRec/./source/SensorRecDelegate.mc" lineNum="54" pc="268443644" symbol="onEnter"/>
+<entry filename="/home/matthias/projects/eclipse_workspace/SensorRec/./source/SensorRecDelegate.mc" lineNum="55" pc="268443665" symbol="onEnter"/>
+<entry filename="/home/matthias/projects/eclipse_workspace/SensorRec/./source/SensorRecDelegate.mc" lineNum="56" pc="268443682" symbol="onEnter"/>
+<entry filename="/home/matthias/projects/eclipse_workspace/SensorRec/./source/SensorRecDelegate.mc" lineNum="57" pc="268443695" symbol="onEnter"/>
+<entry filename="/home/matthias/projects/eclipse_workspace/SensorRec/./source/SensorRecDelegate.mc" lineNum="58" pc="268443733" symbol="onEnter"/>
+<entry filename="/home/matthias/projects/eclipse_workspace/SensorRec/./source/SensorRecDelegate.mc" lineNum="59" pc="268443751" symbol="onEnter"/>
+<entry filename="/home/matthias/projects/eclipse_workspace/SensorRec/./source/SensorRecDelegate.mc" lineNum="60" pc="268443778" symbol="onEnter"/>
+<entry filename="/home/matthias/projects/eclipse_workspace/SensorRec/./source/SensorRecDelegate.mc" lineNum="62" pc="268443814" symbol="onEnter"/>
+<entry filename="/home/matthias/projects/eclipse_workspace/SensorRec/./source/SensorRecDelegate.mc" lineNum="63" pc="268443832" symbol="onEnter"/>
+<entry filename="/home/matthias/projects/eclipse_workspace/SensorRec/./source/SensorRecDelegate.mc" lineNum="64" pc="268443850" symbol="onEnter"/>
+<entry filename="/home/matthias/projects/eclipse_workspace/SensorRec/./source/SensorRecDelegate.mc" lineNum="65" pc="268443874" symbol="onEnter"/>
+<entry filename="/home/matthias/projects/eclipse_workspace/SensorRec/./source/SensorRecDelegate.mc" lineNum="68" pc="268443889" symbol="onEnter"/>
+<entry filename="/home/matthias/projects/eclipse_workspace/SensorRec/./source/SensorRecDelegate.mc" lineNum="70" pc="268443893" symbol="teardown"/>
+<entry filename="/home/matthias/projects/eclipse_workspace/SensorRec/./source/SensorRecDelegate.mc" lineNum="71" pc="268443897" symbol="teardown"/>
+<entry filename="/home/matthias/projects/eclipse_workspace/SensorRec/./source/SensorRecDelegate.mc" lineNum="72" pc="268443933" symbol="teardown"/>
+<entry filename="/home/matthias/projects/eclipse_workspace/SensorRec/./source/SensorRecDelegate.mc" lineNum="73" pc="268443951" symbol="teardown"/>
+<entry filename="/home/matthias/projects/eclipse_workspace/SensorRec/./source/SensorRecDelegate.mc" lineNum="74" pc="268443969" symbol="teardown"/>
+<entry filename="/home/matthias/projects/eclipse_workspace/SensorRec/./source/SensorRecDelegate.mc" lineNum="75" pc="268443993" symbol="teardown"/>
+<entry filename="Rez" lineNum="15" pc="268444006" symbol="initialize"/>
+<entry filename="Rez" lineNum="16" pc="268444010" symbol="initialize"/>
+<entry filename="Rez" lineNum="17" pc="268444028" symbol="initialize"/>
+<entry filename="Rez" lineNum="18" pc="268444080" symbol="initialize"/>
+<entry filename="Rez" lineNum="34" pc="268444133" symbol="MainLayout"/>
+<entry filename="Rez" lineNum="38" pc="268444145" symbol="MainLayout"/>
+<entry filename="Rez" lineNum="39" pc="268444308" symbol="MainLayout"/>
+<entry filename="Rez" lineNum="40" pc="268444333" symbol="MainLayout"/>
+<entry filename="Rez" lineNum="41" pc="268444385" symbol="MainLayout"/>
+<entry filename="Rez" lineNum="42" pc="268444501" symbol="MainLayout"/>
+<entry filename="Rez" lineNum="45" pc="268444553" symbol="MainLayout"/>
+</pcToLineNum>
+<symbolTable>
+<entry field="true" id="48" symbol="posTime"/>
+<entry id="8388698" method="true" symbol="start"/>
+<entry id="8388644" module="true" symbol="System"/>
+<entry field="true" id="47" symbol="posAcc"/>
+<entry field="true" id="85" symbol="acc_z_graph"/>
+<entry id="8389124" method="true" symbol="onUpdate"/>
+<entry id="8389349" symbol="justification"/>
+<entry id="8388881" method="true" symbol="isRecording"/>
+<entry field="true" id="18" symbol="idx"/>
+<entry id="8389318" symbol="semicircles"/>
+<entry id="8389097" method="true" symbol="onKey"/>
+<entry id="92" method="true" symbol="onEnter"/>
+<entry id="8388631" module="true" symbol="Activity"/>
+<entry id="10" object="true" symbol="SensorRecApp"/>
+<entry field="true" id="21" symbol="accelZField"/>
+<entry field="true" id="8388611" module="true" symbol="Toybox"/>
+<entry id="8388645" module="true" symbol="Time"/>
+<entry id="59" method="true" symbol="getAccelZ"/>
+<entry id="58" method="true" symbol="getAccelY"/>
+<entry id="57" method="true" symbol="getAccelX"/>
+<entry id="77" object="true" symbol="MainMenu"/>
+<entry field="true" id="91" symbol="vibeStop"/>
+<entry id="56" method="true" symbol="setRecording"/>
+<entry field="true" id="25" symbol="pressuField"/>
+<entry field="true" id="23" symbol="magneYField"/>
+<entry id="8388770" module="true" object="true" symbol="Strings"/>
+<entry id="8388643" module="true" symbol="Sensor"/>
+<entry id="8388764" method="true" symbol="format"/>
+<entry field="true" id="45" symbol="magZ"/>
+<entry field="true" id="44" symbol="magY"/>
+<entry field="true" id="43" symbol="magX"/>
+<entry field="true" id="32" symbol="minRange"/>
+<entry id="8389280" method="true" symbol="getInitialView"/>
+<entry id="8389068" method="true" symbol="draw"/>
+<entry id="8389849" symbol="units"/>
+<entry id="78" method="true" symbol="MainLayout"/>
+<entry field="true" id="53" symbol="ret"/>
+<entry id="8388769" module="true" object="true" symbol="Rez"/>
+<entry id="8389123" method="true" symbol="onShow"/>
+<entry id="65" method="true" symbol="getPosRadians"/>
+<entry id="8389314" symbol="latitude"/>
+<entry id="66" method="true" symbol="getPosMeter"/>
+<entry field="true" id="29" symbol="gpsTimeField"/>
+<entry id="8388638" module="true" symbol="ActivityRecording"/>
+<entry id="14" object="true" symbol="SensorRecDelegate"/>
+<entry id="67" method="true" symbol="getPosAcc"/>
+<entry id="69" method="true" symbol="positionCallback"/>
+<entry id="8388636" module="true" symbol="Attention"/>
+<entry id="8389131" method="true" symbol="setColor"/>
+<entry field="true" id="8389807" symbol="data"/>
+<entry id="8388702" method="true" symbol="initialize"/>
+<entry field="true" id="49" symbol="sensorIdx"/>
+<entry id="13" object="true" symbol="SensorSession"/>
+<entry field="true" id="82" symbol="AppName"/>
+<entry id="9" object="true" symbol="SensorRecView"/>
+<entry id="8389864" method="true" symbol="setData"/>
+<entry field="true" id="27" symbol="gpsLngField"/>
+<entry field="true" id="87" symbol="mag_y_graph"/>
+<entry field="true" id="71" symbol="view"/>
+<entry field="true" id="86" symbol="mag_x_graph"/>
+<entry id="8390071" object="true" symbol="SensorData"/>
+<entry id="8388890" symbol="sport"/>
+<entry field="true" id="8388892" symbol="name"/>
+<entry field="true" id="8389605" symbol="accel"/>
+<entry id="8389080" method="true" symbol="onMenu"/>
+<entry field="true" id="89" symbol="press_graph"/>
+<entry field="true" id="8388964" symbol="pressure"/>
+<entry field="true" id="31" symbol="logTimer"/>
+<entry id="94" symbol="item_2"/>
+<entry id="93" symbol="item_1"/>
+<entry id="8388641" module="true" symbol="Math"/>
+<entry field="true" id="76" symbol="LauncherIcon"/>
+<entry id="8388646" module="true" object="true" symbol="Timer"/>
+<entry id="35" method="true" symbol="getRange"/>
+<entry field="true" id="80" symbol="menu_label_2"/>
+<entry field="true" id="79" symbol="menu_label_1"/>
+<entry field="true" id="51" symbol="sensorTimer"/>
+<entry id="55" method="true" symbol="teardown"/>
+<entry field="true" id="50" symbol="posIdx"/>
+<entry id="8389281" method="true" symbol="onStop"/>
+<entry field="true" id="8389065" symbol="locY"/>
+<entry field="true" id="8389064" symbol="locX"/>
+<entry field="true" id="20" symbol="accelYField"/>
+<entry id="8388771" module="true" object="true" symbol="Drawables"/>
+<entry id="8389122" method="true" symbol="onLayout"/>
+<entry field="true" id="8390214" symbol="rawAmbientPressure"/>
+<entry field="true" id="15" symbol="mSession"/>
+<entry field="true" id="37" symbol="sampleFreq"/>
+<entry id="8389279" method="true" symbol="onStart"/>
+<entry id="70" method="true" symbol="sensorCallback"/>
+<entry field="true" id="22" symbol="magneXField"/>
+<entry field="true" id="26" symbol="gpsLatField"/>
+<entry field="true" id="75" symbol="id_monkey"/>
+<entry id="12" object="true" symbol="SensorRecMenuDelegate"/>
+<entry field="true" id="8389310" symbol="position"/>
+<entry field="true" id="33" symbol="topLeft"/>
+<entry id="8389348" symbol="font"/>
+<entry field="true" id="8389347" symbol="color"/>
+<entry field="true" id="34" symbol="bottomRight"/>
+<entry field="true" id="88" symbol="mag_z_graph"/>
+<entry field="true" id="72" symbol="delegate"/>
+<entry field="true" id="8389067" symbol="height"/>
+<entry field="true" id="16" symbol="mLogger"/>
+<entry field="true" id="8388651" symbol="session"/>
+<entry id="8389109" method="true" symbol="onMenuItem"/>
+<entry id="63" method="true" symbol="getPressure"/>
+<entry id="68" method="true" symbol="getPosTime"/>
+<entry field="true" id="24" symbol="magneZField"/>
+<entry id="74" module="true" symbol="Layouts"/>
+<entry field="true" id="84" symbol="acc_y_graph"/>
+<entry field="true" id="30" symbol="sectionField"/>
+<entry id="8388642" module="true" symbol="Position"/>
+<entry field="true" id="81" symbol="prompt"/>
+<entry field="true" id="83" symbol="acc_x_graph"/>
+<entry field="true" id="46" symbol="pos"/>
+<entry id="8389125" method="true" symbol="onHide"/>
+<entry id="8389345" symbol="rezId"/>
+<entry id="8388882" method="true" symbol="save"/>
+<entry id="8390088" module="true" object="true" symbol="JsonData"/>
+<entry id="11" object="true" symbol="LineGraph"/>
+<entry field="true" id="52" symbol="recording"/>
+<entry field="true" id="17" symbol="sessionData"/>
+<entry id="8389850" symbol="count"/>
+<entry id="8389346" symbol="text"/>
+<entry field="true" id="8389066" symbol="width"/>
+<entry field="true" id="8389063" symbol="identifier"/>
+<entry id="62" method="true" symbol="getMagZ"/>
+<entry id="61" method="true" symbol="getMagY"/>
+<entry id="60" method="true" symbol="getMagX"/>
+<entry field="true" id="36" symbol="recordTime"/>
+<entry field="true" id="8389606" symbol="mag"/>
+<entry field="true" id="42" symbol="accelZ"/>
+<entry field="true" id="41" symbol="accelY"/>
+<entry field="true" id="40" symbol="accelX"/>
+<entry field="true" id="90" symbol="vibeStart"/>
+<entry id="64" method="true" symbol="getPosSemicircles"/>
+<entry id="73" module="true" symbol="Menus"/>
+<entry field="true" id="28" symbol="gpsAccField"/>
+<entry id="8388699" method="true" symbol="stop"/>
+<entry id="8389847" symbol="mesgType"/>
+<entry id="8388772" module="true" object="true" symbol="Fonts"/>
+<entry field="true" id="54" symbol="i"/>
+<entry id="8389315" symbol="longitude"/>
+<entry field="true" id="39" symbol="R"/>
+<entry field="true" id="38" symbol="N"/>
+<entry field="true" id="19" symbol="accelXField"/>
+</symbolTable>
+<localVars>
+<entry endPc="268435489" name="d" stackId="1" startPc="268435456"/>
+<entry endPc="268436451" name="h" stackId="2" startPc="268435493"/>
+<entry endPc="268436452" name="dc" stackId="1" startPc="268435489"/>
+<entry endPc="268437227" name="pos" stackId="2" startPc="268436461"/>
+<entry endPc="268437228" name="dc" stackId="1" startPc="268436457"/>
+<entry endPc="268437291" name="state" stackId="1" startPc="268437256"/>
+<entry endPc="268437332" name="state" stackId="1" startPc="268437291"/>
+<entry endPc="268437497" name="graphMinRange" stackId="1" startPc="268437452"/>
+<entry endPc="268437497" name="bottomRight" stackId="4" startPc="268437452"/>
+<entry endPc="268437497" name="topLeft" stackId="3" startPc="268437452"/>
+<entry endPc="268437497" name="graphColor" stackId="2" startPc="268437452"/>
+<entry endPc="268437512" name="graphColor" stackId="1" startPc="268437497"/>
+<entry endPc="268437660" name="i" stackId="5" startPc="268437568"/>
+<entry endPc="268437663" name="range" stackId="4" startPc="268437516"/>
+<entry endPc="268437664" name="values" stackId="1" startPc="268437512"/>
+<entry endPc="268437664" name="to" stackId="3" startPc="268437512"/>
+<entry endPc="268437664" name="from" stackId="2" startPc="268437512"/>
+<entry endPc="268437887" name="delta" stackId="12" startPc="268437815"/>
+<entry endPc="268438138" name="i" stackId="14" startPc="268437976"/>
+<entry endPc="268438151" name="n" stackId="13" startPc="268437976"/>
+<entry endPc="268438154" name="prev_x" stackId="9" startPc="268437668"/>
+<entry endPc="268438154" name="x" stackId="7" startPc="268437668"/>
+<entry endPc="268438154" name="range" stackId="5" startPc="268437668"/>
+<entry endPc="268438154" name="minMax" stackId="4" startPc="268437668"/>
+<entry endPc="268438154" name="drawExtentsY" stackId="11" startPc="268437668"/>
+<entry endPc="268438154" name="drawExtentsX" stackId="10" startPc="268437668"/>
+<entry endPc="268438154" name="prev_y" stackId="8" startPc="268437668"/>
+<entry endPc="268438154" name="y" stackId="6" startPc="268437668"/>
+<entry endPc="268438155" name="idx" stackId="3" startPc="268437664"/>
+<entry endPc="268438155" name="dc" stackId="1" startPc="268437664"/>
+<entry endPc="268438155" name="data" stackId="2" startPc="268437664"/>
+<entry endPc="268438253" name="item" stackId="1" startPc="268438178"/>
+<entry endPc="268438921" name="state" stackId="1" startPc="268438903"/>
+<entry endPc="268439013" name="i" stackId="1" startPc="268438960"/>
+<entry endPc="268439101" name="i" stackId="1" startPc="268439048"/>
+<entry endPc="268439189" name="i" stackId="1" startPc="268439136"/>
+<entry endPc="268439277" name="i" stackId="1" startPc="268439224"/>
+<entry endPc="268439365" name="i" stackId="1" startPc="268439312"/>
+<entry endPc="268439453" name="i" stackId="1" startPc="268439400"/>
+<entry endPc="268439541" name="i" stackId="1" startPc="268439488"/>
+<entry endPc="268439704" name="coords" stackId="1" startPc="268439577"/>
+<entry endPc="268440075" name="pos2" stackId="3" startPc="268439922"/>
+<entry endPc="268440075" name="pos1" stackId="2" startPc="268439922"/>
+<entry endPc="268440075" name="dist" stackId="4" startPc="268439922"/>
+<entry endPc="268440111" name="prevIdx" stackId="1" startPc="268439835"/>
+<entry endPc="268440155" name="acc" stackId="1" startPc="268440116"/>
+<entry endPc="268440199" name="t" stackId="1" startPc="268440160"/>
+<entry endPc="268440467" name="prevIdx" stackId="2" startPc="268440204"/>
+<entry endPc="268440468" name="info" stackId="1" startPc="268440200"/>
+<entry endPc="268441088" name="prevIdx" stackId="3" startPc="268440472"/>
+<entry endPc="268441088" name="ainfo" stackId="1" startPc="268440472"/>
+<entry endPc="268441088" name="info" stackId="2" startPc="268440472"/>
+<entry endPc="268442396" name="data" stackId="1" startPc="268441089"/>
+<entry endPc="268443019" name="values" stackId="1" startPc="268442545"/>
+<entry endPc="268443019" name="pos" stackId="2" startPc="268442545"/>
+<entry endPc="268443506" name="d" stackId="1" startPc="268443172"/>
+<entry endPc="268443610" name="key" stackId="2" startPc="268443510"/>
+<entry endPc="268443611" name="keyEvent" stackId="1" startPc="268443506"/>
+<entry endPc="268444580" name="rez_cmp_local_bitmap_id_monkey" stackId="4" startPc="268444145"/>
+<entry endPc="268444580" name="rez_cmp_local_bitmap_900L3Z8C2K" stackId="2" startPc="268444145"/>
+<entry endPc="268444580" name="rez_cmp_local_bitmap_900L3Z8C2K_fontHeight" stackId="3" startPc="268444145"/>
+<entry endPc="268444581" name="dc" stackId="1" startPc="268444133"/>
+</localVars>
+<annotations/>
+<functions>
+<functionEntry accessMode="public" name="initialize" parent="SensorRecView">
+<param id="d"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onLayout" parent="SensorRecView">
+<param id="dc"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onShow" parent="SensorRecView">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onUpdate" parent="SensorRecView">
+<param id="dc"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onHide" parent="SensorRecView">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="initialize" parent="SensorRecApp">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onStart" parent="SensorRecApp">
+<param id="state"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onStop" parent="SensorRecApp">
+<param id="state"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="getInitialView" parent="SensorRecApp">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="initialize" parent="LineGraph">
+<param id="graphMinRange"/>
+<param id="graphColor"/>
+<param id="topLeft"/>
+<param id="bottomRight"/>
+<documentation><![CDATA[<div class="description"> Constructor<br/></div>]]></documentation>
+</functionEntry>
+<functionEntry accessMode="public" name="setColor" parent="LineGraph">
+<param id="graphColor"/>
+<documentation><![CDATA[<div class="description"> Set graph line color<br/></div>]]></documentation>
+</functionEntry>
+<functionEntry accessMode="protected" name="getRange" parent="LineGraph">
+<param id="values"/>
+<param id="from"/>
+<param id="to"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="draw" parent="LineGraph">
+<param id="dc"/>
+<param id="data"/>
+<param id="idx"/>
+<documentation><![CDATA[<div class="description"> Handle the update event<br/></div>]]></documentation>
+</functionEntry>
+<functionEntry accessMode="public" name="initialize" parent="SensorRecMenuDelegate">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onMenuItem" parent="SensorRecMenuDelegate">
+<param id="item"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="initialize" parent="SensorData">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="teardown" parent="SensorData">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="setRecording" parent="SensorData">
+<param id="state"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="isRecording" parent="SensorData">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="getAccelX" parent="SensorData">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="getAccelY" parent="SensorData">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="getAccelZ" parent="SensorData">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="getMagX" parent="SensorData">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="getMagY" parent="SensorData">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="getMagZ" parent="SensorData">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="getPressure" parent="SensorData">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="getPosSemicircles" parent="SensorData">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="getPosRadians" parent="SensorData">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="getPosMeter" parent="SensorData">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="getPosAcc" parent="SensorData">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="getPosTime" parent="SensorData">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="positionCallback" parent="SensorData">
+<param id="info"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="sensorCallback" parent="SensorData">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="initialize" parent="SensorSession">
+<param id="data"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="start" parent="SensorSession">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="setData" parent="SensorSession">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="stop" parent="SensorSession">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="isRecording" parent="SensorSession">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="save" parent="SensorSession">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="initialize" parent="SensorRecDelegate">
+<param id="d"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onKey" parent="SensorRecDelegate">
+<param id="keyEvent"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onMenu" parent="SensorRecDelegate">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onEnter" parent="SensorRecDelegate">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="teardown" parent="SensorRecDelegate">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="initialize" parent="MainMenu">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="MainLayout" parent="Layouts">
+<param id="dc"/>
+<documentation><![CDATA[<div class="description"> Draw the layout<br/> param The context<br/></div>]]></documentation>
+</functionEntry>
+</functions>
+<dataEntryOffsetMappings>
+<dataEntry offset="87" parentId="" symbolId="globals" type="module"/>
+<dataEntry offset="246" parentId="globals" symbolId="SensorSession" type="class"/>
+<dataEntry offset="469" parentId="globals" symbolId="LineGraph" type="class"/>
+<dataEntry offset="572" parentId="globals" symbolId="SensorData" type="class"/>
+<dataEntry offset="915" parentId="globals" symbolId="SensorRecApp" type="class"/>
+<dataEntry offset="1010" parentId="globals" symbolId="Rez" type="module"/>
+<dataEntry offset="1089" parentId="Rez" symbolId="Drawables" type="module"/>
+<dataEntry offset="1136" parentId="Rez" symbolId="Menus" type="module"/>
+<dataEntry offset="1175" parentId="Menus" symbolId="MainMenu" type="class"/>
+<dataEntry offset="1222" parentId="Rez" symbolId="Fonts" type="module"/>
+<dataEntry offset="1253" parentId="Rez" symbolId="JsonData" type="module"/>
+<dataEntry offset="1284" parentId="Rez" symbolId="Layouts" type="module"/>
+<dataEntry offset="1323" parentId="Rez" symbolId="Strings" type="module"/>
+<dataEntry offset="1386" parentId="globals" symbolId="SensorRecView" type="class"/>
+<dataEntry offset="1545" parentId="globals" symbolId="SensorRecDelegate" type="class"/>
+<dataEntry offset="1656" parentId="globals" symbolId="SensorRecMenuDelegate" type="class"/>
+</dataEntryOffsetMappings>
+</debugInfo>
