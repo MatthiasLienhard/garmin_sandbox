@@ -4,11 +4,11 @@
 # # parse fit file and smooth gps
 # * cordinates are in semicircles (s)
 # * normal units for pos is degrees (d)
-# * usfull is also radians (r)
+# * usfull to convert to distance/speed is radians (r)
 # 
-# $d=s*180/2^31$
+# $d=s*\frac{180}{2^{31}}$
 # 
-# $r=d*pi/180$
+# $r=d*\frac{\pi}{180}$
 # 
 # * kalman filter can help smoothing track
 #     * does not work great - 
@@ -46,16 +46,18 @@ from tqdm import tqdm, trange
 R = 6371000 #earth radius [m]
 
 
-# In[118]:
+# In[44]:
 
 
+#fitfile = FitFile('fit_files/2912551983.fit') #cycling (example with good gps)
 
 #fitfile = FitFile('fit_files/2853423540.fit')#short swim
-#fitfile = FitFile('fit_files/2871238195.fit')#longer swim two way
-fitfile = FitFile('fit_files/1589443367.fit') #intermediate one way
+fitfile = FitFile('fit_files/2871238195.fit')#longer swim two way
+fitfile = FitFile('fit_files/2913114523.fit')#krumme lanke swim
 
 
-# In[119]:
+
+# In[45]:
 
 
 def toDegree(s): 
@@ -76,7 +78,7 @@ def toDeltaMeter(lat_d, lng_d):
     
 
 
-# In[120]:
+# In[46]:
 
 
 data={}
@@ -115,7 +117,7 @@ for i, record in enumerate(fitfile.get_messages('record')):
         
 
 
-# In[121]:
+# In[47]:
 
 
 lat_d=toDegree(data['position_lat'])
@@ -125,14 +127,14 @@ test=toDeltaMeter(lat_d,lng_d)
 test.head()
 
 
-# In[122]:
+# In[48]:
 
 
 tab=pd.DataFrame.from_dict(data)
 tab.head()
 
 
-# In[123]:
+# In[49]:
 
 
 
@@ -160,13 +162,13 @@ dist_back=get_dist(start_lat,start_lng, data['position_lat_deg'][i_turn],data['p
 
 
 
-# In[124]:
+# In[73]:
 
 
 plt.axis('equal')
-plt.plot(  np.cumsum(tab.delta_long), np.cumsum(tab.delta_lat))
+plt.plot(  np.nancumsum(tab.delta_long), np.nancumsum(tab.delta_lat))
 plt.show()
-tab.to_csv('fit_files/processed.csv')
+#tab.to_csv('fit_files/processed.csv')
 
 
 # ![](fit_files/swimtrack_unfiltered.png)
@@ -175,7 +177,7 @@ tab.to_csv('fit_files/processed.csv')
 # http://www.cbcity.de/das-kalman-filter-einfach-erklaert-teil-2
 # 
 
-# In[125]:
+# In[75]:
 
 
 kalman_lat=kalman_lng=kalman_gain=var=[]
@@ -197,8 +199,9 @@ kalman_lat=kalman_lng=kalman_gain=var=[]
 col_names=["dt","lat_gps", "lng_gps", "speed_gps", "lat_fit", "lng_fit", "speed_fit", "estimated accuracy","kalman gain" ]
 track=pd.DataFrame(columns=col_names)
 
+step=10
 
-for row in tab[1::30].itertuples():
+for row in tab[1::step].itertuples():
     i=row.Index
     gps_lat=toDegree(row.position_lat)
     gps_lng=toDegree(row.position_long)
@@ -212,7 +215,7 @@ for row in tab[1::30].itertuples():
             lng_fit=0
             lat_speed_fit=0
             lng_speed_fit=0
-            sigma_gps=3 #estimated gps accuracy (= standard deviation in meter?)
+            sigma_gps=1 #estimated gps accuracy (= standard deviation in meter?)
             z_dist=0
             dist_fit=0
             dt=1
@@ -228,11 +231,12 @@ for row in tab[1::30].itertuples():
             z_lng+=delta_z.delta_lng[0]
 
             #estimated accuracy
-            sigma_gps=min(3,z_dist/dt)*2
+            #sigma_gps=min(1,z_dist/dt)
+            sigma_gps=abs(z_dist/dt-1)+1
             r=sigma_gps**2 #R
-            q_pos=.01*dt**2       #may depend on swimming phase? e.g. turn
-            #q_pos=5**2
-            #q_speed=(2*dt)**2
+            q_pos=(.1*dt)**2       #may depend on swimming phase? e.g. turn
+            
+            #q_speed=(2*dt**2)**2
 
             #predict position: may depend on swimming phase? e.g. turn
             lat_pred=lat_fit+lat_speed_fit*dt
@@ -268,7 +272,7 @@ for row in tab[1::30].itertuples():
     track.to_csv('fit_files/kalman.csv')
 
 
-# In[127]:
+# In[76]:
 
 
 plt.axis('equal')
@@ -278,7 +282,7 @@ lim=(50,0,-10,200)
 
 step=1
 
-ax = plt.subplot(1, 2, 1)
+ax = plt.subplot(2, 1, 1)
 ax.plot(track.lng_fit[0::step], track.lat_fit[0::step], "gx--")
 ax.plot(track.lng_gps[0::step], track.lat_gps[0::step], "rx--")
 
@@ -287,32 +291,34 @@ ax.set_title("d={}m".format(round(dist)))
 #ax.axis(lim)
 #ax.figure.set_size_inches(4,2)
 ax.axis('equal')
-ax = plt.subplot(1, 2, 2)
+ax = plt.subplot(2, 1, 2)
 ax.plot(track.lng_fit[0::step], track.lat_fit[0::step])
 dist=(track.lng_fit[0::step].diff().pow(2)+track.lat_fit[0::step].diff().pow(2)).pow(1/2).sum()
 ax.set_title("d={}m".format(round(dist)))
-ax = plt.subplot(1, 2, 2)
+ax = plt.subplot(2, 1, 2)
 #ax.axis(lim)
-ax.figure.set_size_inches(16,16)
+ax.figure.set_size_inches(20,30)
 ax.axis('equal')
 
 plt.savefig('fit_files/filter.pdf')
 
 
-# In[112]:
+# In[72]:
 
 
 # red dashes, blue squares and green triangles
 #plt.plot(t, t, 'r--', t, t**2, 'bs', t, t**3, 'g^')
 fig=plt.subplot(1,1,1)
-fig.plot(track.lng_fit[100:200], track.lat_fit[100:200], 'bs',track.lng_gps[100:200], track.lat_gps[100:200], "g^" )
+#sel=(100,200)
+sel=(1,100)
+fig.plot(track.lng_fit[sel[0]:sel[1]], track.lat_fit[sel[0]:sel[1]], 'bs--',track.lng_gps[sel[0]:sel[1]], track.lat_gps[sel[0]:sel[1]], "g^--" )
 fig.figure.set_size_inches(20,32)
 fig.axis('equal')
 
 plt.savefig('fit_files/filter_ol.pdf')
 
 
-# In[138]:
+# In[43]:
 
 
 def runningMean(x, N):
@@ -337,7 +343,7 @@ for i,step in enumerate([3,6,10,30,60,120,240]):
 plt.plot(runningMeanFast(track.speed_fit, 100))
 
 
-# In[61]:
+# In[ ]:
 
 
 fig=plt.subplot(1,1,1)
