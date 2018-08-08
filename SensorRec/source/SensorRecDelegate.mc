@@ -5,19 +5,18 @@ using Toybox.Attention as Attention;
 
 class SensorRecDelegate extends Ui.InputDelegate {
 	var session;
-	var data;
+
 	var vibeStart;
 	var vibeStop;
 	
-    function initialize(d) {
-    	self.data=d;
-    	self.session=null;
+    function initialize(session) {
+    	self.session=session;
     	vibeStart=[
-		        new Attention.VibeProfile(50, 200), // On for 1/5 second
+		        new Attention.VibeProfile(100, 200), // On for 1/5 second
 		        new Attention.VibeProfile(0, 200),  // Off for 1/5 second
 		        new Attention.VibeProfile(50, 200), // On for 1/5 second
 		        new Attention.VibeProfile(0, 200),  // Off for 1/5 second
-		        new Attention.VibeProfile(50, 200)  // on for 1/5 second
+		        new Attention.VibeProfile(100, 200)  // on for 1/5 second
 		    ];
 		    vibeStop=[new Attention.VibeProfile(50, 1000)]; // On for 1 second
         InputDelegate.initialize();
@@ -25,7 +24,7 @@ class SensorRecDelegate extends Ui.InputDelegate {
     
 	function onKey(keyEvent) {
     	var key=keyEvent.getKey();
-        System.println("Key press: "+ key.toString());         // e.g. KEY_MENU = 7
+        //System.println("Key press: "+ key.toString());         // e.g. KEY_MENU = 7
         if (key ==7){
         	onMenu(); 
         }else if (key ==4){
@@ -35,7 +34,7 @@ class SensorRecDelegate extends Ui.InputDelegate {
     }
 
     function onMenu() {
-     	Sys.println("onMenu");
+     	//Sys.println("onMenu");
     	/*
     	if (Toybox has :ActivityRecording) {
 			if (session.isRecording() == false) {  
@@ -51,29 +50,25 @@ class SensorRecDelegate extends Ui.InputDelegate {
     
     // use the select Start/Stop or touch for recording
 	function onEnter() {
-		Sys.println("Enter");		
-		if (Toybox has :ActivityRecording) {                          // check device for activity recording
-			if (session==null){
-				session=new SensorSession(data);
-		       	session.start();                                     // call start session
+		//Sys.println("Enter");		
+		if (Toybox has :ActivityRecording) {
+			if (!session.isRecording()){
+		       	session.start();       
 		        Attention.vibrate(vibeStart);		           
-		    } else if ((session != null) && session.isRecording()) {
+		    } else {
 		    	//session.setBlip();
-		       	session.stop();                                      // stop the session
-				session.save();                                      // save the session
-				Attention.vibrate(vibeStop);
-				session=null;
+				session.save();  
+				Attention.vibrate(vibeStop);	
+            	Ui.requestUpdate();
 			}   
 		}   
-		return true;                                        // return true for onSelect function
+		return true; 
 	}
 	function teardown(){
-		if ((session != null) && session.isRecording()) {
-			session.stop();                                      // stop the session
-			session.save();                                      // save the session
+		if (session.isRecording()) {
+			session.save();                                      
 			Attention.vibrate(vibeStop);
-			session=null;
-			
 		}
+		session=null;			
 	}
 }

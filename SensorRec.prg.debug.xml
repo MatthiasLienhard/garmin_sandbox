@@ -1,617 +1,145 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <debugInfo>
-<pcToLineNum>
-<entry filename="SensorRec/source/LineGraph.mc" lineNum="14" pc="268435456" symbol="initialize"/>
-<entry filename="SensorRec/source/LineGraph.mc" lineNum="16" pc="268435460" symbol="initialize"/>
-<entry filename="SensorRec/source/LineGraph.mc" lineNum="17" pc="268435470" symbol="initialize"/>
-<entry filename="SensorRec/source/LineGraph.mc" lineNum="18" pc="268435480" symbol="initialize"/>
-<entry filename="SensorRec/source/LineGraph.mc" lineNum="19" pc="268435490" symbol="initialize"/>
-<entry filename="SensorRec/source/LineGraph.mc" lineNum="23" pc="268435501" symbol="setColor"/>
-<entry filename="SensorRec/source/LineGraph.mc" lineNum="24" pc="268435505" symbol="setColor"/>
-<entry filename="SensorRec/source/LineGraph.mc" lineNum="26" pc="268435516" symbol="getRange"/>
-<entry filename="SensorRec/source/LineGraph.mc" lineNum="28" pc="268435520" symbol="getRange"/>
-<entry filename="SensorRec/source/LineGraph.mc" lineNum="29" pc="268435528" symbol="getRange"/>
-<entry filename="SensorRec/source/LineGraph.mc" lineNum="30" pc="268435541" symbol="getRange"/>
-<entry filename="SensorRec/source/LineGraph.mc" lineNum="31" pc="268435554" symbol="getRange"/>
-<entry filename="SensorRec/source/LineGraph.mc" lineNum="32" pc="268435572" symbol="getRange"/>
-<entry filename="SensorRec/source/LineGraph.mc" lineNum="33" pc="268435582" symbol="getRange"/>
-<entry filename="SensorRec/source/LineGraph.mc" lineNum="34" pc="268435599" symbol="getRange"/>
-<entry filename="SensorRec/source/LineGraph.mc" lineNum="35" pc="268435615" symbol="getRange"/>
-<entry filename="SensorRec/source/LineGraph.mc" lineNum="36" pc="268435632" symbol="getRange"/>
-<entry filename="SensorRec/source/LineGraph.mc" lineNum="41" pc="268435664" symbol="getRange"/>
-<entry filename="SensorRec/source/LineGraph.mc" lineNum="45" pc="268435668" symbol="draw"/>
-<entry filename="SensorRec/source/LineGraph.mc" lineNum="47" pc="268435672" symbol="draw"/>
-<entry filename="SensorRec/source/LineGraph.mc" lineNum="49" pc="268435703" symbol="draw"/>
-<entry filename="SensorRec/source/LineGraph.mc" lineNum="50" pc="268435703" symbol="draw"/>
-<entry filename="SensorRec/source/LineGraph.mc" lineNum="51" pc="268435703" symbol="draw"/>
-<entry filename="SensorRec/source/LineGraph.mc" lineNum="52" pc="268435703" symbol="draw"/>
-<entry filename="SensorRec/source/LineGraph.mc" lineNum="53" pc="268435703" symbol="draw"/>
-<entry filename="SensorRec/source/LineGraph.mc" lineNum="54" pc="268435703" symbol="draw"/>
-<entry filename="SensorRec/source/LineGraph.mc" lineNum="55" pc="268435740" symbol="draw"/>
-<entry filename="SensorRec/source/LineGraph.mc" lineNum="58" pc="268435777" symbol="draw"/>
-<entry filename="SensorRec/source/LineGraph.mc" lineNum="60" pc="268435790" symbol="draw"/>
-<entry filename="SensorRec/source/LineGraph.mc" lineNum="61" pc="268435819" symbol="draw"/>
-<entry filename="SensorRec/source/LineGraph.mc" lineNum="62" pc="268435847" symbol="draw"/>
-<entry filename="SensorRec/source/LineGraph.mc" lineNum="63" pc="268435869" symbol="draw"/>
-<entry filename="SensorRec/source/LineGraph.mc" lineNum="65" pc="268435894" symbol="draw"/>
-<entry filename="SensorRec/source/LineGraph.mc" lineNum="68" pc="268435922" symbol="draw"/>
-<entry filename="SensorRec/source/LineGraph.mc" lineNum="70" pc="268435950" symbol="draw"/>
-<entry filename="SensorRec/source/LineGraph.mc" lineNum="71" pc="268435953" symbol="draw"/>
-<entry filename="SensorRec/source/LineGraph.mc" lineNum="73" pc="268435956" symbol="draw"/>
-<entry filename="SensorRec/source/LineGraph.mc" lineNum="76" pc="268435980" symbol="draw"/>
-<entry filename="SensorRec/source/LineGraph.mc" lineNum="77" pc="268436005" symbol="draw"/>
-<entry filename="SensorRec/source/LineGraph.mc" lineNum="78" pc="268436015" symbol="draw"/>
-<entry filename="SensorRec/source/LineGraph.mc" lineNum="79" pc="268436019" symbol="draw"/>
-<entry filename="SensorRec/source/LineGraph.mc" lineNum="81" pc="268436023" symbol="draw"/>
-<entry filename="SensorRec/source/LineGraph.mc" lineNum="82" pc="268436069" symbol="draw"/>
-<entry filename="SensorRec/source/LineGraph.mc" lineNum="83" pc="268436109" symbol="draw"/>
-<entry filename="SensorRec/source/LineGraph.mc" lineNum="84" pc="268436116" symbol="draw"/>
-<entry filename="SensorRec/source/SensorData.mc" lineNum="28" pc="268436159" symbol="initialize"/>
-<entry filename="SensorRec/source/SensorData.mc" lineNum="29" pc="268436163" symbol="initialize"/>
-<entry filename="SensorRec/source/SensorData.mc" lineNum="30" pc="268436173" symbol="initialize"/>
-<entry filename="SensorRec/source/SensorData.mc" lineNum="31" pc="268436195" symbol="initialize"/>
-<entry filename="SensorRec/source/SensorData.mc" lineNum="32" pc="268436217" symbol="initialize"/>
-<entry filename="SensorRec/source/SensorData.mc" lineNum="33" pc="268436251" symbol="initialize"/>
-<entry filename="SensorRec/source/SensorData.mc" lineNum="34" pc="268436301" symbol="initialize"/>
-<entry filename="SensorRec/source/SensorData.mc" lineNum="35" pc="268436334" symbol="initialize"/>
-<entry filename="SensorRec/source/SensorData.mc" lineNum="36" pc="268436356" symbol="initialize"/>
-<entry filename="SensorRec/source/SensorData.mc" lineNum="37" pc="268436378" symbol="initialize"/>
-<entry filename="SensorRec/source/SensorData.mc" lineNum="38" pc="268436400" symbol="initialize"/>
-<entry filename="SensorRec/source/SensorData.mc" lineNum="39" pc="268436422" symbol="initialize"/>
-<entry filename="SensorRec/source/SensorData.mc" lineNum="40" pc="268436444" symbol="initialize"/>
-<entry filename="SensorRec/source/SensorData.mc" lineNum="41" pc="268436466" symbol="initialize"/>
-<entry filename="SensorRec/source/SensorData.mc" lineNum="43" pc="268436510" symbol="initialize"/>
-<entry filename="SensorRec/source/SensorData.mc" lineNum="44" pc="268436543" symbol="initialize"/>
-<entry filename="SensorRec/source/SensorData.mc" lineNum="45" pc="268436631" symbol="initialize"/>
-<entry filename="SensorRec/source/SensorData.mc" lineNum="46" pc="268436653" symbol="initialize"/>
-<entry filename="SensorRec/source/SensorData.mc" lineNum="48" pc="268436697" symbol="initialize"/>
-<entry filename="SensorRec/source/SensorData.mc" lineNum="53" pc="268436742" symbol="teardown"/>
-<entry filename="SensorRec/source/SensorData.mc" lineNum="54" pc="268436746" symbol="teardown"/>
-<entry filename="SensorRec/source/SensorData.mc" lineNum="55" pc="268436764" symbol="teardown"/>
-<entry filename="SensorRec/source/SensorData.mc" lineNum="58" pc="268436809" symbol="setRecording"/>
-<entry filename="SensorRec/source/SensorData.mc" lineNum="59" pc="268436813" symbol="setRecording"/>
-<entry filename="SensorRec/source/SensorData.mc" lineNum="60" pc="268436823" symbol="setRecording"/>
-<entry filename="SensorRec/source/SensorData.mc" lineNum="62" pc="268436827" symbol="isRecording"/>
-<entry filename="SensorRec/source/SensorData.mc" lineNum="63" pc="268436831" symbol="isRecording"/>
-<entry filename="SensorRec/source/SensorData.mc" lineNum="66" pc="268436841" symbol="getAccelX"/>
-<entry filename="SensorRec/source/SensorData.mc" lineNum="67" pc="268436845" symbol="getAccelX"/>
-<entry filename="SensorRec/source/SensorData.mc" lineNum="68" pc="268436866" symbol="getAccelX"/>
-<entry filename="SensorRec/source/SensorData.mc" lineNum="70" pc="268436919" symbol="getAccelX"/>
-<entry filename="SensorRec/source/SensorData.mc" lineNum="72" pc="268436929" symbol="getAccelY"/>
-<entry filename="SensorRec/source/SensorData.mc" lineNum="73" pc="268436933" symbol="getAccelY"/>
-<entry filename="SensorRec/source/SensorData.mc" lineNum="74" pc="268436954" symbol="getAccelY"/>
-<entry filename="SensorRec/source/SensorData.mc" lineNum="76" pc="268437007" symbol="getAccelY"/>
-<entry filename="SensorRec/source/SensorData.mc" lineNum="78" pc="268437017" symbol="getAccelZ"/>
-<entry filename="SensorRec/source/SensorData.mc" lineNum="79" pc="268437021" symbol="getAccelZ"/>
-<entry filename="SensorRec/source/SensorData.mc" lineNum="80" pc="268437042" symbol="getAccelZ"/>
-<entry filename="SensorRec/source/SensorData.mc" lineNum="82" pc="268437095" symbol="getAccelZ"/>
-<entry filename="SensorRec/source/SensorData.mc" lineNum="84" pc="268437105" symbol="getMagX"/>
-<entry filename="SensorRec/source/SensorData.mc" lineNum="85" pc="268437109" symbol="getMagX"/>
-<entry filename="SensorRec/source/SensorData.mc" lineNum="86" pc="268437130" symbol="getMagX"/>
-<entry filename="SensorRec/source/SensorData.mc" lineNum="88" pc="268437183" symbol="getMagX"/>
-<entry filename="SensorRec/source/SensorData.mc" lineNum="90" pc="268437193" symbol="getMagY"/>
-<entry filename="SensorRec/source/SensorData.mc" lineNum="91" pc="268437197" symbol="getMagY"/>
-<entry filename="SensorRec/source/SensorData.mc" lineNum="92" pc="268437218" symbol="getMagY"/>
-<entry filename="SensorRec/source/SensorData.mc" lineNum="94" pc="268437271" symbol="getMagY"/>
-<entry filename="SensorRec/source/SensorData.mc" lineNum="96" pc="268437281" symbol="getMagZ"/>
-<entry filename="SensorRec/source/SensorData.mc" lineNum="97" pc="268437285" symbol="getMagZ"/>
-<entry filename="SensorRec/source/SensorData.mc" lineNum="98" pc="268437306" symbol="getMagZ"/>
-<entry filename="SensorRec/source/SensorData.mc" lineNum="100" pc="268437359" symbol="getMagZ"/>
-<entry filename="SensorRec/source/SensorData.mc" lineNum="103" pc="268437369" symbol="getPressure"/>
-<entry filename="SensorRec/source/SensorData.mc" lineNum="104" pc="268437373" symbol="getPressure"/>
-<entry filename="SensorRec/source/SensorData.mc" lineNum="105" pc="268437394" symbol="getPressure"/>
-<entry filename="SensorRec/source/SensorData.mc" lineNum="107" pc="268437447" symbol="getPressure"/>
-<entry filename="SensorRec/source/SensorData.mc" lineNum="109" pc="268437457" symbol="getPosSemicircles"/>
-<entry filename="SensorRec/source/SensorData.mc" lineNum="110" pc="268437461" symbol="getPosSemicircles"/>
-<entry filename="SensorRec/source/SensorData.mc" lineNum="111" pc="268437483" symbol="getPosSemicircles"/>
-<entry filename="SensorRec/source/SensorData.mc" lineNum="112" pc="268437511" symbol="getPosSemicircles"/>
-<entry filename="SensorRec/source/SensorData.mc" lineNum="113" pc="268437559" symbol="getPosSemicircles"/>
-<entry filename="SensorRec/source/SensorData.mc" lineNum="114" pc="268437607" symbol="getPosSemicircles"/>
-<entry filename="SensorRec/source/SensorData.mc" lineNum="116" pc="268437613" symbol="getPosSemicircles"/>
-<entry filename="SensorRec/source/SensorData.mc" lineNum="119" pc="268437647" symbol="getPosRadians"/>
-<entry filename="SensorRec/source/SensorData.mc" lineNum="120" pc="268437651" symbol="getPosRadians"/>
-<entry filename="SensorRec/source/SensorData.mc" lineNum="121" pc="268437673" symbol="getPosRadians"/>
-<entry filename="SensorRec/source/SensorData.mc" lineNum="123" pc="268437703" symbol="getPosRadians"/>
-<entry filename="SensorRec/source/SensorData.mc" lineNum="126" pc="268437737" symbol="getPosMeter"/>
-<entry filename="SensorRec/source/SensorData.mc" lineNum="127" pc="268437741" symbol="getPosMeter"/>
-<entry filename="SensorRec/source/SensorData.mc" lineNum="128" pc="268437757" symbol="getPosMeter"/>
-<entry filename="SensorRec/source/SensorData.mc" lineNum="128" pc="268437768" symbol="getPosMeter"/>
-<entry filename="SensorRec/source/SensorData.mc" lineNum="129" pc="268437787" symbol="getPosMeter"/>
-<entry filename="SensorRec/source/SensorData.mc" lineNum="130" pc="268437828" symbol="getPosMeter"/>
-<entry filename="SensorRec/source/SensorData.mc" lineNum="131" pc="268437856" symbol="getPosMeter"/>
-<entry filename="SensorRec/source/SensorData.mc" lineNum="132" pc="268437878" symbol="getPosMeter"/>
-<entry filename="SensorRec/source/SensorData.mc" lineNum="133" pc="268437978" symbol="getPosMeter"/>
-<entry filename="SensorRec/source/SensorData.mc" lineNum="135" pc="268437984" symbol="getPosMeter"/>
-<entry filename="SensorRec/source/SensorData.mc" lineNum="138" pc="268438018" symbol="getPosAcc"/>
-<entry filename="SensorRec/source/SensorData.mc" lineNum="139" pc="268438022" symbol="getPosAcc"/>
-<entry filename="SensorRec/source/SensorData.mc" lineNum="140" pc="268438041" symbol="getPosAcc"/>
-<entry filename="SensorRec/source/SensorData.mc" lineNum="141" pc="268438048" symbol="getPosAcc"/>
-<entry filename="SensorRec/source/SensorData.mc" lineNum="143" pc="268438058" symbol="getPosAcc"/>
-<entry filename="SensorRec/source/SensorData.mc" lineNum="145" pc="268438062" symbol="getPosTime"/>
-<entry filename="SensorRec/source/SensorData.mc" lineNum="146" pc="268438066" symbol="getPosTime"/>
-<entry filename="SensorRec/source/SensorData.mc" lineNum="147" pc="268438085" symbol="getPosTime"/>
-<entry filename="SensorRec/source/SensorData.mc" lineNum="148" pc="268438092" symbol="getPosTime"/>
-<entry filename="SensorRec/source/SensorData.mc" lineNum="150" pc="268438102" symbol="getPosTime"/>
-<entry filename="SensorRec/source/SensorData.mc" lineNum="155" pc="268438106" symbol="positionCallback"/>
-<entry filename="SensorRec/source/SensorData.mc" lineNum="156" pc="268438110" symbol="positionCallback"/>
-<entry filename="SensorRec/source/SensorData.mc" lineNum="157" pc="268438120" symbol="positionCallback"/>
-<entry filename="SensorRec/source/SensorData.mc" lineNum="158" pc="268438139" symbol="positionCallback"/>
-<entry filename="SensorRec/source/SensorData.mc" lineNum="159" pc="268438159" symbol="positionCallback"/>
-<entry filename="SensorRec/source/SensorData.mc" lineNum="161" pc="268438175" symbol="positionCallback"/>
-<entry filename="SensorRec/source/SensorData.mc" lineNum="163" pc="268438202" symbol="positionCallback"/>
-<entry filename="SensorRec/source/SensorData.mc" lineNum="164" pc="268438227" symbol="positionCallback"/>
-<entry filename="SensorRec/source/SensorData.mc" lineNum="165" pc="268438252" symbol="positionCallback"/>
-<entry filename="SensorRec/source/SensorData.mc" lineNum="175" pc="268438280" symbol="positionCallback"/>
-<entry filename="SensorRec/source/SensorData.mc" lineNum="176" pc="268438317" symbol="positionCallback"/>
-<entry filename="SensorRec/source/SensorData.mc" lineNum="177" pc="268438345" symbol="positionCallback"/>
-<entry filename="SensorRec/source/SensorData.mc" lineNum="181" pc="268438374" symbol="sensorCallback"/>
-<entry filename="SensorRec/source/SensorData.mc" lineNum="182" pc="268438378" symbol="sensorCallback"/>
-<entry filename="SensorRec/source/SensorData.mc" lineNum="183" pc="268438397" symbol="sensorCallback"/>
-<entry filename="SensorRec/source/SensorData.mc" lineNum="184" pc="268438416" symbol="sensorCallback"/>
-<entry filename="SensorRec/source/SensorData.mc" lineNum="185" pc="268438426" symbol="sensorCallback"/>
-<entry filename="SensorRec/source/SensorData.mc" lineNum="186" pc="268438445" symbol="sensorCallback"/>
-<entry filename="SensorRec/source/SensorData.mc" lineNum="187" pc="268438465" symbol="sensorCallback"/>
-<entry filename="SensorRec/source/SensorData.mc" lineNum="189" pc="268438481" symbol="sensorCallback"/>
-<entry filename="SensorRec/source/SensorData.mc" lineNum="191" pc="268438508" symbol="sensorCallback"/>
-<entry filename="SensorRec/source/SensorData.mc" lineNum="192" pc="268438539" symbol="sensorCallback"/>
-<entry filename="SensorRec/source/SensorData.mc" lineNum="193" pc="268438570" symbol="sensorCallback"/>
-<entry filename="SensorRec/source/SensorData.mc" lineNum="195" pc="268438604" symbol="sensorCallback"/>
-<entry filename="SensorRec/source/SensorData.mc" lineNum="196" pc="268438632" symbol="sensorCallback"/>
-<entry filename="SensorRec/source/SensorData.mc" lineNum="197" pc="268438660" symbol="sensorCallback"/>
-<entry filename="SensorRec/source/SensorData.mc" lineNum="200" pc="268438688" symbol="sensorCallback"/>
-<entry filename="SensorRec/source/SensorData.mc" lineNum="202" pc="268438715" symbol="sensorCallback"/>
-<entry filename="SensorRec/source/SensorData.mc" lineNum="203" pc="268438746" symbol="sensorCallback"/>
-<entry filename="SensorRec/source/SensorData.mc" lineNum="204" pc="268438777" symbol="sensorCallback"/>
-<entry filename="SensorRec/source/SensorData.mc" lineNum="206" pc="268438811" symbol="sensorCallback"/>
-<entry filename="SensorRec/source/SensorData.mc" lineNum="207" pc="268438839" symbol="sensorCallback"/>
-<entry filename="SensorRec/source/SensorData.mc" lineNum="208" pc="268438867" symbol="sensorCallback"/>
-<entry filename="SensorRec/source/SensorData.mc" lineNum="212" pc="268438895" symbol="sensorCallback"/>
-<entry filename="SensorRec/source/SensorData.mc" lineNum="213" pc="268438922" symbol="sensorCallback"/>
-<entry filename="SensorRec/source/SensorData.mc" lineNum="215" pc="268438950" symbol="sensorCallback"/>
-<entry filename="SensorRec/source/SensorData.mc" lineNum="217" pc="268438978" symbol="sensorCallback"/>
-<entry filename="SensorRec/source/SensorRecApp.mc" lineNum="10" pc="268438995" symbol="initialize"/>
-<entry filename="SensorRec/source/SensorRecApp.mc" lineNum="11" pc="268438999" symbol="initialize"/>
-<entry filename="SensorRec/source/SensorRecApp.mc" lineNum="15" pc="268439018" symbol="onStart"/>
-<entry filename="SensorRec/source/SensorRecApp.mc" lineNum="16" pc="268439022" symbol="onStart"/>
-<entry filename="SensorRec/source/SensorRecApp.mc" lineNum="21" pc="268439053" symbol="onStop"/>
-<entry filename="SensorRec/source/SensorRecApp.mc" lineNum="22" pc="268439057" symbol="onStop"/>
-<entry filename="SensorRec/source/SensorRecApp.mc" lineNum="23" pc="268439075" symbol="onStop"/>
-<entry filename="SensorRec/source/SensorRecApp.mc" lineNum="28" pc="268439094" symbol="getInitialView"/>
-<entry filename="SensorRec/source/SensorRecApp.mc" lineNum="30" pc="268439098" symbol="getInitialView"/>
-<entry filename="SensorRec/source/SensorRecApp.mc" lineNum="31" pc="268439136" symbol="getInitialView"/>
-<entry filename="SensorRec/source/SensorRecApp.mc" lineNum="32" pc="268439174" symbol="getInitialView"/>
-<entry filename="SensorRec/source/SensorRecDelegate.mc" lineNum="12" pc="268439214" symbol="initialize"/>
-<entry filename="SensorRec/source/SensorRecDelegate.mc" lineNum="13" pc="268439218" symbol="initialize"/>
-<entry filename="SensorRec/source/SensorRecDelegate.mc" lineNum="14" pc="268439228" symbol="initialize"/>
-<entry filename="SensorRec/source/SensorRecDelegate.mc" lineNum="15" pc="268439237" symbol="initialize"/>
-<entry filename="SensorRec/source/SensorRecDelegate.mc" lineNum="22" pc="268439471" symbol="initialize"/>
-<entry filename="SensorRec/source/SensorRecDelegate.mc" lineNum="23" pc="268439529" symbol="initialize"/>
-<entry filename="SensorRec/source/SensorRecDelegate.mc" lineNum="26" pc="268439548" symbol="onKey"/>
-<entry filename="SensorRec/source/SensorRecDelegate.mc" lineNum="27" pc="268439552" symbol="onKey"/>
-<entry filename="SensorRec/source/SensorRecDelegate.mc" lineNum="28" pc="268439565" symbol="onKey"/>
-<entry filename="SensorRec/source/SensorRecDelegate.mc" lineNum="29" pc="268439600" symbol="onKey"/>
-<entry filename="SensorRec/source/SensorRecDelegate.mc" lineNum="30" pc="268439611" symbol="onKey"/>
-<entry filename="SensorRec/source/SensorRecDelegate.mc" lineNum="31" pc="268439626" symbol="onKey"/>
-<entry filename="SensorRec/source/SensorRecDelegate.mc" lineNum="32" pc="268439637" symbol="onKey"/>
-<entry filename="SensorRec/source/SensorRecDelegate.mc" lineNum="37" pc="268439653" symbol="onMenu"/>
-<entry filename="SensorRec/source/SensorRecDelegate.mc" lineNum="38" pc="268439657" symbol="onMenu"/>
-<entry filename="SensorRec/source/SensorRecDelegate.mc" lineNum="49" pc="268439678" symbol="onMenu"/>
-<entry filename="SensorRec/source/SensorRecDelegate.mc" lineNum="53" pc="268439682" symbol="onEnter"/>
-<entry filename="SensorRec/source/SensorRecDelegate.mc" lineNum="54" pc="268439686" symbol="onEnter"/>
-<entry filename="SensorRec/source/SensorRecDelegate.mc" lineNum="55" pc="268439707" symbol="onEnter"/>
-<entry filename="SensorRec/source/SensorRecDelegate.mc" lineNum="56" pc="268439724" symbol="onEnter"/>
-<entry filename="SensorRec/source/SensorRecDelegate.mc" lineNum="57" pc="268439737" symbol="onEnter"/>
-<entry filename="SensorRec/source/SensorRecDelegate.mc" lineNum="58" pc="268439775" symbol="onEnter"/>
-<entry filename="SensorRec/source/SensorRecDelegate.mc" lineNum="59" pc="268439793" symbol="onEnter"/>
-<entry filename="SensorRec/source/SensorRecDelegate.mc" lineNum="60" pc="268439820" symbol="onEnter"/>
-<entry filename="SensorRec/source/SensorRecDelegate.mc" lineNum="62" pc="268439856" symbol="onEnter"/>
-<entry filename="SensorRec/source/SensorRecDelegate.mc" lineNum="63" pc="268439874" symbol="onEnter"/>
-<entry filename="SensorRec/source/SensorRecDelegate.mc" lineNum="64" pc="268439892" symbol="onEnter"/>
-<entry filename="SensorRec/source/SensorRecDelegate.mc" lineNum="65" pc="268439916" symbol="onEnter"/>
-<entry filename="SensorRec/source/SensorRecDelegate.mc" lineNum="68" pc="268439931" symbol="onEnter"/>
-<entry filename="SensorRec/source/SensorRecDelegate.mc" lineNum="70" pc="268439935" symbol="teardown"/>
-<entry filename="SensorRec/source/SensorRecDelegate.mc" lineNum="71" pc="268439939" symbol="teardown"/>
-<entry filename="SensorRec/source/SensorRecDelegate.mc" lineNum="72" pc="268439975" symbol="teardown"/>
-<entry filename="SensorRec/source/SensorRecDelegate.mc" lineNum="73" pc="268439993" symbol="teardown"/>
-<entry filename="SensorRec/source/SensorRecDelegate.mc" lineNum="74" pc="268440011" symbol="teardown"/>
-<entry filename="SensorRec/source/SensorRecDelegate.mc" lineNum="75" pc="268440035" symbol="teardown"/>
-<entry filename="SensorRec/source/SensorRecMenuDelegate.mc" lineNum="6" pc="268440048" symbol="initialize"/>
-<entry filename="SensorRec/source/SensorRecMenuDelegate.mc" lineNum="7" pc="268440052" symbol="initialize"/>
-<entry filename="SensorRec/source/SensorRecMenuDelegate.mc" lineNum="10" pc="268440071" symbol="onMenuItem"/>
-<entry filename="SensorRec/source/SensorRecMenuDelegate.mc" lineNum="11" pc="268440075" symbol="onMenuItem"/>
-<entry filename="SensorRec/source/SensorRecMenuDelegate.mc" lineNum="12" pc="268440086" symbol="onMenuItem"/>
-<entry filename="SensorRec/source/SensorRecMenuDelegate.mc" lineNum="13" pc="268440110" symbol="onMenuItem"/>
-<entry filename="SensorRec/source/SensorRecMenuDelegate.mc" lineNum="14" pc="268440121" symbol="onMenuItem"/>
-<entry filename="SensorRec/source/SensorRecView.mc" lineNum="18" pc="268440146" symbol="initialize"/>
-<entry filename="SensorRec/source/SensorRecView.mc" lineNum="19" pc="268440150" symbol="initialize"/>
-<entry filename="SensorRec/source/SensorRecView.mc" lineNum="20" pc="268440168" symbol="initialize"/>
-<entry filename="SensorRec/source/SensorRecView.mc" lineNum="26" pc="268440179" symbol="onLayout"/>
-<entry filename="SensorRec/source/SensorRecView.mc" lineNum="27" pc="268440183" symbol="onLayout"/>
-<entry filename="SensorRec/source/SensorRecView.mc" lineNum="28" pc="268440220" symbol="onLayout"/>
-<entry filename="SensorRec/source/SensorRecView.mc" lineNum="29" pc="268440239" symbol="onLayout"/>
-<entry filename="SensorRec/source/SensorRecView.mc" lineNum="30" pc="268440258" symbol="onLayout"/>
-<entry filename="SensorRec/source/SensorRecView.mc" lineNum="31" pc="268440280" symbol="onLayout"/>
-<entry filename="SensorRec/source/SensorRecView.mc" lineNum="32" pc="268440397" symbol="onLayout"/>
-<entry filename="SensorRec/source/SensorRecView.mc" lineNum="33" pc="268440514" symbol="onLayout"/>
-<entry filename="SensorRec/source/SensorRecView.mc" lineNum="34" pc="268440631" symbol="onLayout"/>
-<entry filename="SensorRec/source/SensorRecView.mc" lineNum="35" pc="268440757" symbol="onLayout"/>
-<entry filename="SensorRec/source/SensorRecView.mc" lineNum="36" pc="268440883" symbol="onLayout"/>
-<entry filename="SensorRec/source/SensorRecView.mc" lineNum="37" pc="268441009" symbol="onLayout"/>
-<entry filename="SensorRec/source/SensorRecView.mc" lineNum="43" pc="268441142" symbol="onShow"/>
-<entry filename="SensorRec/source/SensorRecView.mc" lineNum="46" pc="268441147" symbol="onUpdate"/>
-<entry filename="SensorRec/source/SensorRecView.mc" lineNum="49" pc="268441151" symbol="onUpdate"/>
-<entry filename="SensorRec/source/SensorRecView.mc" lineNum="50" pc="268441187" symbol="onUpdate"/>
-<entry filename="SensorRec/source/SensorRecView.mc" lineNum="51" pc="268441199" symbol="onUpdate"/>
-<entry filename="SensorRec/source/SensorRecView.mc" lineNum="52" pc="268441247" symbol="onUpdate"/>
-<entry filename="SensorRec/source/SensorRecView.mc" lineNum="53" pc="268441295" symbol="onUpdate"/>
-<entry filename="SensorRec/source/SensorRecView.mc" lineNum="54" pc="268441343" symbol="onUpdate"/>
-<entry filename="SensorRec/source/SensorRecView.mc" lineNum="55" pc="268441391" symbol="onUpdate"/>
-<entry filename="SensorRec/source/SensorRecView.mc" lineNum="56" pc="268441439" symbol="onUpdate"/>
-<entry filename="SensorRec/source/SensorRecView.mc" lineNum="57" pc="268441487" symbol="onUpdate"/>
-<entry filename="SensorRec/source/SensorRecView.mc" lineNum="58" pc="268441535" symbol="onUpdate"/>
-<entry filename="SensorRec/source/SensorRecView.mc" lineNum="59" pc="268441554" symbol="onUpdate"/>
-<entry filename="SensorRec/source/SensorRecView.mc" lineNum="60" pc="268441590" symbol="onUpdate"/>
-<entry filename="SensorRec/source/SensorRecView.mc" lineNum="61" pc="268441741" symbol="onUpdate"/>
-<entry filename="SensorRec/source/SensorRecView.mc" lineNum="62" pc="268441803" symbol="onUpdate"/>
-<entry filename="SensorRec/source/SensorRecView.mc" lineNum="63" pc="268441839" symbol="onUpdate"/>
-<entry filename="SensorRec/source/SensorRecView.mc" lineNum="72" pc="268441918" symbol="onHide"/>
-<entry filename="SensorRec/source/SensorSession.mc" lineNum="48" pc="268441923" symbol="initialize"/>
-<entry filename="SensorRec/source/SensorSession.mc" lineNum="50" pc="268441927" symbol="initialize"/>
-<entry filename="SensorRec/source/SensorSession.mc" lineNum="51" pc="268441927" symbol="initialize"/>
-<entry filename="SensorRec/source/SensorSession.mc" lineNum="53" pc="268441937" symbol="initialize"/>
-<entry filename="SensorRec/source/SensorSession.mc" lineNum="54" pc="268441999" symbol="initialize"/>
-<entry filename="SensorRec/source/SensorSession.mc" lineNum="55" pc="268442085" symbol="initialize"/>
-<entry filename="SensorRec/source/SensorSession.mc" lineNum="56" pc="268442171" symbol="initialize"/>
-<entry filename="SensorRec/source/SensorSession.mc" lineNum="57" pc="268442244" symbol="initialize"/>
-<entry filename="SensorRec/source/SensorSession.mc" lineNum="58" pc="268442317" symbol="initialize"/>
-<entry filename="SensorRec/source/SensorSession.mc" lineNum="59" pc="268442425" symbol="initialize"/>
-<entry filename="SensorRec/source/SensorSession.mc" lineNum="60" pc="268442533" symbol="initialize"/>
-<entry filename="SensorRec/source/SensorSession.mc" lineNum="61" pc="268442641" symbol="initialize"/>
-<entry filename="SensorRec/source/SensorSession.mc" lineNum="62" pc="268442749" symbol="initialize"/>
-<entry filename="SensorRec/source/SensorSession.mc" lineNum="63" pc="268442857" symbol="initialize"/>
-<entry filename="SensorRec/source/SensorSession.mc" lineNum="64" pc="268442965" symbol="initialize"/>
-<entry filename="SensorRec/source/SensorSession.mc" lineNum="65" pc="268443073" symbol="initialize"/>
-<entry filename="SensorRec/source/SensorSession.mc" lineNum="66" pc="268443146" symbol="initialize"/>
-<entry filename="SensorRec/source/SensorSession.mc" lineNum="70" pc="268443190" symbol="initialize"/>
-<entry filename="SensorRec/source/SensorSession.mc" lineNum="76" pc="268443230" symbol="start"/>
-<entry filename="SensorRec/source/SensorSession.mc" lineNum="79" pc="268443234" symbol="start"/>
-<entry filename="SensorRec/source/SensorSession.mc" lineNum="80" pc="268443234" symbol="start"/>
-<entry filename="SensorRec/source/SensorSession.mc" lineNum="82" pc="268443252" symbol="start"/>
-<entry filename="SensorRec/source/SensorSession.mc" lineNum="83" pc="268443293" symbol="start"/>
-<entry filename="SensorRec/source/SensorSession.mc" lineNum="84" pc="268443305" symbol="start"/>
-<entry filename="SensorRec/source/SensorSession.mc" lineNum="86" pc="268443335" symbol="start"/>
-<entry filename="SensorRec/source/SensorSession.mc" lineNum="92" pc="268443375" symbol="setData"/>
-<entry filename="SensorRec/source/SensorSession.mc" lineNum="93" pc="268443379" symbol="setData"/>
-<entry filename="SensorRec/source/SensorSession.mc" lineNum="94" pc="268443400" symbol="setData"/>
-<entry filename="SensorRec/source/SensorSession.mc" lineNum="95" pc="268443419" symbol="setData"/>
-<entry filename="SensorRec/source/SensorSession.mc" lineNum="96" pc="268443443" symbol="setData"/>
-<entry filename="SensorRec/source/SensorSession.mc" lineNum="97" pc="268443478" symbol="setData"/>
-<entry filename="SensorRec/source/SensorSession.mc" lineNum="98" pc="268443513" symbol="setData"/>
-<entry filename="SensorRec/source/SensorSession.mc" lineNum="99" pc="268443548" symbol="setData"/>
-<entry filename="SensorRec/source/SensorSession.mc" lineNum="100" pc="268443583" symbol="setData"/>
-<entry filename="SensorRec/source/SensorSession.mc" lineNum="101" pc="268443618" symbol="setData"/>
-<entry filename="SensorRec/source/SensorSession.mc" lineNum="102" pc="268443653" symbol="setData"/>
-<entry filename="SensorRec/source/SensorSession.mc" lineNum="103" pc="268443688" symbol="setData"/>
-<entry filename="SensorRec/source/SensorSession.mc" lineNum="104" pc="268443707" symbol="setData"/>
-<entry filename="SensorRec/source/SensorSession.mc" lineNum="105" pc="268443731" symbol="setData"/>
-<entry filename="SensorRec/source/SensorSession.mc" lineNum="106" pc="268443757" symbol="setData"/>
-<entry filename="SensorRec/source/SensorSession.mc" lineNum="107" pc="268443783" symbol="setData"/>
-<entry filename="SensorRec/source/SensorSession.mc" lineNum="108" pc="268443818" symbol="setData"/>
-<entry filename="SensorRec/source/SensorSession.mc" lineNum="112" pc="268443854" symbol="stop"/>
-<entry filename="SensorRec/source/SensorSession.mc" lineNum="113" pc="268443858" symbol="stop"/>
-<entry filename="SensorRec/source/SensorSession.mc" lineNum="114" pc="268443888" symbol="stop"/>
-<entry filename="SensorRec/source/SensorSession.mc" lineNum="115" pc="268443906" symbol="stop"/>
-<entry filename="SensorRec/source/SensorSession.mc" lineNum="116" pc="268443924" symbol="stop"/>
-<entry filename="SensorRec/source/SensorSession.mc" lineNum="122" pc="268443948" symbol="isRecording"/>
-<entry filename="SensorRec/source/SensorSession.mc" lineNum="130" pc="268443952" symbol="isRecording"/>
-<entry filename="SensorRec/source/SensorSession.mc" lineNum="133" pc="268443971" symbol="save"/>
-<entry filename="SensorRec/source/SensorSession.mc" lineNum="134" pc="268443975" symbol="save"/>
-<entry filename="SensorRec/source/SensorSession.mc" lineNum="135" pc="268443993" symbol="save"/>
-<entry filename="Rez" lineNum="15" pc="268444006" symbol="initialize"/>
-<entry filename="Rez" lineNum="16" pc="268444010" symbol="initialize"/>
-<entry filename="Rez" lineNum="17" pc="268444028" symbol="initialize"/>
-<entry filename="Rez" lineNum="18" pc="268444080" symbol="initialize"/>
-<entry filename="Rez" lineNum="34" pc="268444133" symbol="MainLayout"/>
-<entry filename="Rez" lineNum="38" pc="268444145" symbol="MainLayout"/>
-<entry filename="Rez" lineNum="39" pc="268444308" symbol="MainLayout"/>
-<entry filename="Rez" lineNum="40" pc="268444333" symbol="MainLayout"/>
-<entry filename="Rez" lineNum="41" pc="268444385" symbol="MainLayout"/>
-<entry filename="Rez" lineNum="42" pc="268444501" symbol="MainLayout"/>
-<entry filename="Rez" lineNum="45" pc="268444553" symbol="MainLayout"/>
-</pcToLineNum>
+<pcToLineNum/>
 <symbolTable>
-<entry field="true" id="50" symbol="posTime"/>
 <entry id="8388698" method="true" symbol="start"/>
 <entry id="8388644" module="true" symbol="System"/>
-<entry field="true" id="49" symbol="posAcc"/>
-<entry field="true" id="85" symbol="acc_z_graph"/>
+<entry field="true" id="26" symbol="posAccuracy"/>
 <entry id="8389124" method="true" symbol="onUpdate"/>
 <entry id="8389349" symbol="justification"/>
 <entry id="8388881" method="true" symbol="isRecording"/>
 <entry field="true" id="18" symbol="idx"/>
-<entry id="8389318" symbol="semicircles"/>
 <entry id="8389097" method="true" symbol="onKey"/>
-<entry id="92" method="true" symbol="onEnter"/>
+<entry id="62" method="true" symbol="onEnter"/>
 <entry id="8388631" module="true" symbol="Activity"/>
-<entry id="10" object="true" symbol="SensorRecApp"/>
-<entry field="true" id="21" symbol="accelZField"/>
+<entry id="9" object="true" symbol="SensorRecApp"/>
+<entry field="true" id="30" symbol="accelZField"/>
 <entry field="true" id="8388611" module="true" symbol="Toybox"/>
 <entry id="8388645" module="true" symbol="Time"/>
-<entry id="61" method="true" symbol="getAccelZ"/>
-<entry id="60" method="true" symbol="getAccelY"/>
-<entry id="59" method="true" symbol="getAccelX"/>
-<entry id="77" object="true" symbol="MainMenu"/>
-<entry field="true" id="91" symbol="vibeStop"/>
-<entry id="58" method="true" symbol="setRecording"/>
-<entry field="true" id="25" symbol="pressuField"/>
-<entry field="true" id="23" symbol="magneYField"/>
+<entry id="53" object="true" symbol="MainMenu"/>
+<entry field="true" id="61" symbol="vibeStop"/>
+<entry field="true" id="34" symbol="pressuField"/>
+<entry field="true" id="32" symbol="magneYField"/>
 <entry id="8388770" module="true" object="true" symbol="Strings"/>
 <entry id="8388643" module="true" symbol="Sensor"/>
-<entry id="8388764" method="true" symbol="format"/>
-<entry field="true" id="47" symbol="magZ"/>
-<entry field="true" id="46" symbol="magY"/>
-<entry field="true" id="45" symbol="magX"/>
-<entry field="true" id="32" symbol="minRange"/>
+<entry field="true" id="24" symbol="magZ"/>
+<entry field="true" id="23" symbol="magY"/>
+<entry field="true" id="22" symbol="magX"/>
 <entry id="8389280" method="true" symbol="getInitialView"/>
-<entry id="8389068" method="true" symbol="draw"/>
 <entry id="8389849" symbol="units"/>
-<entry id="78" method="true" symbol="MainLayout"/>
-<entry field="true" id="55" symbol="ret"/>
+<entry id="8388639" module="true" symbol="Graphics"/>
+<entry id="54" method="true" symbol="MainLayout"/>
 <entry id="8388769" module="true" object="true" symbol="Rez"/>
 <entry id="8389123" method="true" symbol="onShow"/>
-<entry id="67" method="true" symbol="getPosRadians"/>
-<entry id="8389314" symbol="latitude"/>
-<entry id="68" method="true" symbol="getPosMeter"/>
-<entry field="true" id="29" symbol="gpsTimeField"/>
+<entry field="true" id="38" symbol="gpsTimeField"/>
 <entry id="8388638" module="true" symbol="ActivityRecording"/>
-<entry id="11" object="true" symbol="SensorRecDelegate"/>
-<entry id="69" method="true" symbol="getPosAcc"/>
-<entry id="71" method="true" symbol="positionCallback"/>
+<entry id="10" object="true" symbol="SensorRecDelegate"/>
+<entry id="46" method="true" symbol="positionCallback"/>
 <entry id="8388636" module="true" symbol="Attention"/>
-<entry id="8389131" method="true" symbol="setColor"/>
-<entry field="true" id="8389807" symbol="data"/>
 <entry id="8388702" method="true" symbol="initialize"/>
-<entry field="true" id="51" symbol="sensorIdx"/>
-<entry id="14" object="true" symbol="SensorSession"/>
-<entry field="true" id="82" symbol="AppName"/>
-<entry id="13" object="true" symbol="SensorRecView"/>
+<entry id="13" object="true" symbol="SensorSession"/>
+<entry field="true" id="58" symbol="AppName"/>
+<entry id="12" object="true" symbol="SensorRecView"/>
 <entry id="8389864" method="true" symbol="setData"/>
-<entry field="true" id="27" symbol="gpsLngField"/>
-<entry field="true" id="87" symbol="mag_y_graph"/>
-<entry field="true" id="36" symbol="view"/>
-<entry field="true" id="86" symbol="mag_x_graph"/>
-<entry id="8390071" object="true" symbol="SensorData"/>
+<entry field="true" id="36" symbol="gpsLngField"/>
+<entry id="44" method="true" symbol="radToSemicircles"/>
 <entry id="8388890" symbol="sport"/>
 <entry field="true" id="8388892" symbol="name"/>
 <entry field="true" id="8389605" symbol="accel"/>
 <entry id="8389080" method="true" symbol="onMenu"/>
-<entry field="true" id="89" symbol="press_graph"/>
 <entry field="true" id="8388964" symbol="pressure"/>
-<entry field="true" id="31" symbol="logTimer"/>
-<entry id="94" symbol="item_2"/>
-<entry id="93" symbol="item_1"/>
+<entry id="64" symbol="item_2"/>
+<entry id="63" symbol="item_1"/>
 <entry id="8388641" module="true" symbol="Math"/>
-<entry field="true" id="76" symbol="LauncherIcon"/>
+<entry field="true" id="52" symbol="LauncherIcon"/>
 <entry id="8388646" module="true" object="true" symbol="Timer"/>
-<entry id="35" method="true" symbol="getRange"/>
-<entry field="true" id="80" symbol="menu_label_2"/>
-<entry field="true" id="79" symbol="menu_label_1"/>
-<entry field="true" id="53" symbol="sensorTimer"/>
-<entry id="57" method="true" symbol="teardown"/>
-<entry field="true" id="52" symbol="posIdx"/>
+<entry field="true" id="56" symbol="menu_label_2"/>
+<entry field="true" id="55" symbol="menu_label_1"/>
+<entry field="true" id="41" symbol="sensorTimer"/>
+<entry id="42" method="true" symbol="teardown"/>
 <entry id="8389281" method="true" symbol="onStop"/>
+<entry field="true" id="59" symbol="dot"/>
 <entry field="true" id="8389065" symbol="locY"/>
 <entry field="true" id="8389064" symbol="locX"/>
-<entry field="true" id="20" symbol="accelYField"/>
+<entry field="true" id="29" symbol="accelYField"/>
 <entry id="8388771" module="true" object="true" symbol="Drawables"/>
 <entry id="8389122" method="true" symbol="onLayout"/>
 <entry field="true" id="8390214" symbol="rawAmbientPressure"/>
-<entry field="true" id="15" symbol="mSession"/>
-<entry field="true" id="39" symbol="sampleFreq"/>
+<entry field="true" id="16" symbol="mSession"/>
 <entry id="8389279" method="true" symbol="onStart"/>
-<entry id="72" method="true" symbol="sensorCallback"/>
-<entry field="true" id="22" symbol="magneXField"/>
-<entry field="true" id="26" symbol="gpsLatField"/>
-<entry field="true" id="75" symbol="id_monkey"/>
-<entry id="12" object="true" symbol="SensorRecMenuDelegate"/>
+<entry id="47" method="true" symbol="sensorCallback"/>
+<entry field="true" id="31" symbol="magneXField"/>
+<entry field="true" id="35" symbol="gpsLatField"/>
+<entry field="true" id="51" symbol="id_monkey"/>
+<entry id="11" object="true" symbol="SensorRecMenuDelegate"/>
 <entry field="true" id="8389310" symbol="position"/>
-<entry field="true" id="33" symbol="topLeft"/>
 <entry id="8389348" symbol="font"/>
-<entry field="true" id="8389347" symbol="color"/>
-<entry field="true" id="34" symbol="bottomRight"/>
-<entry field="true" id="88" symbol="mag_z_graph"/>
-<entry field="true" id="37" symbol="delegate"/>
+<entry id="8389347" symbol="color"/>
+<entry field="true" id="48" symbol="delegate"/>
 <entry field="true" id="8389067" symbol="height"/>
-<entry field="true" id="16" symbol="mLogger"/>
 <entry field="true" id="8388651" symbol="session"/>
 <entry id="8389109" method="true" symbol="onMenuItem"/>
-<entry id="65" method="true" symbol="getPressure"/>
-<entry id="70" method="true" symbol="getPosTime"/>
-<entry field="true" id="24" symbol="magneZField"/>
-<entry id="74" module="true" symbol="Layouts"/>
-<entry field="true" id="84" symbol="acc_y_graph"/>
-<entry field="true" id="30" symbol="sectionField"/>
+<entry id="45" method="true" symbol="getDistMeter"/>
+<entry field="true" id="33" symbol="magneZField"/>
+<entry id="50" module="true" symbol="Layouts"/>
+<entry field="true" id="39" symbol="sectionField"/>
 <entry id="8388642" module="true" symbol="Position"/>
-<entry field="true" id="81" symbol="prompt"/>
-<entry field="true" id="83" symbol="acc_x_graph"/>
-<entry field="true" id="48" symbol="pos"/>
+<entry field="true" id="57" symbol="prompt"/>
 <entry id="8389125" method="true" symbol="onHide"/>
 <entry id="8389345" symbol="rezId"/>
 <entry id="8388882" method="true" symbol="save"/>
+<entry field="true" id="25" symbol="prevPos"/>
 <entry id="8390088" module="true" object="true" symbol="JsonData"/>
-<entry id="9" object="true" symbol="LineGraph"/>
-<entry field="true" id="54" symbol="recording"/>
+<entry field="true" id="40" symbol="recording"/>
 <entry field="true" id="17" symbol="sessionData"/>
 <entry id="8389850" symbol="count"/>
 <entry id="8389346" symbol="text"/>
+<entry id="43" method="true" symbol="initData"/>
 <entry field="true" id="8389066" symbol="width"/>
 <entry field="true" id="8389063" symbol="identifier"/>
-<entry id="64" method="true" symbol="getMagZ"/>
-<entry id="63" method="true" symbol="getMagY"/>
-<entry id="62" method="true" symbol="getMagX"/>
-<entry field="true" id="38" symbol="recordTime"/>
+<entry field="true" id="27" symbol="dist"/>
 <entry field="true" id="8389606" symbol="mag"/>
-<entry field="true" id="44" symbol="accelZ"/>
-<entry field="true" id="43" symbol="accelY"/>
-<entry field="true" id="42" symbol="accelX"/>
-<entry field="true" id="90" symbol="vibeStart"/>
-<entry id="66" method="true" symbol="getPosSemicircles"/>
-<entry id="73" module="true" symbol="Menus"/>
-<entry field="true" id="28" symbol="gpsAccField"/>
+<entry field="true" id="21" symbol="accelZ"/>
+<entry field="true" id="20" symbol="accelY"/>
+<entry field="true" id="19" symbol="accelX"/>
+<entry field="true" id="60" symbol="vibeStart"/>
+<entry id="49" module="true" symbol="Menus"/>
+<entry field="true" id="37" symbol="gpsAccField"/>
 <entry id="8388699" method="true" symbol="stop"/>
 <entry id="8389847" symbol="mesgType"/>
 <entry id="8388772" module="true" object="true" symbol="Fonts"/>
-<entry field="true" id="56" symbol="i"/>
-<entry id="8389315" symbol="longitude"/>
-<entry field="true" id="41" symbol="R"/>
-<entry field="true" id="40" symbol="N"/>
-<entry field="true" id="19" symbol="accelXField"/>
+<entry field="true" id="15" symbol="R"/>
+<entry field="true" id="14" symbol="N"/>
+<entry field="true" id="28" symbol="accelXField"/>
 </symbolTable>
 <localVars>
-<entry endPc="268435501" name="graphMinRange" stackId="1" startPc="268435456"/>
-<entry endPc="268435501" name="bottomRight" stackId="4" startPc="268435456"/>
-<entry endPc="268435501" name="topLeft" stackId="3" startPc="268435456"/>
-<entry endPc="268435501" name="graphColor" stackId="2" startPc="268435456"/>
-<entry endPc="268435516" name="graphColor" stackId="1" startPc="268435501"/>
-<entry endPc="268435664" name="i" stackId="5" startPc="268435572"/>
-<entry endPc="268435667" name="range" stackId="4" startPc="268435520"/>
-<entry endPc="268435668" name="values" stackId="1" startPc="268435516"/>
-<entry endPc="268435668" name="to" stackId="3" startPc="268435516"/>
-<entry endPc="268435668" name="from" stackId="2" startPc="268435516"/>
-<entry endPc="268435891" name="delta" stackId="12" startPc="268435819"/>
-<entry endPc="268436142" name="i" stackId="14" startPc="268435980"/>
-<entry endPc="268436155" name="n" stackId="13" startPc="268435980"/>
-<entry endPc="268436158" name="prev_x" stackId="9" startPc="268435672"/>
-<entry endPc="268436158" name="x" stackId="7" startPc="268435672"/>
-<entry endPc="268436158" name="range" stackId="5" startPc="268435672"/>
-<entry endPc="268436158" name="minMax" stackId="4" startPc="268435672"/>
-<entry endPc="268436158" name="drawExtentsY" stackId="11" startPc="268435672"/>
-<entry endPc="268436158" name="drawExtentsX" stackId="10" startPc="268435672"/>
-<entry endPc="268436158" name="prev_y" stackId="8" startPc="268435672"/>
-<entry endPc="268436158" name="y" stackId="6" startPc="268435672"/>
-<entry endPc="268436159" name="idx" stackId="3" startPc="268435668"/>
-<entry endPc="268436159" name="dc" stackId="1" startPc="268435668"/>
-<entry endPc="268436159" name="data" stackId="2" startPc="268435668"/>
-<entry endPc="268436827" name="state" stackId="1" startPc="268436809"/>
-<entry endPc="268436919" name="i" stackId="1" startPc="268436866"/>
-<entry endPc="268437007" name="i" stackId="1" startPc="268436954"/>
-<entry endPc="268437095" name="i" stackId="1" startPc="268437042"/>
-<entry endPc="268437183" name="i" stackId="1" startPc="268437130"/>
-<entry endPc="268437271" name="i" stackId="1" startPc="268437218"/>
-<entry endPc="268437359" name="i" stackId="1" startPc="268437306"/>
-<entry endPc="268437447" name="i" stackId="1" startPc="268437394"/>
-<entry endPc="268437610" name="coords" stackId="1" startPc="268437483"/>
-<entry endPc="268437981" name="pos2" stackId="3" startPc="268437828"/>
-<entry endPc="268437981" name="pos1" stackId="2" startPc="268437828"/>
-<entry endPc="268437981" name="dist" stackId="4" startPc="268437828"/>
-<entry endPc="268438017" name="prevIdx" stackId="1" startPc="268437741"/>
-<entry endPc="268438061" name="acc" stackId="1" startPc="268438022"/>
-<entry endPc="268438105" name="t" stackId="1" startPc="268438066"/>
-<entry endPc="268438373" name="prevIdx" stackId="2" startPc="268438110"/>
-<entry endPc="268438374" name="info" stackId="1" startPc="268438106"/>
-<entry endPc="268438994" name="prevIdx" stackId="3" startPc="268438378"/>
-<entry endPc="268438994" name="ainfo" stackId="1" startPc="268438378"/>
-<entry endPc="268438994" name="info" stackId="2" startPc="268438378"/>
-<entry endPc="268439053" name="state" stackId="1" startPc="268439018"/>
-<entry endPc="268439094" name="state" stackId="1" startPc="268439053"/>
-<entry endPc="268439548" name="d" stackId="1" startPc="268439214"/>
-<entry endPc="268439652" name="key" stackId="2" startPc="268439552"/>
-<entry endPc="268439653" name="keyEvent" stackId="1" startPc="268439548"/>
-<entry endPc="268440146" name="item" stackId="1" startPc="268440071"/>
-<entry endPc="268440179" name="d" stackId="1" startPc="268440146"/>
-<entry endPc="268441141" name="h" stackId="2" startPc="268440183"/>
-<entry endPc="268441142" name="dc" stackId="1" startPc="268440179"/>
-<entry endPc="268441917" name="pos" stackId="2" startPc="268441151"/>
-<entry endPc="268441918" name="dc" stackId="1" startPc="268441147"/>
-<entry endPc="268443230" name="data" stackId="1" startPc="268441923"/>
-<entry endPc="268443853" name="values" stackId="1" startPc="268443379"/>
-<entry endPc="268443853" name="pos" stackId="2" startPc="268443379"/>
-<entry endPc="268444580" name="rez_cmp_local_bitmap_Z9JWZIEC8I_fontHeight" stackId="3" startPc="268444145"/>
-<entry endPc="268444580" name="rez_cmp_local_bitmap_id_monkey" stackId="4" startPc="268444145"/>
-<entry endPc="268444580" name="rez_cmp_local_bitmap_Z9JWZIEC8I" stackId="2" startPc="268444145"/>
-<entry endPc="268444581" name="dc" stackId="1" startPc="268444133"/>
+<entry endPc="268435514" name="state" stackId="1" startPc="268435479"/>
+<entry endPc="268435537" name="state" stackId="1" startPc="268435514"/>
+<entry endPc="268435966" name="session" stackId="1" startPc="268435641"/>
+<entry endPc="268436035" name="key" stackId="2" startPc="268435970"/>
+<entry endPc="268436036" name="keyEvent" stackId="1" startPc="268435966"/>
+<entry endPc="268436373" name="item" stackId="1" startPc="268436298"/>
+<entry endPc="268436416" name="session" stackId="1" startPc="268436373"/>
+<entry endPc="268436496" name="dc" stackId="1" startPc="268436416"/>
+<entry endPc="268436909" name="pos" stackId="2" startPc="268436573"/>
+<entry endPc="268437030" name="dc" stackId="1" startPc="268436501"/>
+<entry endPc="268438958" name="semic" stackId="2" startPc="268438851"/>
+<entry endPc="268438959" name="coords" stackId="1" startPc="268438847"/>
+<entry endPc="268439107" name="pos2" stackId="3" startPc="268438976"/>
+<entry endPc="268439107" name="pos1" stackId="2" startPc="268438976"/>
+<entry endPc="268439144" name="pos" stackId="1" startPc="268438959"/>
+<entry endPc="268439601" name="pos" stackId="2" startPc="268439392"/>
+<entry endPc="268439605" name="info" stackId="1" startPc="268439361"/>
+<entry endPc="268440033" name="prevIdx" stackId="3" startPc="268439609"/>
+<entry endPc="268440033" name="ainfo" stackId="1" startPc="268439609"/>
+<entry endPc="268440033" name="info" stackId="2" startPc="268439609"/>
+<entry endPc="268440608" name="rez_cmp_local_bitmap_71UI9W011L" stackId="2" startPc="268440173"/>
+<entry endPc="268440608" name="rez_cmp_local_bitmap_71UI9W011L_fontHeight" stackId="3" startPc="268440173"/>
+<entry endPc="268440608" name="rez_cmp_local_bitmap_id_monkey" stackId="4" startPc="268440173"/>
+<entry endPc="268440609" name="dc" stackId="1" startPc="268440161"/>
 </localVars>
 <annotations/>
 <functions>
-<functionEntry accessMode="public" name="initialize" parent="LineGraph">
-<param id="graphMinRange"/>
-<param id="graphColor"/>
-<param id="topLeft"/>
-<param id="bottomRight"/>
-<documentation><![CDATA[<div class="description"> Constructor<br/></div>]]></documentation>
-</functionEntry>
-<functionEntry accessMode="public" name="setColor" parent="LineGraph">
-<param id="graphColor"/>
-<documentation><![CDATA[<div class="description"> Set graph line color<br/></div>]]></documentation>
-</functionEntry>
-<functionEntry accessMode="protected" name="getRange" parent="LineGraph">
-<param id="values"/>
-<param id="from"/>
-<param id="to"/>
-<documentation/>
-</functionEntry>
-<functionEntry accessMode="public" name="draw" parent="LineGraph">
-<param id="dc"/>
-<param id="data"/>
-<param id="idx"/>
-<documentation><![CDATA[<div class="description"> Handle the update event<br/></div>]]></documentation>
-</functionEntry>
-<functionEntry accessMode="public" name="initialize" parent="SensorData">
-<documentation/>
-</functionEntry>
-<functionEntry accessMode="public" name="teardown" parent="SensorData">
-<documentation/>
-</functionEntry>
-<functionEntry accessMode="public" name="setRecording" parent="SensorData">
-<param id="state"/>
-<documentation/>
-</functionEntry>
-<functionEntry accessMode="public" name="isRecording" parent="SensorData">
-<documentation/>
-</functionEntry>
-<functionEntry accessMode="public" name="getAccelX" parent="SensorData">
-<documentation/>
-</functionEntry>
-<functionEntry accessMode="public" name="getAccelY" parent="SensorData">
-<documentation/>
-</functionEntry>
-<functionEntry accessMode="public" name="getAccelZ" parent="SensorData">
-<documentation/>
-</functionEntry>
-<functionEntry accessMode="public" name="getMagX" parent="SensorData">
-<documentation/>
-</functionEntry>
-<functionEntry accessMode="public" name="getMagY" parent="SensorData">
-<documentation/>
-</functionEntry>
-<functionEntry accessMode="public" name="getMagZ" parent="SensorData">
-<documentation/>
-</functionEntry>
-<functionEntry accessMode="public" name="getPressure" parent="SensorData">
-<documentation/>
-</functionEntry>
-<functionEntry accessMode="public" name="getPosSemicircles" parent="SensorData">
-<documentation/>
-</functionEntry>
-<functionEntry accessMode="public" name="getPosRadians" parent="SensorData">
-<documentation/>
-</functionEntry>
-<functionEntry accessMode="public" name="getPosMeter" parent="SensorData">
-<documentation/>
-</functionEntry>
-<functionEntry accessMode="public" name="getPosAcc" parent="SensorData">
-<documentation/>
-</functionEntry>
-<functionEntry accessMode="public" name="getPosTime" parent="SensorData">
-<documentation/>
-</functionEntry>
-<functionEntry accessMode="public" name="positionCallback" parent="SensorData">
-<param id="info"/>
-<documentation/>
-</functionEntry>
-<functionEntry accessMode="public" name="sensorCallback" parent="SensorData">
-<documentation/>
-</functionEntry>
 <functionEntry accessMode="public" name="initialize" parent="SensorRecApp">
 <documentation/>
 </functionEntry>
@@ -627,7 +155,7 @@
 <documentation/>
 </functionEntry>
 <functionEntry accessMode="public" name="initialize" parent="SensorRecDelegate">
-<param id="d"/>
+<param id="session"/>
 <documentation/>
 </functionEntry>
 <functionEntry accessMode="public" name="onKey" parent="SensorRecDelegate">
@@ -651,7 +179,7 @@
 <documentation/>
 </functionEntry>
 <functionEntry accessMode="public" name="initialize" parent="SensorRecView">
-<param id="d"/>
+<param id="session"/>
 <documentation/>
 </functionEntry>
 <functionEntry accessMode="public" name="onLayout" parent="SensorRecView">
@@ -669,22 +197,42 @@
 <documentation/>
 </functionEntry>
 <functionEntry accessMode="public" name="initialize" parent="SensorSession">
-<param id="data"/>
 <documentation/>
 </functionEntry>
 <functionEntry accessMode="public" name="start" parent="SensorSession">
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" name="setData" parent="SensorSession">
+<functionEntry accessMode="public" name="teardown" parent="SensorSession">
 <documentation/>
 </functionEntry>
 <functionEntry accessMode="public" name="stop" parent="SensorSession">
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" name="isRecording" parent="SensorSession">
+<functionEntry accessMode="public" name="initData" parent="SensorSession">
 <documentation/>
 </functionEntry>
 <functionEntry accessMode="public" name="save" parent="SensorSession">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="isRecording" parent="SensorSession">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="radToSemicircles" parent="SensorSession">
+<param id="coords"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="getDistMeter" parent="SensorSession">
+<param id="pos"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="setData" parent="SensorSession">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="positionCallback" parent="SensorSession">
+<param id="info"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="sensorCallback" parent="SensorSession">
 <documentation/>
 </functionEntry>
 <functionEntry accessMode="public" name="initialize" parent="MainMenu">
@@ -697,20 +245,18 @@
 </functions>
 <dataEntryOffsetMappings>
 <dataEntry offset="87" parentId="" symbolId="globals" type="module"/>
-<dataEntry offset="246" parentId="globals" symbolId="SensorSession" type="class"/>
-<dataEntry offset="469" parentId="globals" symbolId="LineGraph" type="class"/>
-<dataEntry offset="572" parentId="globals" symbolId="SensorRecApp" type="class"/>
-<dataEntry offset="667" parentId="globals" symbolId="SensorData" type="class"/>
-<dataEntry offset="1010" parentId="globals" symbolId="Rez" type="module"/>
-<dataEntry offset="1089" parentId="Rez" symbolId="Drawables" type="module"/>
-<dataEntry offset="1136" parentId="Rez" symbolId="Menus" type="module"/>
-<dataEntry offset="1175" parentId="Menus" symbolId="MainMenu" type="class"/>
-<dataEntry offset="1222" parentId="Rez" symbolId="Fonts" type="module"/>
-<dataEntry offset="1253" parentId="Rez" symbolId="JsonData" type="module"/>
-<dataEntry offset="1284" parentId="Rez" symbolId="Layouts" type="module"/>
-<dataEntry offset="1323" parentId="Rez" symbolId="Strings" type="module"/>
-<dataEntry offset="1386" parentId="globals" symbolId="SensorRecView" type="class"/>
-<dataEntry offset="1545" parentId="globals" symbolId="SensorRecDelegate" type="class"/>
-<dataEntry offset="1656" parentId="globals" symbolId="SensorRecMenuDelegate" type="class"/>
+<dataEntry offset="214" parentId="globals" symbolId="SensorSession" type="class"/>
+<dataEntry offset="581" parentId="globals" symbolId="SensorRecApp" type="class"/>
+<dataEntry offset="668" parentId="globals" symbolId="Rez" type="module"/>
+<dataEntry offset="747" parentId="Rez" symbolId="Drawables" type="module"/>
+<dataEntry offset="794" parentId="Rez" symbolId="Menus" type="module"/>
+<dataEntry offset="833" parentId="Menus" symbolId="MainMenu" type="class"/>
+<dataEntry offset="880" parentId="Rez" symbolId="Fonts" type="module"/>
+<dataEntry offset="911" parentId="Rez" symbolId="JsonData" type="module"/>
+<dataEntry offset="942" parentId="Rez" symbolId="Layouts" type="module"/>
+<dataEntry offset="981" parentId="Rez" symbolId="Strings" type="module"/>
+<dataEntry offset="1044" parentId="globals" symbolId="SensorRecView" type="class"/>
+<dataEntry offset="1155" parentId="globals" symbolId="SensorRecDelegate" type="class"/>
+<dataEntry offset="1258" parentId="globals" symbolId="SensorRecMenuDelegate" type="class"/>
 </dataEntryOffsetMappings>
 </debugInfo>
