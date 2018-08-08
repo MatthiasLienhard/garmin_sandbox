@@ -63,48 +63,27 @@ class SensorData {
     	return(self.recording);
     }
     
-    function getAccelX(){
-    	for(var i=0;i<sampleFreq;i+=1){
-    		ret[i]=accelX[(sensorIdx+i)%N ];
-    	}
-    	return(ret);
+    function getAccelX(from, to){
+    	return(accelX.slice(from, to));
     }
-    function getAccelY(){
-    	for(var i=0;i<sampleFreq;i+=1){
-    		ret[i]=accelY[(sensorIdx+i)%N ];
-    	}
-    	return(ret);
+    function getAccelY(from, to){
+    	return(accelY.slice(from, to));
     }
-    function getAccelZ(){
-    	for(var i=0;i<sampleFreq;i+=1){
-    		ret[i]=accelZ[(sensorIdx+i)%N ];
-    	}
-    	return(ret);
+    function getAccelZ(from, to){
+    	return(accelZ.slice(from, to));
     }
-    function getMagX(){
-    	for(var i=0;i<sampleFreq;i+=1){
-    		ret[i]=magX[(sensorIdx+i)%N ];
-    	}
-    	return(ret);
+    function getMagX(from, to){
+    	return(magY.slice(from, to));
     }    
-    function getMagY(){
-    	for(var i=0;i<sampleFreq;i+=1){
-    		ret[i]=magY[(sensorIdx+i)%N ];
-    	}
-    	return(ret);
+    function getMagY(from, to){
+    	return(magX.slice(from, to));
     }
-    function getMagZ(){
-    	for(var i=0;i<sampleFreq;i+=1){
-    		ret[i]=magZ[(sensorIdx+i)%N ];
-    	}
-    	return(ret);
+    function getMagZ(from, to){
+    	return(magZ.slice(from, to));
     }
     
-    function getPressure(){
-    	for(var i=0;i<sampleFreq;i+=1){
-    		ret[i]=pressure[(sensorIdx+i)%N ];
-    	}
-    	return(ret);
+    function getPressure(from, to){
+    	return(pressure.slice(from, to));
     }
     function getPosSemicircles(){
     	if(pos[posIdx] != null ) {
@@ -213,8 +192,10 @@ class SensorData {
         	pressure[sensorIdx]=ainfo.rawAmbientPressure;
         }else {
         	pressure[sensorIdx]=pressure[prevIdx];
-        } 
-        Ui.requestUpdate();
+        }
+        if(sensorIdx % updateInterval==0) {
+            Ui.requestUpdate();
+        }
         
     }    
 }

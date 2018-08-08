@@ -93,7 +93,9 @@ class SensorSession { //extends ActivityRecording.Session{
 		System.println("new data");
 		var values=sessionData.getAccelX();
 		System.println("new x "+ values);
-		accelXField.setData(sessionData.getAccelX());
+        var from=sessionData.sensorIdx /  
+        var to=
+		accelXField.setData(sessionData.getAccelX(from, to));
         accelYField.setData(sessionData.getAccelY());
         accelZField.setData(sessionData.getAccelZ());
         magneXField.setData(sessionData.getMagX());
