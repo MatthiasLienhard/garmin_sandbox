@@ -318,7 +318,7 @@ fig.axis('equal')
 plt.savefig('fit_files/filter_ol.pdf')
 
 
-# In[43]:
+# In[77]:
 
 
 def runningMean(x, N):
@@ -332,6 +332,7 @@ col=['g', 'r', 'c', 'm', 'y', 'k', 'tab:orange']
 for i,step in enumerate([3,6,10,30,60,120,240]):
     speed=(track.lng_gps[0::step].diff().pow(2)+track.lat_gps[0::step].diff().pow(2)).pow(1/2)/(time[0::step].diff()*60)
     N=min(round(240/step)*2+1, speed.shape[0])
+    print(str(N))
     speed=runningMean(speed, N)
     plt.plot(time[0::step],speed,col[i])
     
@@ -340,7 +341,7 @@ for i,step in enumerate([3,6,10,30,60,120,240]):
 # In[39]:
 
 
-plt.plot(runningMeanFast(track.speed_fit, 100))
+plt.plot(runningMean(track.speed_fit, 100))
 
 
 # In[ ]:
