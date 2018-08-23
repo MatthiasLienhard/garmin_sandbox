@@ -133,8 +133,8 @@
 <entry endPc="268440033" name="prevIdx" stackId="3" startPc="268439609"/>
 <entry endPc="268440033" name="ainfo" stackId="1" startPc="268439609"/>
 <entry endPc="268440033" name="info" stackId="2" startPc="268439609"/>
-<entry endPc="268440608" name="rez_cmp_local_bitmap_71UI9W011L" stackId="2" startPc="268440173"/>
-<entry endPc="268440608" name="rez_cmp_local_bitmap_71UI9W011L_fontHeight" stackId="3" startPc="268440173"/>
+<entry endPc="268440608" name="rez_cmp_local_bitmap_WT22YOUT19" stackId="2" startPc="268440173"/>
+<entry endPc="268440608" name="rez_cmp_local_bitmap_WT22YOUT19_fontHeight" stackId="3" startPc="268440173"/>
 <entry endPc="268440608" name="rez_cmp_local_bitmap_id_monkey" stackId="4" startPc="268440173"/>
 <entry endPc="268440609" name="dc" stackId="1" startPc="268440161"/>
 </localVars>

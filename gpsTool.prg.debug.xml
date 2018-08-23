@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<debugInfo>
+<pcToLineNum/>
+<symbolTable>
+<entry id="8388644" module="true" symbol="System"/>
+<entry id="8389124" method="true" symbol="onUpdate"/>
+<entry id="8389349" symbol="justification"/>
+<entry id="8389097" method="true" symbol="onKey"/>
+<entry id="26" method="true" symbol="onEnter"/>
+<entry field="true" id="8388611" module="true" symbol="Toybox"/>
+<entry id="8388770" module="true" object="true" symbol="Strings"/>
+<entry id="8389280" method="true" symbol="getInitialView"/>
+<entry id="15" method="true" symbol="MainLayout"/>
+<entry id="11" object="true" symbol="gpsToolView"/>
+<entry id="8388769" module="true" object="true" symbol="Rez"/>
+<entry id="8388636" module="true" symbol="Attention"/>
+<entry field="true" id="21" symbol="timer"/>
+<entry id="8388702" method="true" symbol="initialize"/>
+<entry field="true" id="17" symbol="AppName"/>
+<entry field="true" id="23" symbol="vibe"/>
+<entry id="8389080" method="true" symbol="onMenu"/>
+<entry id="10" object="true" symbol="gpsToolDelegate"/>
+<entry field="true" id="14" symbol="LauncherIcon"/>
+<entry id="8388646" module="true" object="true" symbol="Timer"/>
+<entry id="8389281" method="true" symbol="onStop"/>
+<entry field="true" id="8389065" symbol="locY"/>
+<entry field="true" id="8389064" symbol="locX"/>
+<entry id="28" method="true" symbol="onPosition2"/>
+<entry id="8388771" module="true" object="true" symbol="Drawables"/>
+<entry id="8389122" method="true" symbol="onLayout"/>
+<entry id="8389279" method="true" symbol="onStart"/>
+<entry field="true" id="8389310" symbol="position"/>
+<entry id="8389348" symbol="font"/>
+<entry id="8389347" symbol="color"/>
+<entry field="true" id="18" symbol="delegate"/>
+<entry field="true" id="8389067" symbol="height"/>
+<entry field="true" id="20" symbol="time"/>
+<entry id="29" method="true" symbol="onPosition"/>
+<entry id="30" method="true" symbol="getDistMeter"/>
+<entry id="13" module="true" symbol="Layouts"/>
+<entry id="9" object="true" symbol="gpsToolApp"/>
+<entry field="true" id="16" symbol="prompt"/>
+<entry field="true" id="24" symbol="freq"/>
+<entry field="true" id="19" symbol="prevPos"/>
+<entry id="8390088" module="true" object="true" symbol="JsonData"/>
+<entry field="true" id="8389850" symbol="count"/>
+<entry id="8389346" symbol="text"/>
+<entry field="true" id="8389066" symbol="width"/>
+<entry field="true" id="22" symbol="dist"/>
+<entry id="12" module="true" symbol="Menus"/>
+<entry field="true" id="8389311" symbol="accuracy"/>
+<entry id="8388772" module="true" object="true" symbol="Fonts"/>
+<entry field="true" id="25" symbol="R"/>
+<entry id="27" method="true" symbol="timeCB"/>
+</symbolTable>
+<localVars>
+<entry endPc="268435484" name="state" stackId="1" startPc="268435479"/>
+<entry endPc="268435489" name="state" stackId="1" startPc="268435484"/>
+<entry endPc="268435634" name="view" stackId="1" startPc="268435493"/>
+<entry endPc="268435946" name="key" stackId="2" startPc="268435881"/>
+<entry endPc="268435947" name="keyEvent" stackId="1" startPc="268435877"/>
+<entry endPc="268436208" name="info" stackId="1" startPc="268436104"/>
+<entry endPc="268436365" name="pos" stackId="2" startPc="268436259"/>
+<entry endPc="268436390" name="info" stackId="1" startPc="268436208"/>
+<entry endPc="268436557" name="pos" stackId="1" startPc="268436390"/>
+<entry endPc="268436611" name="delegate" stackId="1" startPc="268436557"/>
+<entry endPc="268436691" name="dc" stackId="1" startPc="268436611"/>
+<entry endPc="268437022" name="dc" stackId="1" startPc="268436691"/>
+<entry endPc="268437291" name="rez_cmp_local_bitmap_E35MSE9HUY" stackId="2" startPc="268437034"/>
+<entry endPc="268437291" name="rez_cmp_local_bitmap_E35MSE9HUY_fontHeight" stackId="3" startPc="268437034"/>
+<entry endPc="268437292" name="dc" stackId="1" startPc="268437022"/>
+</localVars>
+<annotations/>
+<functions>
+<functionEntry accessMode="public" name="initialize" parent="gpsToolApp">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onStart" parent="gpsToolApp">
+<param id="state"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onStop" parent="gpsToolApp">
+<param id="state"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="getInitialView" parent="gpsToolApp">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="initialize" parent="gpsToolDelegate">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onKey" parent="gpsToolDelegate">
+<param id="keyEvent"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onMenu" parent="gpsToolDelegate">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onEnter" parent="gpsToolDelegate">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="timeCB" parent="gpsToolDelegate">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onPosition2" parent="gpsToolDelegate">
+<param id="info"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onPosition" parent="gpsToolDelegate">
+<param id="info"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="getDistMeter" parent="gpsToolDelegate">
+<param id="pos"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="initialize" parent="gpsToolView">
+<param id="delegate"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onLayout" parent="gpsToolView">
+<param id="dc"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onUpdate" parent="gpsToolView">
+<param id="dc"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="MainLayout" parent="Layouts">
+<param id="dc"/>
+<documentation><![CDATA[<div class="description"> Draw the layout<br/> param The context<br/></div>]]></documentation>
+</functionEntry>
+</functions>
+<dataEntryOffsetMappings>
+<dataEntry offset="87" parentId="" symbolId="globals" type="module"/>
+<dataEntry offset="182" parentId="globals" symbolId="Rez" type="module"/>
+<dataEntry offset="261" parentId="Rez" symbolId="Drawables" type="module"/>
+<dataEntry offset="300" parentId="Rez" symbolId="Menus" type="module"/>
+<dataEntry offset="331" parentId="Rez" symbolId="Fonts" type="module"/>
+<dataEntry offset="362" parentId="Rez" symbolId="JsonData" type="module"/>
+<dataEntry offset="393" parentId="Rez" symbolId="Layouts" type="module"/>
+<dataEntry offset="432" parentId="Rez" symbolId="Strings" type="module"/>
+<dataEntry offset="479" parentId="globals" symbolId="gpsToolView" type="class"/>
+<dataEntry offset="566" parentId="globals" symbolId="gpsToolDelegate" type="class"/>
+<dataEntry offset="741" parentId="globals" symbolId="gpsToolApp" type="class"/>
+</dataEntryOffsetMappings>
+</debugInfo>

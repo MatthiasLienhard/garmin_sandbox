@@ -1,0 +1,13 @@
+<resources>
+    <string id="position_lat">position_lat</string>
+    <string id="position_long">position_long</string>
+	<string id="position_unit">semicircles</string>
+	<fitContributions>
+        <fitField id="0" displayInChart="true" sortOrder = "0" precision="0"
+        dataLabel="@Strings.position_lat" chartTitle="@Strings.position_lat"
+        unitLabel="@Strings.position_unit" fillColor="#FF0000" />
+        <fitField id="1" displayInChart="true" sortOrder = "0" precision="0"
+        dataLabel="@Strings.position_long" chartTitle="@Strings.position_long"
+        unitLabel="@Strings.position_unit" fillColor="#FF0000" />
+    </fitContributions>
+</resources>
