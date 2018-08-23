@@ -1,13 +1,13 @@
 
 # coding: utf-8
 
-# In[685]:
+# In[816]:
 
 
 
 from fitparse import FitFile
 from datetime import datetime
-from math import sqrt, pi, cos, isnan
+from math import sqrt, pi, cos,sin, atan2, isnan
 import pandas as pd
 import numpy as np
 import matplotlib
@@ -30,13 +30,14 @@ swim = FitFile('fit_files/2918975969.fit') #swim
 swimgpx='fit_files/schwimmen2018-08-09_16-10-45.gpx'
 
 
-# In[539]:
+# In[1137]:
 
 
 def toDegree(s, t="semicircle"): 
     d=[float('nan')]*len(s)
     if t =="semicircle":   
-        s[s == None]=0
+        if(np.any(s==False)):
+            s[s == None]=0
         s=np.array(s, dtype=np.uint32)
         d=s*180/2**31
         r[r==0]=np.nan
@@ -48,7 +49,8 @@ def toRadian(s, t="semicircle"):
     
     r=[float('nan')]*len(s)
     if t =="semicircle":
-        s[s == None]=0
+        if(np.any(s==False)):
+            s[s == None]=0
         s=np.array(s, dtype=np.uint32)
         r=s*pi/2**31
         r[r==0]=np.nan
@@ -81,7 +83,7 @@ def trackDev(lat1, lng1,lat2,lng2, t='semicircle'):
         lat2=np.array(lat2)
         lng2=np.array(lng2)
     delta_lat_m=(lat2-lat1) * R
-    delta_lng_m=(lng2-lng1) * np.cos(lat2-lat1) * R
+    delta_lng_m=(lng2-lng1) * np.cos(lat1) * R
     dist=np.sqrt(delta_lat_m**2+delta_lng_m**2)
     return(pd.DataFrame({'delta_lat': delta_lat_m,  'delta_lng': delta_lng_m, 'dist': dist}))
 
@@ -97,6 +99,13 @@ def toDeltaMeter(lat, lng, t='semicircle'):
     dist=np.sqrt(delta_lat_m**2+delta_lng_m**2)
     return(pd.DataFrame({'delta_lat': delta_lat_m,  'delta_lng': delta_lng_m, 'dist': dist}))
     
+
+
+# In[729]:
+
+
+def runningMean(x, N):
+    return np.convolve(x, np.ones((N,))/N, 'same')
 
 
 # In[120]:
@@ -130,10 +139,11 @@ def parseGPX(filename):
     return data
 
 
-# In[762]:
+# In[1126]:
 
 
 def parseFit(fitfile, gpxdata=None):
+    init_time=5 # time to initialize gps
     data={}
     # Get all data messages that are of type record
     for i, record in enumerate(fitfile.get_messages('record')):
@@ -173,24 +183,73 @@ def parseFit(fitfile, gpxdata=None):
     data['depth']=(amb_pressure-data['pressure'])/mWS*100
     data['depth'][np.isnan(data['depth'])]=-100
     data['depth'][data['depth']>0]=0
+    track=toDeltaMeter(data['position_lat'],data['position_long'], "semicircle" )
+    idx=np.argmax(np.logical_and(data['position_lat']  != 0 , data['position_long']  != 0))+init_time
+    #hope that the others have values at this position as well
+    data['lng_rel_meter']=np.nancumsum(track['delta_lng'])
+    data['lat_rel_meter']=np.nancumsum(track['delta_lat'])
+    print("track offset {},{}".format(data['lat_rel_meter'][idx],data['lng_rel_meter'][idx]))
+    offset_base=(data['lng_rel_meter'][idx],data['lat_rel_meter'][idx] )
+    data['lng_rel_meter']-=offset_base[0]
+    data['lat_rel_meter']-=offset_base[1]
+    track=toDeltaMeter(data['gps_lat'],data['gps_lng'], "semicircle" )
+    data['gps_lng_rel_meter']=np.nancumsum(track['delta_lng'])
+    data['gps_lat_rel_meter']=np.nancumsum(track['delta_lat'])    
+    dev=trackDev([data['gps_lat'][idx]],[data['gps_lng'][idx]],[data['position_lat'][idx]],[data['position_long'][idx]] )
+    print("dev : "+str(dev.iloc[0]))
 
+    offset=(data['gps_lng_rel_meter'][idx]+dev['delta_lng'][0],
+            data['gps_lat_rel_meter'][idx]+dev['delta_lat'][0])
+            
+    print("gps offset: "+str(offset))
+    data['gps_lng_rel_meter']-=offset[0]
+    data['gps_lat_rel_meter']-=offset[1]
+    
     if gpxdata is not None:
+        trueLat=toSemicircle(gpxdata['lat'], "degree")
+        trueLng=toSemicircle(gpxdata['lng'], "degree")
+        delta=toDeltaMeter(trueLat, trueLng)
+        smooth_delta_lng=runningMean(delta['delta_lng'],5)
+        smooth_delta_lat=runningMean(delta['delta_lat'],5)
+        
+        #heading=delta.apply(lambda row: atan2(row['delta_lng'], row['delta_lat']), axis=1)
+        heading=[atan2(smooth_delta_lng[i], smooth_delta_lat[i]) for i in range(len(smooth_delta_lng))]
         gpxdata['time']=np.array(gpxdata['time'])
         data['true_lat']=[]
         data['true_lng']=[]
+        data['true_heading']=[]
         for i in range(len(data['timestamp'])) :
             dt=[(data['timestamp'][i]-t).total_seconds() for j,t in enumerate(gpxdata['time'])]
             matchedI=np.argmin(np.abs(dt))
-            data['true_lat'].append(toSemicircle([gpxdata['lat'][matchedI]], "degree")[0])
-            data['true_lng'].append(toSemicircle([gpxdata['lng'][matchedI]], "degree")[0])
+            data['true_lat'].append(trueLat[matchedI])
+            data['true_lng'].append(trueLng[matchedI])
+            data['true_heading'].append(heading[matchedI])
+            
         data['true_lat']=np.array(data['true_lat'])
         data['true_lng']=np.array(data['true_lng'])
         
-        print(str(type(data['position_lat']))+"--"+str(type(data['true_lat'])))
+        #print(str(type(data['position_lat']))+"--"+str(type(data['true_lat'])))
+        track=toDeltaMeter(data['true_lat'],data['true_lng'], "semicircle" )
+        dev=trackDev([data['true_lat'][idx]],[data['true_lng'][idx]],[data['position_lat'][idx]],[data['position_long'][idx]] )
+        
+        data['true_lng_rel_meter']=np.nancumsum(track['delta_lng'])
+        data['true_lat_rel_meter']=np.nancumsum(track['delta_lat'])
+        #data['true_lng_rel_meter']-=data['true_lng_rel_meter'][idx]
+        #data['true_lat_rel_meter']-=data['true_lat_rel_meter'][idx]
+        offset=(data['true_lng_rel_meter'][idx]+dev['delta_lng'][0],
+            data['true_lat_rel_meter'][idx]+dev['delta_lat'][0])
+        print("true offset: "+str(offset))
+        data['true_lng_rel_meter']-=offset[0]
+        data['true_lat_rel_meter']-=offset[1]
+    
         error= trackDev(data['position_lat'], data['position_long'], data['true_lat'], data['true_lng'], "semicircle")
         data['error_abs']=np.array(error['dist'])
         data['error_lat']=np.array(error['delta_lat'])
         data['error_lng']=np.array(error['delta_lng'])
+        data['error_head']=[error['delta_lat'][i]*sin(data['true_heading'][i])+error['delta_lng'][i]*cos(data['true_heading'][i]) for i in range(len(data['true_heading']))]
+        data['error_side']=[error['delta_lat'][i]*cos(data['true_heading'][i])-error['delta_lng'][i]*sin(data['true_heading'][i]) for i in range(len(data['true_heading']))]
+            
+        
         
         
         
@@ -198,16 +257,21 @@ def parseFit(fitfile, gpxdata=None):
     return data
 
 
-# In[727]:
+# In[971]:
 
 
 def plotData(data, start, end):
     t = np.arange(0., len(data['gps_time']), 1/15)
-    lim=(start,end)
+    lim=(np.argmax(t > start)-1,np.argmax(t>end))
+    mask=slice(lim[0], lim[1])
+        
     idx=data['gps_time']
     idx[np.isnan(idx)]=0
     idx=(np.arange(0, len(data['gps_time']))*15+idx).astype(int)
     gps_time=t[idx]
+    lim2=(np.argmax(gps_time > start)-1,np.argmax(gps_time>end))
+    mask2=slice(lim2[0], lim2[1])
+    
     #print(str(gps_time))
     col=np.array(["green", "red", "gray"])
     depth=data['depth']
@@ -215,57 +279,68 @@ def plotData(data, start, end):
     gps_underwater=(depth[idx.astype(int)]< - 5).astype(int)
     gps_underwater[np.isnan(data['position_lat'])]=2
     cols=col[gps_underwater]
-
-    ax = plt.subplot(4, 1, 1)
-    ax.plot(t, data['accel_X'], 'r--', t, data['accel_Y'], 'b--', t,data['accel_Z'], 'g--')
-    plt.xlim(lim[0],lim[1])
+    
+    ax = plt.subplot(5, 1, 1)
+    ax.plot(t[mask], data['accel_X'][mask], 'r--', t[mask], data['accel_Y'][mask], 'b--', t[mask],data['accel_Z'][mask], 'g--')
+    #plt.xlim(lim[0],lim[1])
     drange=[np.nanmin(np.array([data['accel_X'], data['accel_Y'], data['accel_Z']])), 
            np.nanmax(np.array([data['accel_X'], data['accel_Y'], data['accel_Z']]))]
-    ax.vlines(x=gps_time, ymin=drange[0], ymax=drange[1], color=cols, linestyle='--')
+    ax.vlines(x=gps_time[mask2], ymin=drange[0], ymax=drange[1], color=cols[mask2], linestyle='--')
     #ax.grid(color='grey', linestyle='-', linewidth=1)
 
 
-    ax = plt.subplot(4, 1, 2)
-    ax.plot(t, data['mag_X'], 'r--', t, data['mag_Y'], 'b--', t,data['mag_Z'], 'g--')
-    plt.xlim(lim[0],lim[1])
+    ax = plt.subplot(5, 1, 2)
+    ax.plot(t[mask], data['mag_X'][mask], 'r--', t[mask], data['mag_Y'][mask], 'b--', t[mask],data['mag_Z'][mask], 'g--')
+    #plt.xlim(lim[0],lim[1])
     drange=[np.nanmin(np.array([data['mag_X'], data['mag_Y'], data['mag_Z']])), 
            np.nanmax(np.array([data['mag_X'], data['mag_Y'], data['mag_Z']]))]
-    ax.vlines(x=gps_time, ymin=drange[0], ymax=drange[1], color=cols, linestyle='--')
+    ax.vlines(x=gps_time[mask2], ymin=drange[0], ymax=drange[1], color=cols[mask2], linestyle='--')
     #ax.grid(color='grey', linestyle='-', linewidth=1)
 
 
-    ax = plt.subplot(4, 1, 3)
-    ax.plot(t,depth , '--' )
-    plt.xlim(lim[0],lim[1])
+    ax = plt.subplot(5, 1, 3)
+    ax.plot(t[mask],depth[mask] , '--' )
+    #plt.xlim(lim[0],lim[1])
     drange=[np.nanmin(depth), 
            np.nanmax(depth)]
-    ax.vlines(x=gps_time, ymin=drange[0], ymax=drange[1], color=cols, linestyle='--')
+    ax.vlines(x=gps_time[mask2], ymin=drange[0], ymax=drange[1], color=cols[mask2], linestyle='--')
     #ax.grid(color='grey', linestyle='-', linewidth=1)
 
     if 'true_lng' in data.keys():
-        dev=trackDev(data['position_lat'], data['position_long'], data['true_lat'], data['true_lng'])
-        ax = plt.subplot(4, 1, 4)
+        #dev=trackDev(data['position_lat'], data['position_long'], data['true_lat'], data['true_lng'])
+        ax = plt.subplot(5, 1, 4)
         
-        ax.plot(gps_time,dev['dist'] , '--' )
-        ax.plot(gps_time,dev['delta_lat'] , 'g--' )
-        ax.plot(gps_time,dev['delta_lng'] , 'r--' )
-        plt.xlim(lim[0],lim[1])
+        ax.plot(gps_time[mask2],data['error_abs'][mask2] , '--' )
+        ax.plot(gps_time[mask2],data['error_lat'][mask2] , 'g--' )
+        ax.plot(gps_time[mask2],data['error_lng'][mask2] , 'r--' )
+        plt.hlines([0], start,end)
+        #plt.xlim(lim[0],lim[1])
         
+        ax = plt.subplot(5, 1, 5)
+        
+        ax.plot(gps_time[mask2],data['error_head'][mask2] , 'g--' )
+        ax.plot(gps_time[mask2],data['error_side'][mask2] , 'r--' )
+        plt.hlines([0], start, end)
 
-    ax.figure.set_size_inches(20,10)
+        #plt.xlim(lim[0],lim[1])
+        ax.relim()
+        ax.autoscale(enable=True, axis='y')
+    ax.figure.set_size_inches(20,20)
     plt.show()
 
 
-# In[778]:
+# In[951]:
 
 
-def plotPos(data,gpx=None, start=0, end=10, garmin=True, app=True, phone=True , drawPoints=False, colBy="underwater"):
+def plotPos(data,gpx=None, start=0, end=10, garmin=True, app=True, phone=True , drawPoints=False, colBy="underwater", ax = None):
+
     t = np.arange(0., len(data['gps_time']), 1/15)
     idx=data['gps_time']
     idx[np.isnan(idx)]=0
     idx=(np.arange(0, len(data['gps_time']))*15+idx).astype(int)    
     gps_time=t[idx]
-    start, end=(np.argmax(gps_time > start),np.argmax(gps_time>end))
+    start, end=(np.argmax(gps_time > start)-1,np.argmax(gps_time>end))
+    print("({},{})".format(start, end))
     if end == 0:
         end=len(t)
     
@@ -276,58 +351,60 @@ def plotPos(data,gpx=None, start=0, end=10, garmin=True, app=True, phone=True , 
         gps_underwater=(depth[idx.astype(int)]< - 5).astype(int)
         gps_underwater[np.isnan(data['position_lat'])]=2
         cols=gps_underwater
-        cmap=matplotlib.colors.LinearSegmentedColormap.from_list("", ["green", "red", "gray"], N=3)
+        cmap=matplotlib.colors.LinearSegmentedColormap.from_list("", ["green", "red"], N=2)
     elif colBy =="error" and 'error_abs' in data.keys():
         cols=data['error_abs']
         cols[np.isnan(cols)]=np.nan
-        cmap = matplotlib.colors.LinearSegmentedColormap.from_list("", ["green","red"], N=100)
+        cmap = matplotlib.colors.LinearSegmentedColormap.from_list("", ["#01ff07","green","orange","red", "purple"], N=100)
     else:
         cols=np.array([1])
         cmap=matplotlib.colors.LinearSegmentedColormap.from_list("", ["black", "black"], N=1)
     minc=np.nanmin(cols)
     maxc=np.nanmax(cols)    
+    if ax is None:
+        ax = plt.gca()
     if garmin:
-        track=toDeltaMeter(data['position_lat'],data['position_long'], "semicircle" )
-        plt.plot(  np.nancumsum(track['delta_lng'])[start:end], np.nancumsum(track['delta_lat'])[start:end],c='tab:brown', linestyle='--')
+        #track=toDeltaMeter(data['position_lat'],data['position_long'], "semicircle" )
+        ax.plot(  data['lng_rel_meter'][start:end], data['lat_rel_meter'][start:end],c='tab:brown', linestyle='--')
         if drawPoints:
-            plt.scatter(  np.nancumsum(track['delta_lng'])[start:end], np.nancumsum(track['delta_lat'])[start:end], s=10,c=list(cols)[start:end], cmap=cmap, vmin=minc, vmax=maxc)
+            ax.scatter(  data['lng_rel_meter'][start:end], data['lat_rel_meter'][start:end], s=10,c=list(cols)[start:end], cmap=cmap, vmin=minc, vmax=maxc)
     if app:
-        track=toDeltaMeter(data['gps_lat'],data['gps_lng'], "semicircle" )
-        plt.plot(  np.nancumsum(track['delta_lng'])[start:end], np.nancumsum(track['delta_lat'])[start:end],c='tab:orange', linestyle='--')
+    
+        
+        #track=toDeltaMeter(data['gps_lat'],data['gps_lng'], "semicircle" )
+        ax.plot(  data['gps_lng_rel_meter'][start:end], data['gps_lat_rel_meter'][start:end],c='tab:orange', linestyle='--')
         if drawPoints:
-            plt.scatter(  np.nancumsum(track['delta_lng'])[start:end], np.nancumsum(track['delta_lat'])[start:end], s=10,c=list(cols)[start:end], cmap=cmap, vmin=minc, vmax=maxc)
+            ax.scatter(   data['gps_lng_rel_meter'][start:end], data['gps_lat_rel_meter'][start:end], s=10,c=list(cols)[start:end], cmap=cmap, vmin=minc, vmax=maxc)
     if phone:
         if 'true_lat' in data.keys():
-            track=toDeltaMeter(data['true_lat'],data['true_lng'], "semicircle" )
-            plt.plot(  np.nancumsum(track['delta_lng'])[start:end], np.nancumsum(track['delta_lat'])[start:end],c='tab:blue', linestyle='--')
+            #track=toDeltaMeter(data['true_lat'],data['true_lng'], "semicircle" )
+            ax.plot(   data['true_lng_rel_meter'][start:end], data['true_lat_rel_meter'][start:end],c='tab:blue', linestyle='--')
         
+    
 
         
-    plt.axis('equal')
-    plt.show()
-
-
-# In[729]:
-
-
-def runningMean(x, N):
-    return np.convolve(x, np.ones((N,))/N, 'same')
+    ax.axis('equal')
+    
+    
 
 
 # # Observations
 
-# In[763]:
+# In[1138]:
 
 
 #load data
+print("dive")
 diveData=parseFit(dive)
+print("\n-------\nswim")
 swimGpxData=parseGPX(swimgpx)
 swimData=parseFit(swim, swimGpxData)
 
 
-# In[731]:
+# In[833]:
 
 
+# speed
 lng1=swimData['position_long']
 lat1=swimData['position_lat']
 lng2=swimData['gps_lng']
@@ -351,40 +428,56 @@ fig = plt.gcf()
 fig.set_size_inches(20,5)
 
 
-# In[586]:
+# In[989]:
 
 
-plotData(diveData,start=20,end=100)
+trackDev(swimData['position_lat'], swimData['position_long'], swimData['gps_lat'], swimData['gps_lng']).head(10)
 
 
-# In[774]:
+# In[990]:
 
 
-plotPos(diveData, start=35, end=40, drawPoints=True)
+trackDev(swimData['position_lat'], swimData['position_long'], swimData['true_lat'], swimData['true_lng']).head(10)
 
 
-# In[592]:
+# In[1139]:
 
 
-plotData(swimData,start=0,end=900)
+plotData(diveData,start=60,end=70)
 
 
-# In[784]:
+# In[1141]:
 
 
-plotPos(swimData,start=0,end=300, drawPoints=True,app=False, colBy="error")
+plotPos(diveData, start=0, end=40, drawPoints=True)
+plt.scatter(0,0)
 
 
-# In[775]:
+# In[1149]:
 
 
-plotData(swimData,start=400,end=450)
+plotData(swimData,start=0,end=880)
 
 
-# In[776]:
+# In[1142]:
 
 
-plotPos(swimData,start=550,end=650)
+f, (ax1, ax2) = plt.subplots(1, 2,  figsize=(15,5))#sharey=True,
+lim=(40,51)
+plotPos(swimData,start=lim[0],end=lim[1], drawPoints=True,app=False, colBy="error", ax=ax1)
+plotPos(swimData,start=lim[0],end=lim[1], drawPoints=True,app=True, colBy="underwater", ax=ax2)
+
+
+# In[1143]:
+
+
+plotData(swimData,start=lim[0],end=lim[1])
+
+
+# In[1042]:
+
+
+plotPos(swimData,start=5,end=40)
 
 
 # In[138]:
@@ -392,18 +485,6 @@ plotPos(swimData,start=550,end=650)
 
 
 idx=(np.arange(0, len(swimData['gps_time']))*15+swimData['gps_time']).astype(int)
-
-
-# In[139]:
-
-
-
-
-
-# In[125]:
-
-
-
 
 
 # In[126]:
