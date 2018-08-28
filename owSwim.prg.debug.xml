@@ -13,116 +13,119 @@
 <entry filename="/home/matthias/projects/github/garmin_sandbox/owSwim/source/owSwimApp.mc" id="7" lineNum="38" pc="268435620" symbol="getInitialView"/>
 <entry filename="/home/matthias/projects/github/garmin_sandbox/owSwim/source/owSwimApp.mc" id="7" lineNum="39" pc="268435624" symbol="getInitialView"/>
 <entry filename="/home/matthias/projects/github/garmin_sandbox/owSwim/source/owSwimApp.mc" id="7" lineNum="40" pc="268435654" symbol="getInitialView"/>
-<entry filename="/home/matthias/projects/github/garmin_sandbox/owSwim/source/owSwimView.mc" id="9" lineNum="40" pc="268435738" symbol="initialize"/>
-<entry filename="/home/matthias/projects/github/garmin_sandbox/owSwim/source/owSwimView.mc" id="9" lineNum="41" pc="268435742" symbol="initialize"/>
-<entry filename="/home/matthias/projects/github/garmin_sandbox/owSwim/source/owSwimView.mc" id="10" lineNum="43" pc="268435793" symbol="accel_callback"/>
-<entry filename="/home/matthias/projects/github/garmin_sandbox/owSwim/source/owSwimView.mc" id="10" lineNum="44" pc="268435797" symbol="accel_callback"/>
-<entry filename="/home/matthias/projects/github/garmin_sandbox/owSwim/source/owSwimView.mc" id="10" lineNum="45" pc="268435819" symbol="accel_callback"/>
-<entry filename="/home/matthias/projects/github/garmin_sandbox/owSwim/source/owSwimView.mc" id="10" lineNum="46" pc="268435841" symbol="accel_callback"/>
-<entry filename="/home/matthias/projects/github/garmin_sandbox/owSwim/source/owSwimView.mc" id="10" lineNum="47" pc="268435863" symbol="accel_callback"/>
-<entry filename="/home/matthias/projects/github/garmin_sandbox/owSwim/source/owSwimView.mc" id="10" lineNum="48" pc="268435885" symbol="accel_callback"/>
-<entry filename="/home/matthias/projects/github/garmin_sandbox/owSwim/source/owSwimView.mc" id="10" lineNum="49" pc="268435907" symbol="accel_callback"/>
-<entry filename="/home/matthias/projects/github/garmin_sandbox/owSwim/source/owSwimView.mc" id="10" lineNum="51" pc="268435929" symbol="accel_callback"/>
-<entry filename="/home/matthias/projects/github/garmin_sandbox/owSwim/source/owSwimView.mc" id="11" lineNum="53" pc="268435942" symbol="onAccelData"/>
-<entry filename="/home/matthias/projects/github/garmin_sandbox/owSwim/source/owSwimView.mc" id="12" lineNum="57" pc="268435947" symbol="onPosition"/>
-<entry filename="/home/matthias/projects/github/garmin_sandbox/owSwim/source/owSwimView.mc" id="12" lineNum="59" pc="268435951" symbol="onPosition"/>
-<entry filename="/home/matthias/projects/github/garmin_sandbox/owSwim/source/owSwimView.mc" id="12" lineNum="60" pc="268435965" symbol="onPosition"/>
-<entry filename="/home/matthias/projects/github/garmin_sandbox/owSwim/source/owSwimView.mc" id="12" lineNum="61" pc="268435982" symbol="onPosition"/>
-<entry filename="/home/matthias/projects/github/garmin_sandbox/owSwim/source/owSwimView.mc" id="12" lineNum="62" pc="268435989" symbol="onPosition"/>
-<entry filename="/home/matthias/projects/github/garmin_sandbox/owSwim/source/owSwimView.mc" id="12" lineNum="63" pc="268436002" symbol="onPosition"/>
-<entry filename="/home/matthias/projects/github/garmin_sandbox/owSwim/source/owSwimView.mc" id="12" lineNum="65" pc="268436035" symbol="onPosition"/>
-<entry filename="/home/matthias/projects/github/garmin_sandbox/owSwim/source/owSwimView.mc" id="12" lineNum="66" pc="268436046" symbol="onPosition"/>
-<entry filename="/home/matthias/projects/github/garmin_sandbox/owSwim/source/owSwimView.mc" id="12" lineNum="69" pc="268436076" symbol="onPosition"/>
-<entry filename="/home/matthias/projects/github/garmin_sandbox/owSwim/source/owSwimView.mc" id="12" lineNum="70" pc="268436102" symbol="onPosition"/>
-<entry filename="/home/matthias/projects/github/garmin_sandbox/owSwim/source/owSwimView.mc" id="12" lineNum="71" pc="268436128" symbol="onPosition"/>
-<entry filename="/home/matthias/projects/github/garmin_sandbox/owSwim/source/owSwimView.mc" id="12" lineNum="73" pc="268436149" symbol="onPosition"/>
-<entry filename="/home/matthias/projects/github/garmin_sandbox/owSwim/source/owSwimView.mc" id="12" lineNum="74" pc="268436229" symbol="onPosition"/>
-<entry filename="/home/matthias/projects/github/garmin_sandbox/owSwim/source/owSwimView.mc" id="12" lineNum="75" pc="268436266" symbol="onPosition"/>
-<entry filename="/home/matthias/projects/github/garmin_sandbox/owSwim/source/owSwimView.mc" id="12" lineNum="76" pc="268436288" symbol="onPosition"/>
-<entry filename="/home/matthias/projects/github/garmin_sandbox/owSwim/source/owSwimView.mc" id="12" lineNum="77" pc="268436298" symbol="onPosition"/>
-<entry filename="/home/matthias/projects/github/garmin_sandbox/owSwim/source/owSwimView.mc" id="12" lineNum="80" pc="268436320" symbol="onPosition"/>
-<entry filename="/home/matthias/projects/github/garmin_sandbox/owSwim/source/owSwimView.mc" id="13" lineNum="82" pc="268436337" symbol="radToSemicircles"/>
-<entry filename="/home/matthias/projects/github/garmin_sandbox/owSwim/source/owSwimView.mc" id="13" lineNum="83" pc="268436341" symbol="radToSemicircles"/>
-<entry filename="/home/matthias/projects/github/garmin_sandbox/owSwim/source/owSwimView.mc" id="13" lineNum="85" pc="268436445" symbol="radToSemicircles"/>
-<entry filename="/home/matthias/projects/github/garmin_sandbox/owSwim/source/owSwimView.mc" id="14" lineNum="88" pc="268436449" symbol="getDistMeter"/>
-<entry filename="/home/matthias/projects/github/garmin_sandbox/owSwim/source/owSwimView.mc" id="14" lineNum="89" pc="268436453" symbol="getDistMeter"/>
-<entry filename="/home/matthias/projects/github/garmin_sandbox/owSwim/source/owSwimView.mc" id="14" lineNum="90" pc="268436466" symbol="getDistMeter"/>
-<entry filename="/home/matthias/projects/github/garmin_sandbox/owSwim/source/owSwimView.mc" id="14" lineNum="91" pc="268436479" symbol="getDistMeter"/>
-<entry filename="/home/matthias/projects/github/garmin_sandbox/owSwim/source/owSwimView.mc" id="14" lineNum="92" pc="268436498" symbol="getDistMeter"/>
-<entry filename="/home/matthias/projects/github/garmin_sandbox/owSwim/source/owSwimView.mc" id="14" lineNum="94" pc="268436600" symbol="getDistMeter"/>
-<entry filename="/home/matthias/projects/github/garmin_sandbox/owSwim/source/owSwimView.mc" id="15" lineNum="98" pc="268436634" symbol="isRecording"/>
-<entry filename="/home/matthias/projects/github/garmin_sandbox/owSwim/source/owSwimView.mc" id="15" lineNum="99" pc="268436638" symbol="isRecording"/>
-<entry filename="/home/matthias/projects/github/garmin_sandbox/owSwim/source/owSwimView.mc" id="16" lineNum="101" pc="268436673" symbol="getRecTime"/>
-<entry filename="/home/matthias/projects/github/garmin_sandbox/owSwim/source/owSwimView.mc" id="16" lineNum="102" pc="268436677" symbol="getRecTime"/>
-<entry filename="/home/matthias/projects/github/garmin_sandbox/owSwim/source/owSwimView.mc" id="16" lineNum="103" pc="268436691" symbol="getRecTime"/>
-<entry filename="/home/matthias/projects/github/garmin_sandbox/owSwim/source/owSwimView.mc" id="16" lineNum="105" pc="268436736" symbol="getRecTime"/>
-<entry filename="/home/matthias/projects/github/garmin_sandbox/owSwim/source/owSwimView.mc" id="17" lineNum="108" pc="268436743" symbol="getSpeed"/>
-<entry filename="/home/matthias/projects/github/garmin_sandbox/owSwim/source/owSwimView.mc" id="17" lineNum="109" pc="268436747" symbol="getSpeed"/>
-<entry filename="/home/matthias/projects/github/garmin_sandbox/owSwim/source/owSwimView.mc" id="17" lineNum="110" pc="268436761" symbol="getSpeed"/>
-<entry filename="/home/matthias/projects/github/garmin_sandbox/owSwim/source/owSwimView.mc" id="17" lineNum="112" pc="268436773" symbol="getSpeed"/>
-<entry filename="/home/matthias/projects/github/garmin_sandbox/owSwim/source/owSwimView.mc" id="18" lineNum="115" pc="268436780" symbol="stopRecording"/>
-<entry filename="/home/matthias/projects/github/garmin_sandbox/owSwim/source/owSwimView.mc" id="18" lineNum="116" pc="268436784" symbol="stopRecording"/>
-<entry filename="/home/matthias/projects/github/garmin_sandbox/owSwim/source/owSwimView.mc" id="18" lineNum="117" pc="268436805" symbol="stopRecording"/>
-<entry filename="/home/matthias/projects/github/garmin_sandbox/owSwim/source/owSwimView.mc" id="18" lineNum="118" pc="268436822" symbol="stopRecording"/>
-<entry filename="/home/matthias/projects/github/garmin_sandbox/owSwim/source/owSwimView.mc" id="18" lineNum="119" pc="268436836" symbol="stopRecording"/>
-<entry filename="/home/matthias/projects/github/garmin_sandbox/owSwim/source/owSwimView.mc" id="18" lineNum="120" pc="268436854" symbol="stopRecording"/>
-<entry filename="/home/matthias/projects/github/garmin_sandbox/owSwim/source/owSwimView.mc" id="18" lineNum="121" pc="268436872" symbol="stopRecording"/>
-<entry filename="/home/matthias/projects/github/garmin_sandbox/owSwim/source/owSwimView.mc" id="18" lineNum="122" pc="268436890" symbol="stopRecording"/>
-<entry filename="/home/matthias/projects/github/garmin_sandbox/owSwim/source/owSwimView.mc" id="18" lineNum="123" pc="268436899" symbol="stopRecording"/>
-<entry filename="/home/matthias/projects/github/garmin_sandbox/owSwim/source/owSwimView.mc" id="18" lineNum="124" pc="268436915" symbol="stopRecording"/>
-<entry filename="/home/matthias/projects/github/garmin_sandbox/owSwim/source/owSwimView.mc" id="18" lineNum="127" pc="268436924" symbol="stopRecording"/>
-<entry filename="/home/matthias/projects/github/garmin_sandbox/owSwim/source/owSwimView.mc" id="19" lineNum="130" pc="268436928" symbol="startRecording"/>
-<entry filename="/home/matthias/projects/github/garmin_sandbox/owSwim/source/owSwimView.mc" id="19" lineNum="131" pc="268436932" symbol="startRecording"/>
-<entry filename="/home/matthias/projects/github/garmin_sandbox/owSwim/source/owSwimView.mc" id="19" lineNum="132" pc="268436953" symbol="startRecording"/>
-<entry filename="/home/matthias/projects/github/garmin_sandbox/owSwim/source/owSwimView.mc" id="19" lineNum="133" pc="268436953" symbol="startRecording"/>
-<entry filename="/home/matthias/projects/github/garmin_sandbox/owSwim/source/owSwimView.mc" id="19" lineNum="138" pc="268437051" symbol="startRecording"/>
-<entry filename="/home/matthias/projects/github/garmin_sandbox/owSwim/source/owSwimView.mc" id="19" lineNum="140" pc="268437150" symbol="startRecording"/>
-<entry filename="/home/matthias/projects/github/garmin_sandbox/owSwim/source/owSwimView.mc" id="19" lineNum="143" pc="268437249" symbol="startRecording"/>
-<entry filename="/home/matthias/projects/github/garmin_sandbox/owSwim/source/owSwimView.mc" id="19" lineNum="145" pc="268437293" symbol="startRecording"/>
-<entry filename="/home/matthias/projects/github/garmin_sandbox/owSwim/source/owSwimView.mc" id="19" lineNum="146" pc="268437316" symbol="startRecording"/>
-<entry filename="/home/matthias/projects/github/garmin_sandbox/owSwim/source/owSwimView.mc" id="19" lineNum="147" pc="268437352" symbol="startRecording"/>
-<entry filename="/home/matthias/projects/github/garmin_sandbox/owSwim/source/owSwimView.mc" id="19" lineNum="149" pc="268437380" symbol="startRecording"/>
-<entry filename="/home/matthias/projects/github/garmin_sandbox/owSwim/source/owSwimView.mc" id="19" lineNum="151" pc="268437425" symbol="startRecording"/>
-<entry filename="/home/matthias/projects/github/garmin_sandbox/owSwim/source/owSwimView.mc" id="21" lineNum="158" pc="268437442" symbol="initialize"/>
-<entry filename="/home/matthias/projects/github/garmin_sandbox/owSwim/source/owSwimView.mc" id="21" lineNum="159" pc="268437446" symbol="initialize"/>
-<entry filename="/home/matthias/projects/github/garmin_sandbox/owSwim/source/owSwimView.mc" id="21" lineNum="160" pc="268437456" symbol="initialize"/>
-<entry filename="/home/matthias/projects/github/garmin_sandbox/owSwim/source/owSwimView.mc" id="22" lineNum="163" pc="268437475" symbol="onMenu"/>
-<entry filename="/home/matthias/projects/github/garmin_sandbox/owSwim/source/owSwimView.mc" id="22" lineNum="164" pc="268437479" symbol="onMenu"/>
-<entry filename="/home/matthias/projects/github/garmin_sandbox/owSwim/source/owSwimView.mc" id="22" lineNum="165" pc="268437496" symbol="onMenu"/>
-<entry filename="/home/matthias/projects/github/garmin_sandbox/owSwim/source/owSwimView.mc" id="22" lineNum="166" pc="268437517" symbol="onMenu"/>
-<entry filename="/home/matthias/projects/github/garmin_sandbox/owSwim/source/owSwimView.mc" id="22" lineNum="169" pc="268437538" symbol="onMenu"/>
-<entry filename="/home/matthias/projects/github/garmin_sandbox/owSwim/source/owSwimView.mc" id="22" lineNum="172" pc="268437559" symbol="onMenu"/>
-<entry filename="/home/matthias/projects/github/garmin_sandbox/owSwim/source/owSwimView.mc" id="24" lineNum="178" pc="268437563" symbol="initialize"/>
-<entry filename="/home/matthias/projects/github/garmin_sandbox/owSwim/source/owSwimView.mc" id="24" lineNum="179" pc="268437567" symbol="initialize"/>
-<entry filename="/home/matthias/projects/github/garmin_sandbox/owSwim/source/owSwimView.mc" id="24" lineNum="180" pc="268437577" symbol="initialize"/>
-<entry filename="/home/matthias/projects/github/garmin_sandbox/owSwim/source/owSwimView.mc" id="25" lineNum="186" pc="268437596" symbol="onLayout"/>
-<entry filename="/home/matthias/projects/github/garmin_sandbox/owSwim/source/owSwimView.mc" id="26" lineNum="190" pc="268437601" symbol="onHide"/>
-<entry filename="/home/matthias/projects/github/garmin_sandbox/owSwim/source/owSwimView.mc" id="27" lineNum="194" pc="268437606" symbol="onShow"/>
-<entry filename="/home/matthias/projects/github/garmin_sandbox/owSwim/source/owSwimView.mc" id="28" lineNum="198" pc="268437611" symbol="onUpdate"/>
-<entry filename="/home/matthias/projects/github/garmin_sandbox/owSwim/source/owSwimView.mc" id="28" lineNum="200" pc="268437615" symbol="onUpdate"/>
-<entry filename="/home/matthias/projects/github/garmin_sandbox/owSwim/source/owSwimView.mc" id="28" lineNum="201" pc="268437651" symbol="onUpdate"/>
-<entry filename="/home/matthias/projects/github/garmin_sandbox/owSwim/source/owSwimView.mc" id="28" lineNum="202" pc="268437663" symbol="onUpdate"/>
-<entry filename="/home/matthias/projects/github/garmin_sandbox/owSwim/source/owSwimView.mc" id="28" lineNum="203" pc="268437699" symbol="onUpdate"/>
-<entry filename="/home/matthias/projects/github/garmin_sandbox/owSwim/source/owSwimView.mc" id="28" lineNum="204" pc="268437743" symbol="onUpdate"/>
-<entry filename="/home/matthias/projects/github/garmin_sandbox/owSwim/source/owSwimView.mc" id="28" lineNum="205" pc="268437779" symbol="onUpdate"/>
-<entry filename="/home/matthias/projects/github/garmin_sandbox/owSwim/source/owSwimView.mc" id="28" lineNum="207" pc="268437864" symbol="onUpdate"/>
-<entry filename="/home/matthias/projects/github/garmin_sandbox/owSwim/source/owSwimView.mc" id="28" lineNum="209" pc="268437881" symbol="onUpdate"/>
-<entry filename="/home/matthias/projects/github/garmin_sandbox/owSwim/source/owSwimView.mc" id="28" lineNum="210" pc="268437902" symbol="onUpdate"/>
-<entry filename="/home/matthias/projects/github/garmin_sandbox/owSwim/source/owSwimView.mc" id="28" lineNum="211" pc="268437938" symbol="onUpdate"/>
-<entry filename="/home/matthias/projects/github/garmin_sandbox/owSwim/source/owSwimView.mc" id="28" lineNum="214" pc="268438029" symbol="onUpdate"/>
-<entry filename="/home/matthias/projects/github/garmin_sandbox/owSwim/source/owSwimView.mc" id="28" lineNum="215" pc="268438048" symbol="onUpdate"/>
-<entry filename="/home/matthias/projects/github/garmin_sandbox/owSwim/source/owSwimView.mc" id="28" lineNum="216" pc="268438073" symbol="onUpdate"/>
-<entry filename="/home/matthias/projects/github/garmin_sandbox/owSwim/source/owSwimView.mc" id="28" lineNum="217" pc="268438109" symbol="onUpdate"/>
-<entry filename="/home/matthias/projects/github/garmin_sandbox/owSwim/source/owSwimView.mc" id="28" lineNum="218" pc="268438154" symbol="onUpdate"/>
-<entry filename="/home/matthias/projects/github/garmin_sandbox/owSwim/source/owSwimView.mc" id="28" lineNum="219" pc="268438188" symbol="onUpdate"/>
-<entry filename="/home/matthias/projects/github/garmin_sandbox/owSwim/source/owSwimView.mc" id="28" lineNum="220" pc="268438224" symbol="onUpdate"/>
-<entry filename="/home/matthias/projects/github/garmin_sandbox/owSwim/source/owSwimView.mc" id="28" lineNum="221" pc="268438293" symbol="onUpdate"/>
-<entry filename="/home/matthias/projects/github/garmin_sandbox/owSwim/source/owSwimView.mc" id="28" lineNum="222" pc="268438321" symbol="onUpdate"/>
-<entry filename="/home/matthias/projects/github/garmin_sandbox/owSwim/source/owSwimView.mc" id="28" lineNum="223" pc="268438404" symbol="onUpdate"/>
-<entry filename="/home/matthias/projects/github/garmin_sandbox/owSwim/source/owSwimView.mc" id="28" lineNum="224" pc="268438432" symbol="onUpdate"/>
-<entry filename="/home/matthias/projects/github/garmin_sandbox/owSwim/source/owSwimView.mc" id="28" lineNum="226" pc="268438512" symbol="onUpdate"/>
-<entry filename="/home/matthias/projects/github/garmin_sandbox/owSwim/source/owSwimView.mc" id="28" lineNum="227" pc="268438546" symbol="onUpdate"/>
-<entry filename="/home/matthias/projects/github/garmin_sandbox/owSwim/source/owSwimView.mc" id="28" lineNum="228" pc="268438582" symbol="onUpdate"/>
+<entry filename="/home/matthias/projects/github/garmin_sandbox/owSwim/source/owSwimView.mc" id="9" lineNum="41" pc="268435738" symbol="initialize"/>
+<entry filename="/home/matthias/projects/github/garmin_sandbox/owSwim/source/owSwimView.mc" id="9" lineNum="42" pc="268435742" symbol="initialize"/>
+<entry filename="/home/matthias/projects/github/garmin_sandbox/owSwim/source/owSwimView.mc" id="9" lineNum="43" pc="268435800" symbol="initialize"/>
+<entry filename="/home/matthias/projects/github/garmin_sandbox/owSwim/source/owSwimView.mc" id="10" lineNum="45" pc="268435851" symbol="accel_callback"/>
+<entry filename="/home/matthias/projects/github/garmin_sandbox/owSwim/source/owSwimView.mc" id="10" lineNum="46" pc="268435855" symbol="accel_callback"/>
+<entry filename="/home/matthias/projects/github/garmin_sandbox/owSwim/source/owSwimView.mc" id="10" lineNum="47" pc="268435877" symbol="accel_callback"/>
+<entry filename="/home/matthias/projects/github/garmin_sandbox/owSwim/source/owSwimView.mc" id="10" lineNum="48" pc="268435899" symbol="accel_callback"/>
+<entry filename="/home/matthias/projects/github/garmin_sandbox/owSwim/source/owSwimView.mc" id="10" lineNum="49" pc="268435921" symbol="accel_callback"/>
+<entry filename="/home/matthias/projects/github/garmin_sandbox/owSwim/source/owSwimView.mc" id="10" lineNum="50" pc="268435943" symbol="accel_callback"/>
+<entry filename="/home/matthias/projects/github/garmin_sandbox/owSwim/source/owSwimView.mc" id="10" lineNum="51" pc="268435965" symbol="accel_callback"/>
+<entry filename="/home/matthias/projects/github/garmin_sandbox/owSwim/source/owSwimView.mc" id="10" lineNum="53" pc="268435987" symbol="accel_callback"/>
+<entry filename="/home/matthias/projects/github/garmin_sandbox/owSwim/source/owSwimView.mc" id="11" lineNum="55" pc="268436000" symbol="onAccelData"/>
+<entry filename="/home/matthias/projects/github/garmin_sandbox/owSwim/source/owSwimView.mc" id="12" lineNum="59" pc="268436005" symbol="onPosition"/>
+<entry filename="/home/matthias/projects/github/garmin_sandbox/owSwim/source/owSwimView.mc" id="12" lineNum="61" pc="268436009" symbol="onPosition"/>
+<entry filename="/home/matthias/projects/github/garmin_sandbox/owSwim/source/owSwimView.mc" id="12" lineNum="62" pc="268436023" symbol="onPosition"/>
+<entry filename="/home/matthias/projects/github/garmin_sandbox/owSwim/source/owSwimView.mc" id="12" lineNum="63" pc="268436040" symbol="onPosition"/>
+<entry filename="/home/matthias/projects/github/garmin_sandbox/owSwim/source/owSwimView.mc" id="12" lineNum="64" pc="268436047" symbol="onPosition"/>
+<entry filename="/home/matthias/projects/github/garmin_sandbox/owSwim/source/owSwimView.mc" id="12" lineNum="65" pc="268436060" symbol="onPosition"/>
+<entry filename="/home/matthias/projects/github/garmin_sandbox/owSwim/source/owSwimView.mc" id="12" lineNum="67" pc="268436093" symbol="onPosition"/>
+<entry filename="/home/matthias/projects/github/garmin_sandbox/owSwim/source/owSwimView.mc" id="12" lineNum="68" pc="268436104" symbol="onPosition"/>
+<entry filename="/home/matthias/projects/github/garmin_sandbox/owSwim/source/owSwimView.mc" id="12" lineNum="71" pc="268436134" symbol="onPosition"/>
+<entry filename="/home/matthias/projects/github/garmin_sandbox/owSwim/source/owSwimView.mc" id="12" lineNum="72" pc="268436160" symbol="onPosition"/>
+<entry filename="/home/matthias/projects/github/garmin_sandbox/owSwim/source/owSwimView.mc" id="12" lineNum="73" pc="268436186" symbol="onPosition"/>
+<entry filename="/home/matthias/projects/github/garmin_sandbox/owSwim/source/owSwimView.mc" id="12" lineNum="75" pc="268436207" symbol="onPosition"/>
+<entry filename="/home/matthias/projects/github/garmin_sandbox/owSwim/source/owSwimView.mc" id="12" lineNum="76" pc="268436287" symbol="onPosition"/>
+<entry filename="/home/matthias/projects/github/garmin_sandbox/owSwim/source/owSwimView.mc" id="12" lineNum="77" pc="268436324" symbol="onPosition"/>
+<entry filename="/home/matthias/projects/github/garmin_sandbox/owSwim/source/owSwimView.mc" id="12" lineNum="78" pc="268436346" symbol="onPosition"/>
+<entry filename="/home/matthias/projects/github/garmin_sandbox/owSwim/source/owSwimView.mc" id="12" lineNum="79" pc="268436356" symbol="onPosition"/>
+<entry filename="/home/matthias/projects/github/garmin_sandbox/owSwim/source/owSwimView.mc" id="12" lineNum="82" pc="268436378" symbol="onPosition"/>
+<entry filename="/home/matthias/projects/github/garmin_sandbox/owSwim/source/owSwimView.mc" id="13" lineNum="84" pc="268436395" symbol="radToSemicircles"/>
+<entry filename="/home/matthias/projects/github/garmin_sandbox/owSwim/source/owSwimView.mc" id="13" lineNum="85" pc="268436399" symbol="radToSemicircles"/>
+<entry filename="/home/matthias/projects/github/garmin_sandbox/owSwim/source/owSwimView.mc" id="13" lineNum="87" pc="268436503" symbol="radToSemicircles"/>
+<entry filename="/home/matthias/projects/github/garmin_sandbox/owSwim/source/owSwimView.mc" id="14" lineNum="90" pc="268436507" symbol="getDistMeter"/>
+<entry filename="/home/matthias/projects/github/garmin_sandbox/owSwim/source/owSwimView.mc" id="14" lineNum="91" pc="268436511" symbol="getDistMeter"/>
+<entry filename="/home/matthias/projects/github/garmin_sandbox/owSwim/source/owSwimView.mc" id="14" lineNum="92" pc="268436524" symbol="getDistMeter"/>
+<entry filename="/home/matthias/projects/github/garmin_sandbox/owSwim/source/owSwimView.mc" id="14" lineNum="93" pc="268436537" symbol="getDistMeter"/>
+<entry filename="/home/matthias/projects/github/garmin_sandbox/owSwim/source/owSwimView.mc" id="14" lineNum="94" pc="268436556" symbol="getDistMeter"/>
+<entry filename="/home/matthias/projects/github/garmin_sandbox/owSwim/source/owSwimView.mc" id="14" lineNum="96" pc="268436658" symbol="getDistMeter"/>
+<entry filename="/home/matthias/projects/github/garmin_sandbox/owSwim/source/owSwimView.mc" id="15" lineNum="100" pc="268436692" symbol="isRecording"/>
+<entry filename="/home/matthias/projects/github/garmin_sandbox/owSwim/source/owSwimView.mc" id="15" lineNum="101" pc="268436696" symbol="isRecording"/>
+<entry filename="/home/matthias/projects/github/garmin_sandbox/owSwim/source/owSwimView.mc" id="16" lineNum="103" pc="268436731" symbol="getRecTime"/>
+<entry filename="/home/matthias/projects/github/garmin_sandbox/owSwim/source/owSwimView.mc" id="16" lineNum="104" pc="268436735" symbol="getRecTime"/>
+<entry filename="/home/matthias/projects/github/garmin_sandbox/owSwim/source/owSwimView.mc" id="16" lineNum="105" pc="268436749" symbol="getRecTime"/>
+<entry filename="/home/matthias/projects/github/garmin_sandbox/owSwim/source/owSwimView.mc" id="16" lineNum="107" pc="268436794" symbol="getRecTime"/>
+<entry filename="/home/matthias/projects/github/garmin_sandbox/owSwim/source/owSwimView.mc" id="17" lineNum="110" pc="268436801" symbol="getSpeed"/>
+<entry filename="/home/matthias/projects/github/garmin_sandbox/owSwim/source/owSwimView.mc" id="17" lineNum="111" pc="268436805" symbol="getSpeed"/>
+<entry filename="/home/matthias/projects/github/garmin_sandbox/owSwim/source/owSwimView.mc" id="17" lineNum="112" pc="268436819" symbol="getSpeed"/>
+<entry filename="/home/matthias/projects/github/garmin_sandbox/owSwim/source/owSwimView.mc" id="17" lineNum="114" pc="268436831" symbol="getSpeed"/>
+<entry filename="/home/matthias/projects/github/garmin_sandbox/owSwim/source/owSwimView.mc" id="18" lineNum="117" pc="268436838" symbol="stopRecording"/>
+<entry filename="/home/matthias/projects/github/garmin_sandbox/owSwim/source/owSwimView.mc" id="18" lineNum="118" pc="268436842" symbol="stopRecording"/>
+<entry filename="/home/matthias/projects/github/garmin_sandbox/owSwim/source/owSwimView.mc" id="18" lineNum="119" pc="268436863" symbol="stopRecording"/>
+<entry filename="/home/matthias/projects/github/garmin_sandbox/owSwim/source/owSwimView.mc" id="18" lineNum="120" pc="268436880" symbol="stopRecording"/>
+<entry filename="/home/matthias/projects/github/garmin_sandbox/owSwim/source/owSwimView.mc" id="18" lineNum="121" pc="268436894" symbol="stopRecording"/>
+<entry filename="/home/matthias/projects/github/garmin_sandbox/owSwim/source/owSwimView.mc" id="18" lineNum="122" pc="268436912" symbol="stopRecording"/>
+<entry filename="/home/matthias/projects/github/garmin_sandbox/owSwim/source/owSwimView.mc" id="18" lineNum="123" pc="268436930" symbol="stopRecording"/>
+<entry filename="/home/matthias/projects/github/garmin_sandbox/owSwim/source/owSwimView.mc" id="18" lineNum="124" pc="268436948" symbol="stopRecording"/>
+<entry filename="/home/matthias/projects/github/garmin_sandbox/owSwim/source/owSwimView.mc" id="18" lineNum="125" pc="268436957" symbol="stopRecording"/>
+<entry filename="/home/matthias/projects/github/garmin_sandbox/owSwim/source/owSwimView.mc" id="18" lineNum="126" pc="268436973" symbol="stopRecording"/>
+<entry filename="/home/matthias/projects/github/garmin_sandbox/owSwim/source/owSwimView.mc" id="18" lineNum="127" pc="268436997" symbol="stopRecording"/>
+<entry filename="/home/matthias/projects/github/garmin_sandbox/owSwim/source/owSwimView.mc" id="18" lineNum="130" pc="268437006" symbol="stopRecording"/>
+<entry filename="/home/matthias/projects/github/garmin_sandbox/owSwim/source/owSwimView.mc" id="19" lineNum="133" pc="268437010" symbol="startRecording"/>
+<entry filename="/home/matthias/projects/github/garmin_sandbox/owSwim/source/owSwimView.mc" id="19" lineNum="134" pc="268437014" symbol="startRecording"/>
+<entry filename="/home/matthias/projects/github/garmin_sandbox/owSwim/source/owSwimView.mc" id="19" lineNum="135" pc="268437035" symbol="startRecording"/>
+<entry filename="/home/matthias/projects/github/garmin_sandbox/owSwim/source/owSwimView.mc" id="19" lineNum="136" pc="268437035" symbol="startRecording"/>
+<entry filename="/home/matthias/projects/github/garmin_sandbox/owSwim/source/owSwimView.mc" id="19" lineNum="141" pc="268437126" symbol="startRecording"/>
+<entry filename="/home/matthias/projects/github/garmin_sandbox/owSwim/source/owSwimView.mc" id="19" lineNum="143" pc="268437225" symbol="startRecording"/>
+<entry filename="/home/matthias/projects/github/garmin_sandbox/owSwim/source/owSwimView.mc" id="19" lineNum="146" pc="268437324" symbol="startRecording"/>
+<entry filename="/home/matthias/projects/github/garmin_sandbox/owSwim/source/owSwimView.mc" id="19" lineNum="148" pc="268437368" symbol="startRecording"/>
+<entry filename="/home/matthias/projects/github/garmin_sandbox/owSwim/source/owSwimView.mc" id="19" lineNum="149" pc="268437391" symbol="startRecording"/>
+<entry filename="/home/matthias/projects/github/garmin_sandbox/owSwim/source/owSwimView.mc" id="19" lineNum="150" pc="268437427" symbol="startRecording"/>
+<entry filename="/home/matthias/projects/github/garmin_sandbox/owSwim/source/owSwimView.mc" id="19" lineNum="151" pc="268437445" symbol="startRecording"/>
+<entry filename="/home/matthias/projects/github/garmin_sandbox/owSwim/source/owSwimView.mc" id="19" lineNum="153" pc="268437479" symbol="startRecording"/>
+<entry filename="/home/matthias/projects/github/garmin_sandbox/owSwim/source/owSwimView.mc" id="19" lineNum="155" pc="268437524" symbol="startRecording"/>
+<entry filename="/home/matthias/projects/github/garmin_sandbox/owSwim/source/owSwimView.mc" id="21" lineNum="162" pc="268437541" symbol="initialize"/>
+<entry filename="/home/matthias/projects/github/garmin_sandbox/owSwim/source/owSwimView.mc" id="21" lineNum="163" pc="268437545" symbol="initialize"/>
+<entry filename="/home/matthias/projects/github/garmin_sandbox/owSwim/source/owSwimView.mc" id="21" lineNum="164" pc="268437555" symbol="initialize"/>
+<entry filename="/home/matthias/projects/github/garmin_sandbox/owSwim/source/owSwimView.mc" id="22" lineNum="167" pc="268437574" symbol="onMenu"/>
+<entry filename="/home/matthias/projects/github/garmin_sandbox/owSwim/source/owSwimView.mc" id="22" lineNum="168" pc="268437578" symbol="onMenu"/>
+<entry filename="/home/matthias/projects/github/garmin_sandbox/owSwim/source/owSwimView.mc" id="22" lineNum="169" pc="268437595" symbol="onMenu"/>
+<entry filename="/home/matthias/projects/github/garmin_sandbox/owSwim/source/owSwimView.mc" id="22" lineNum="170" pc="268437616" symbol="onMenu"/>
+<entry filename="/home/matthias/projects/github/garmin_sandbox/owSwim/source/owSwimView.mc" id="22" lineNum="173" pc="268437637" symbol="onMenu"/>
+<entry filename="/home/matthias/projects/github/garmin_sandbox/owSwim/source/owSwimView.mc" id="22" lineNum="176" pc="268437658" symbol="onMenu"/>
+<entry filename="/home/matthias/projects/github/garmin_sandbox/owSwim/source/owSwimView.mc" id="24" lineNum="182" pc="268437662" symbol="initialize"/>
+<entry filename="/home/matthias/projects/github/garmin_sandbox/owSwim/source/owSwimView.mc" id="24" lineNum="183" pc="268437666" symbol="initialize"/>
+<entry filename="/home/matthias/projects/github/garmin_sandbox/owSwim/source/owSwimView.mc" id="24" lineNum="184" pc="268437676" symbol="initialize"/>
+<entry filename="/home/matthias/projects/github/garmin_sandbox/owSwim/source/owSwimView.mc" id="25" lineNum="190" pc="268437695" symbol="onLayout"/>
+<entry filename="/home/matthias/projects/github/garmin_sandbox/owSwim/source/owSwimView.mc" id="26" lineNum="194" pc="268437700" symbol="onHide"/>
+<entry filename="/home/matthias/projects/github/garmin_sandbox/owSwim/source/owSwimView.mc" id="27" lineNum="198" pc="268437705" symbol="onShow"/>
+<entry filename="/home/matthias/projects/github/garmin_sandbox/owSwim/source/owSwimView.mc" id="28" lineNum="202" pc="268437710" symbol="onUpdate"/>
+<entry filename="/home/matthias/projects/github/garmin_sandbox/owSwim/source/owSwimView.mc" id="28" lineNum="204" pc="268437714" symbol="onUpdate"/>
+<entry filename="/home/matthias/projects/github/garmin_sandbox/owSwim/source/owSwimView.mc" id="28" lineNum="205" pc="268437750" symbol="onUpdate"/>
+<entry filename="/home/matthias/projects/github/garmin_sandbox/owSwim/source/owSwimView.mc" id="28" lineNum="206" pc="268437762" symbol="onUpdate"/>
+<entry filename="/home/matthias/projects/github/garmin_sandbox/owSwim/source/owSwimView.mc" id="28" lineNum="207" pc="268437798" symbol="onUpdate"/>
+<entry filename="/home/matthias/projects/github/garmin_sandbox/owSwim/source/owSwimView.mc" id="28" lineNum="208" pc="268437842" symbol="onUpdate"/>
+<entry filename="/home/matthias/projects/github/garmin_sandbox/owSwim/source/owSwimView.mc" id="28" lineNum="209" pc="268437878" symbol="onUpdate"/>
+<entry filename="/home/matthias/projects/github/garmin_sandbox/owSwim/source/owSwimView.mc" id="28" lineNum="211" pc="268437963" symbol="onUpdate"/>
+<entry filename="/home/matthias/projects/github/garmin_sandbox/owSwim/source/owSwimView.mc" id="28" lineNum="213" pc="268437980" symbol="onUpdate"/>
+<entry filename="/home/matthias/projects/github/garmin_sandbox/owSwim/source/owSwimView.mc" id="28" lineNum="214" pc="268438001" symbol="onUpdate"/>
+<entry filename="/home/matthias/projects/github/garmin_sandbox/owSwim/source/owSwimView.mc" id="28" lineNum="215" pc="268438037" symbol="onUpdate"/>
+<entry filename="/home/matthias/projects/github/garmin_sandbox/owSwim/source/owSwimView.mc" id="28" lineNum="218" pc="268438128" symbol="onUpdate"/>
+<entry filename="/home/matthias/projects/github/garmin_sandbox/owSwim/source/owSwimView.mc" id="28" lineNum="219" pc="268438147" symbol="onUpdate"/>
+<entry filename="/home/matthias/projects/github/garmin_sandbox/owSwim/source/owSwimView.mc" id="28" lineNum="220" pc="268438172" symbol="onUpdate"/>
+<entry filename="/home/matthias/projects/github/garmin_sandbox/owSwim/source/owSwimView.mc" id="28" lineNum="221" pc="268438208" symbol="onUpdate"/>
+<entry filename="/home/matthias/projects/github/garmin_sandbox/owSwim/source/owSwimView.mc" id="28" lineNum="222" pc="268438253" symbol="onUpdate"/>
+<entry filename="/home/matthias/projects/github/garmin_sandbox/owSwim/source/owSwimView.mc" id="28" lineNum="223" pc="268438287" symbol="onUpdate"/>
+<entry filename="/home/matthias/projects/github/garmin_sandbox/owSwim/source/owSwimView.mc" id="28" lineNum="224" pc="268438323" symbol="onUpdate"/>
+<entry filename="/home/matthias/projects/github/garmin_sandbox/owSwim/source/owSwimView.mc" id="28" lineNum="225" pc="268438392" symbol="onUpdate"/>
+<entry filename="/home/matthias/projects/github/garmin_sandbox/owSwim/source/owSwimView.mc" id="28" lineNum="226" pc="268438420" symbol="onUpdate"/>
+<entry filename="/home/matthias/projects/github/garmin_sandbox/owSwim/source/owSwimView.mc" id="28" lineNum="227" pc="268438503" symbol="onUpdate"/>
+<entry filename="/home/matthias/projects/github/garmin_sandbox/owSwim/source/owSwimView.mc" id="28" lineNum="228" pc="268438531" symbol="onUpdate"/>
+<entry filename="/home/matthias/projects/github/garmin_sandbox/owSwim/source/owSwimView.mc" id="28" lineNum="230" pc="268438611" symbol="onUpdate"/>
+<entry filename="/home/matthias/projects/github/garmin_sandbox/owSwim/source/owSwimView.mc" id="28" lineNum="231" pc="268438645" symbol="onUpdate"/>
+<entry filename="/home/matthias/projects/github/garmin_sandbox/owSwim/source/owSwimView.mc" id="28" lineNum="232" pc="268438681" symbol="onUpdate"/>
 </pcToLineNum>
 <symbolTable>
 <entry id="8388644" module="true" symbol="System"/>
@@ -132,7 +135,7 @@
 <entry id="8388881" method="true" symbol="isRecording"/>
 <entry id="12" object="true" symbol="owSwimView"/>
 <entry id="9" object="true" symbol="owSwimApp"/>
-<entry id="41" method="true" symbol="getSpeed"/>
+<entry id="42" method="true" symbol="getSpeed"/>
 <entry field="true" id="8388611" module="true" symbol="Toybox"/>
 <entry id="8388645" module="true" symbol="Time"/>
 <entry id="8388770" module="true" object="true" symbol="Strings"/>
@@ -141,30 +144,32 @@
 <entry id="8389849" symbol="units"/>
 <entry id="8388640" module="true" symbol="Lang"/>
 <entry id="8388639" module="true" symbol="Graphics"/>
-<entry id="43" method="true" symbol="startRecording"/>
+<entry id="44" method="true" symbol="startRecording"/>
 <entry id="8388769" module="true" object="true" symbol="Rez"/>
-<entry id="42" method="true" symbol="stopRecording"/>
+<entry id="43" method="true" symbol="stopRecording"/>
 <entry id="8389123" method="true" symbol="onShow"/>
 <entry id="8388638" module="true" symbol="ActivityRecording"/>
 <entry id="8389808" symbol="period"/>
+<entry id="8388636" module="true" symbol="Attention"/>
 <entry field="true" id="8390134" symbol="sampleRate"/>
 <entry id="8388702" method="true" symbol="initialize"/>
 <entry field="true" id="19" symbol="AppName"/>
 <entry field="true" id="29" symbol="gpsLngField"/>
-<entry id="38" method="true" symbol="radToSemicircles"/>
-<entry id="45" symbol="subsport"/>
+<entry id="39" method="true" symbol="radToSemicircles"/>
+<entry id="46" symbol="subsport"/>
 <entry id="8388890" symbol="sport"/>
 <entry field="true" id="8388892" symbol="name"/>
+<entry field="true" id="32" symbol="vibe"/>
 <entry id="8389080" method="true" symbol="onMenu"/>
 <entry id="8388641" module="true" symbol="Math"/>
-<entry id="40" method="true" symbol="getRecTime"/>
+<entry id="41" method="true" symbol="getRecTime"/>
 <entry field="true" id="15" symbol="LauncherIcon"/>
 <entry id="8388648" module="true" symbol="WatchUi"/>
 <entry id="8389281" method="true" symbol="onStop"/>
 <entry id="8388771" module="true" object="true" symbol="Drawables"/>
 <entry id="8389122" method="true" symbol="onLayout"/>
 <entry id="8389936" symbol="nativeNum"/>
-<entry field="true" id="44" symbol="mSession"/>
+<entry field="true" id="45" symbol="mSession"/>
 <entry id="8389279" method="true" symbol="onStart"/>
 <entry field="true" id="28" symbol="gpsLatField"/>
 <entry field="true" id="8388958" symbol="speed"/>
@@ -173,17 +178,17 @@
 <entry field="true" id="30" symbol="total_dist"/>
 <entry field="true" id="8388651" symbol="session"/>
 <entry id="11" object="true" symbol="owSwimDelegate"/>
-<entry id="35" method="true" symbol="accel_callback"/>
-<entry id="37" method="true" symbol="onPosition"/>
+<entry id="36" method="true" symbol="accel_callback"/>
+<entry id="38" method="true" symbol="onPosition"/>
 <entry field="true" id="17" symbol="position_unit"/>
 <entry field="true" id="21" symbol="mYaw"/>
-<entry id="39" method="true" symbol="getDistMeter"/>
+<entry id="40" method="true" symbol="getDistMeter"/>
 <entry id="14" module="true" symbol="Layouts"/>
 <entry id="8390175" module="true" symbol="SensorLogging"/>
 <entry id="8388642" module="true" symbol="Position"/>
 <entry field="true" id="22" symbol="mPitch"/>
 <entry id="8389125" method="true" symbol="onHide"/>
-<entry field="true" id="34" symbol="minStrokeDuration"/>
+<entry field="true" id="35" symbol="minStrokeDuration"/>
 <entry field="true" id="31" symbol="last_dist"/>
 <entry field="true" id="24" symbol="prevPos"/>
 <entry id="8390088" module="true" object="true" symbol="JsonData"/>
@@ -191,39 +196,39 @@
 <entry field="true" id="20" symbol="mZ"/>
 <entry field="true" id="8389111" symbol="mY"/>
 <entry field="true" id="8389110" symbol="mX"/>
-<entry field="true" id="33" symbol="stroke_count"/>
+<entry field="true" id="34" symbol="stroke_count"/>
 <entry id="13" module="true" symbol="Menus"/>
-<entry id="36" method="true" symbol="onAccelData"/>
+<entry id="37" method="true" symbol="onAccelData"/>
 <entry id="10" object="true" symbol="owSwimSession"/>
 <entry id="8390184" symbol="sensorLogger"/>
 <entry id="8390135" symbol="enableAccelerometer"/>
 <entry id="8389847" symbol="mesgType"/>
 <entry id="8388772" module="true" object="true" symbol="Fonts"/>
-<entry field="true" id="32" symbol="R"/>
+<entry field="true" id="33" symbol="R"/>
 <entry id="8388635" module="true" symbol="Application"/>
 </symbolTable>
 <localVars>
 <entry endPc="268435528" name="state" stackId="1" startPc="268435479"/>
 <entry endPc="268435595" name="state" stackId="1" startPc="268435528"/>
 <entry endPc="268435620" name="info" stackId="1" startPc="268435595"/>
-<entry endPc="268435942" name="sensorData" stackId="1" startPc="268435793"/>
-<entry endPc="268436314" name="dist" stackId="5" startPc="268436046"/>
-<entry endPc="268436314" name="pos" stackId="4" startPc="268436046"/>
-<entry endPc="268436317" name="now" stackId="2" startPc="268435965"/>
-<entry endPc="268436317" name="dt" stackId="3" startPc="268435965"/>
-<entry endPc="268436337" name="info" stackId="1" startPc="268435947"/>
-<entry endPc="268436448" name="semic" stackId="2" startPc="268436341"/>
-<entry endPc="268436449" name="coords" stackId="1" startPc="268436337"/>
-<entry endPc="268436597" name="pos2" stackId="3" startPc="268436466"/>
-<entry endPc="268436597" name="pos1" stackId="2" startPc="268436466"/>
-<entry endPc="268436634" name="pos" stackId="1" startPc="268436449"/>
-<entry endPc="268437370" name="options" stackId="1" startPc="268436953"/>
-<entry endPc="268437475" name="s" stackId="1" startPc="268437442"/>
-<entry endPc="268437596" name="s" stackId="1" startPc="268437563"/>
-<entry endPc="268437601" name="dc" stackId="1" startPc="268437596"/>
-<entry endPc="268438627" name="x" stackId="2" startPc="268438029"/>
-<entry endPc="268438627" name="y" stackId="3" startPc="268438029"/>
-<entry endPc="268438631" name="dc" stackId="1" startPc="268437611"/>
+<entry endPc="268436000" name="sensorData" stackId="1" startPc="268435851"/>
+<entry endPc="268436372" name="dist" stackId="5" startPc="268436104"/>
+<entry endPc="268436372" name="pos" stackId="4" startPc="268436104"/>
+<entry endPc="268436375" name="now" stackId="2" startPc="268436023"/>
+<entry endPc="268436375" name="dt" stackId="3" startPc="268436023"/>
+<entry endPc="268436395" name="info" stackId="1" startPc="268436005"/>
+<entry endPc="268436506" name="semic" stackId="2" startPc="268436399"/>
+<entry endPc="268436507" name="coords" stackId="1" startPc="268436395"/>
+<entry endPc="268436655" name="pos2" stackId="3" startPc="268436524"/>
+<entry endPc="268436655" name="pos1" stackId="2" startPc="268436524"/>
+<entry endPc="268436692" name="pos" stackId="1" startPc="268436507"/>
+<entry endPc="268437469" name="options" stackId="1" startPc="268437035"/>
+<entry endPc="268437574" name="s" stackId="1" startPc="268437541"/>
+<entry endPc="268437695" name="s" stackId="1" startPc="268437662"/>
+<entry endPc="268437700" name="dc" stackId="1" startPc="268437695"/>
+<entry endPc="268438726" name="x" stackId="2" startPc="268438128"/>
+<entry endPc="268438726" name="y" stackId="3" startPc="268438128"/>
+<entry endPc="268438730" name="dc" stackId="1" startPc="268437710"/>
 </localVars>
 <annotations/>
 <functions>
@@ -320,6 +325,6 @@
 <dataEntry offset="487" parentId="globals" symbolId="owSwimView" type="class"/>
 <dataEntry offset="574" parentId="globals" symbolId="owSwimDelegate" type="class"/>
 <dataEntry offset="637" parentId="globals" symbolId="owSwimSession" type="class"/>
-<dataEntry offset="916" parentId="globals" symbolId="owSwimApp" type="class"/>
+<dataEntry offset="924" parentId="globals" symbolId="owSwimApp" type="class"/>
 </dataEntryOffsetMappings>
 </debugInfo>

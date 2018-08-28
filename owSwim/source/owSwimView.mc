@@ -13,6 +13,7 @@ using Toybox.SensorLogging;
 using Toybox.FitContributor as Fit;
 using Toybox.Math;
 using Toybox.Time;
+using Toybox.Attention as Attention;
 
 class owSwimSession {
 	var session = null;
@@ -31,13 +32,14 @@ class owSwimSession {
 	var total_dist=0;
 	var last_dist=0;
 	var speed=0;
-
+	var vibe;
 	const R=6371000 ;//earth radius [m]
 
 	var stroke_count=0;
 	var minStrokeDuration=500; //ms
 
 	function initialize() {
+		vibe=[new Attention.VibeProfile(100, 200)]; // On for 1/5 second
 		mLogger = new SensorLogging.SensorLogger({:enableAccelerometer => true});
 	}
     function accel_callback(sensorData) {
@@ -121,6 +123,7 @@ class owSwimSession {
                 session.save();
                 session = null;
                 WatchUi.requestUpdate();
+				Attention.vibrate(vibe);
 				return (true);
             }
         }
@@ -133,7 +136,7 @@ class owSwimSession {
 		    session = ActivityRecording.createSession({
 				:name=>"Open Water Swim", 
 				:sport=>ActivityRecording.SPORT_SWIMMING, 
-				:subsport=>ActivityRecording.SUB_SPORT_OPEN_WATER, 
+				:subsport=>18, 
 				:sensorLogger => mLogger});
 			gpsLatField=session.createField("position_lat", 0, Fit.DATA_TYPE_SINT32, 
 				{:units=>"semicircles", :mesgType=>Fit.MESG_TYPE_RECORD, :nativeNum=>0});
@@ -145,6 +148,7 @@ class owSwimSession {
 			rec_start_time=Time.now();
 			Sensor.registerSensorDataListener(method(:accel_callback), options);
 		    session.start();
+			Attention.vibrate(vibe);
 		}catch(e) {			
 		    System.println("Error in start recording: "+e.getErrorMessage());
 		}
